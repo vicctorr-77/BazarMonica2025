@@ -110,7 +110,7 @@ body
    width: 100% !important;
 }
 }
-#wb_categoria_jugueteriaLayoutGrid1
+#wb_InicioLayoutGrid3
 {
    clear: both;
    position: relative;
@@ -124,20 +124,20 @@ body
    box-sizing: border-box;
    margin: 0;
 }
-#categoria_jugueteriaLayoutGrid1
+#InicioLayoutGrid3
 {
    box-sizing: border-box;
-   padding: 4px 15px 4px 15px;
+   padding: 8px 15px 8px 15px;
    margin-right: auto;
    margin-left: auto;
    max-width: 980px;
 }
-#categoria_jugueteriaLayoutGrid1 > .row
+#InicioLayoutGrid3 > .row
 {
    margin-right: -15px;
    margin-left: -15px;
 }
-#categoria_jugueteriaLayoutGrid1 > .row > .col-1, #categoria_jugueteriaLayoutGrid1 > .row > .col-2, #categoria_jugueteriaLayoutGrid1 > .row > .col-3
+#InicioLayoutGrid3 > .row > .col-1, #InicioLayoutGrid3 > .row > .col-2, #InicioLayoutGrid3 > .row > .col-3, #InicioLayoutGrid3 > .row > .col-4
 {
    box-sizing: border-box;
    font-size: 0;
@@ -146,20 +146,29 @@ body
    padding-left: 15px;
    position: relative;
 }
-#categoria_jugueteriaLayoutGrid1 > .row > .col-1, #categoria_jugueteriaLayoutGrid1 > .row > .col-2, #categoria_jugueteriaLayoutGrid1 > .row > .col-3
+#InicioLayoutGrid3 > .row > .col-1, #InicioLayoutGrid3 > .row > .col-2, #InicioLayoutGrid3 > .row > .col-3, #InicioLayoutGrid3 > .row > .col-4
 {
    float: left;
 }
-#categoria_jugueteriaLayoutGrid1 > .row > .col-1
+#InicioLayoutGrid3 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 33.33333333%;
+   width: 8.33333333%;
    text-align: center;
 }
-#categoria_jugueteriaLayoutGrid1 > .row > .col-2
+#InicioLayoutGrid3 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 25%;
+   text-align: center;
+}
+#InicioLayoutGrid3 > .row > .col-3
 {
    background-color: transparent;
    background-image: none;
@@ -168,31 +177,31 @@ body
    width: 41.66666667%;
    text-align: center;
 }
-#categoria_jugueteriaLayoutGrid1 > .row > .col-3
+#InicioLayoutGrid3 > .row > .col-4
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 25%;
-   text-align: left;
+   text-align: center;
 }
-#categoria_jugueteriaLayoutGrid1:before,
-#categoria_jugueteriaLayoutGrid1:after,
-#categoria_jugueteriaLayoutGrid1 .row:before,
-#categoria_jugueteriaLayoutGrid1 .row:after
+#InicioLayoutGrid3:before,
+#InicioLayoutGrid3:after,
+#InicioLayoutGrid3 .row:before,
+#InicioLayoutGrid3 .row:after
 {
    display: table;
    content: " ";
 }
-#categoria_jugueteriaLayoutGrid1:after,
-#categoria_jugueteriaLayoutGrid1 .row:after
+#InicioLayoutGrid3:after,
+#InicioLayoutGrid3 .row:after
 {
    clear: both;
 }
 @media (max-width: 480px)
 {
-#categoria_jugueteriaLayoutGrid1 > .row > .col-1, #categoria_jugueteriaLayoutGrid1 > .row > .col-2, #categoria_jugueteriaLayoutGrid1 > .row > .col-3
+#InicioLayoutGrid3 > .row > .col-1, #InicioLayoutGrid3 > .row > .col-2, #InicioLayoutGrid3 > .row > .col-3, #InicioLayoutGrid3 > .row > .col-4
 {
    float: none;
    width: 100% !important;
@@ -481,200 +490,6 @@ body
    width: 100%;
 }
 }
-#wb_LayoutGrid8
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-image: linear-gradient(315deg, #FFFF57 0%, #048BB9 100%);
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#LayoutGrid8
-{
-   box-sizing: border-box;
-   padding: 3px 15px 3px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#LayoutGrid8 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid8 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid8 > .row > .col-1
-{
-   float: left;
-}
-#LayoutGrid8 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 100%;
-   text-align: center;
-}
-#LayoutGrid8:before,
-#LayoutGrid8:after,
-#LayoutGrid8 .row:before,
-#LayoutGrid8 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid8:after,
-#LayoutGrid8 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid8 > .row > .col-1
-{
-   float: none;
-   width: 100%;
-}
-}
-#wb_Text17 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 15px 0 15px 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text17 div
-{
-   text-align: center;
-}
-#wb_Text17
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_FontAwesomeIcon3
-{
-   background-image: linear-gradient(to top, #1E90FF 0%, #00BFFF 100%);
-   border: 0px solid #D0D6D7;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_FontAwesomeIcon3 a
-{
-   text-decoration: none;
-}
-#wb_FontAwesomeIcon3 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_FontAwesomeIcon3:hover
-{
-   background-image: linear-gradient(to top, #00BFFF 0%, #FFFFFF 100%);
-   border: 0px solid #FFFFFF;
-}
-#FontAwesomeIcon3
-{
-   height: 46px;
-   width: 46px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#FontAwesomeIcon3 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 46px;
-   line-height: 46px;
-   vertical-align: middle;
-}
-#wb_FontAwesomeIcon3:hover #FontAwesomeIcon3 i
-{
-   color: #0000CD;
-}
-#wb_FontAwesomeIcon10
-{
-   background-image: linear-gradient(315deg, #0060A0 0%, #0060A0 29%, #6EC6FF 50%, #FFA000 66%, #FFFF80 82%, #FFFF80 100%);
-   border: 0px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_FontAwesomeIcon10 a
-{
-   text-decoration: none;
-}
-#wb_FontAwesomeIcon10 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_FontAwesomeIcon10:hover
-{
-   background-image: linear-gradient(315deg, #B6FBFE 0%, #4AA0F7 50%, #7BB2EE 51%, #A5C8EA 100%);
-   border: 0px solid #F0FFF0;
-}
-#FontAwesomeIcon10
-{
-   height: 46px;
-   width: 46px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#FontAwesomeIcon10 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 46px;
-   line-height: 46px;
-   vertical-align: middle;
-}
-#wb_FontAwesomeIcon10:hover #FontAwesomeIcon10 i
-{
-   color: #FF8C00;
-}
 #wb_Card5
 {
    position: relative;
@@ -858,6 +673,39 @@ body
    height: 12px;
    overflow: visible;
    margin-right: 0px;
+}
+#Card5-card-item9
+{
+   display: inline-block;
+   height: 40px;
+   box-sizing: border-box;
+   margin: 10px 12px 3px 12px;
+   border: 3px solid #DA70D6;
+   border-radius: 10px;
+   background-color: #DA70D6;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: "Arial Black";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 12px;
+}
+#Card5-card-item9
+{
+   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+   transition: box-shadow 200ms linear 0ms;
+}
+#Card5-card-item9:hover
+{
+   box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
+   transition: box-shadow 200ms linear 0ms;
+}
+#Card5-card-item9 a
+{
+   color: inherit;
+   display: block;
+   padding: 10px 12px 12px 12px;
+   text-decoration: none;
 }
 #wb_Card25
 {
@@ -1043,6 +891,39 @@ body
    overflow: visible;
    margin-right: 0px;
 }
+#Card25-card-item9
+{
+   display: inline-block;
+   height: 40px;
+   box-sizing: border-box;
+   margin: 10px 12px 3px 12px;
+   border: 3px solid #357EBD;
+   border-radius: 10px;
+   background-color: #DA70D6;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: "Arial Black";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 12px;
+}
+#Card25-card-item9
+{
+   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+   transition: box-shadow 200ms linear 0ms;
+}
+#Card25-card-item9:hover
+{
+   box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
+   transition: box-shadow 200ms linear 0ms;
+}
+#Card25-card-item9 a
+{
+   color: inherit;
+   display: block;
+   padding: 10px 12px 12px 12px;
+   text-decoration: none;
+}
 #wb_Card4
 {
    position: relative;
@@ -1226,6 +1107,39 @@ body
    height: 12px;
    overflow: visible;
    margin-right: 0px;
+}
+#Card4-card-item9
+{
+   display: inline-block;
+   height: 40px;
+   box-sizing: border-box;
+   margin: 10px 12px 3px 12px;
+   border: 3px solid #357EBD;
+   border-radius: 10px;
+   background-color: #DA70D6;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: "Arial Black";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 12px;
+}
+#Card4-card-item9
+{
+   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+   transition: box-shadow 200ms linear 0ms;
+}
+#Card4-card-item9:hover
+{
+   box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
+   transition: box-shadow 200ms linear 0ms;
+}
+#Card4-card-item9 a
+{
+   color: inherit;
+   display: block;
+   padding: 10px 12px 12px 12px;
+   text-decoration: none;
 }
 .indexToolTip1
 {
@@ -1969,49 +1883,6 @@ body
 {
    outline: 0;
 }
-#categoria_jugueteriaSiteSearch1
-{
-   box-sizing: border-box;
-   line-height: 20px;
-   margin: 0;
-   border: 4px solid #DDDDDD;
-   border-radius: 8px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #333333;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   text-align: left;
-   box-shadow: 2px 2px 0px #000000;
-   padding: 4px 4px 4px 4px;
-}
-#categoria_jugueteriaSiteSearch1:focus
-{
-   outline: 0;
-}
-#categoria_jugueteriaButton1
-{
-   border: 4px solid #C5C5C5;
-   border-radius: 8px;
-   background-color: #F6F6F6;
-   background-image: none;
-   color: #454545;
-   box-shadow: 2px 2px 0px #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0;
-}
-#categoria_jugueteriaButton1:focus
-{
-   outline: 0;
-}
 #wb_InicioText18 
 {
    background-color: transparent;
@@ -2165,12 +2036,1040 @@ body
    background-image: none;
    color: #FFFFFF;
 }
+#InicioSiteSearch1
+{
+   box-sizing: border-box;
+   line-height: 36px;
+   margin: 0;
+   border: 4px solid #DDDDDD;
+   border-radius: 8px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #333333;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   box-shadow: 2px 2px 0px #000000;
+   padding: 4px 4px 4px 4px;
+}
+#InicioSiteSearch1:focus
+{
+   outline: 0;
+}
+#InicioButton29
+{
+   border: 4px solid #C5C5C5;
+   border-radius: 8px;
+   background-color: #F6F6F6;
+   background-image: none;
+   color: #454545;
+   box-shadow: 2px 2px 0px #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#InicioButton29:focus
+{
+   outline: 0;
+}
+#wb_indexImage1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#indexImage1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 55px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+.indexToolTip2
+{
+   position: absolute;
+   z-index: 1070;
+   display: block;
+   margin: 0;
+   line-height: 1.5;
+   text-align: left;
+   text-decoration: none;
+   opacity: 0;
+}
+.indexToolTip2.show
+{
+   opacity: 0.9;
+}
+.indexToolTip2 .tooltip-arrow
+{
+   position: absolute;
+   display: block;
+   width: 40px;
+   height: 20px;
+}
+.indexToolTip2 .tooltip-arrow::before
+{
+   position: absolute;
+   content: "";
+   border-color: transparent;
+   border-style: solid;
+}
+.indexToolTip2 .tooltip-arrow:after
+{
+   content: "";
+   position: absolute;
+   width: 0;
+   height: 0;
+   border-color: transparent;
+   border-style: solid;
+   z-index: -1;
+}
+.indexToolTip2.bs-tooltip-bottom, .indexToolTip2.bs-tooltip-auto[x-placement^="bottom"]
+{
+   padding: 21px 0;
+}
+.indexToolTip2.bs-tooltip-bottom .tooltip-arrow, .indexToolTip2.bs-tooltip-auto[x-placement^="bottom"] .tooltip-arrow
+{
+   top: 2px;
+}
+.indexToolTip2.bs-tooltip-bottom .tooltip-arrow::before, .indexToolTip2.bs-tooltip-auto[x-placement^="bottom"] .tooltip-arrow::before
+{
+   bottom: 0;
+   border-width: 0 20px 20px;
+   border-bottom-color: rgba(30,144,255,1.00);
+}
+.indexToolTip2.bs-tooltip-bottom .tooltip-arrow::after, .indexToolTip2.bs-tooltip-auto[x-placement^="bottom"] .tooltip-arrow::after
+{
+   top: -1px;
+   left: 50%;
+   margin-left: -21px;
+   border-width: 0 21px 21px;
+   border-bottom-color: #E73D0C;
+}
+.indexToolTip2 .tooltip-inner 
+{
+   max-width: 170px;
+   color: #000000;
+   background-image: linear-gradient(to top, #1E90FF 0%, #FFFF00 100%);
+   border: 1px solid #E73D0C;
+   border-radius: 0px;
+   box-shadow: 0px 0px 1px #000000;
+   font-family: "Arial Black";
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-align: left;
+   padding: 10px 10px 10px 10px;
+}
+.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.fade.show
+{
+   opacity: 1;
+}
+.indexToolTip2.animate-show
+{
+   animation-duration: 1000ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in-up;
+}
+#categoria_jugueteriaDialog1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#categoria_jugueteriaDialog1 .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#categoria_jugueteriaDialog1.fade
+{
+   opacity: 1;
+   transition: all 400ms linear;
+}
+#categoria_jugueteriaDialog1 .animate-show
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+}
+#categoria_jugueteriaDialog1 .animate-hide
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+   animation-direction: reverse;
+}
+#categoria_jugueteriaDialog1.modal
+{
+   --bs-modal-margin: 0.5rem;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow-x: hidden;
+   overflow-y: auto;
+   outline: 0;
+}
+ .modal-open
+{
+   overflow: hidden;
+}
+#categoria_jugueteriaDialog1 .modal-dialog
+{
+   position: relative;
+   width: 481px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#categoria_jugueteriaDialog1 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#categoria_jugueteriaDialog1 .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #F8F8F8;
+   border-bottom: 1px solid #D2D2D2;
+}
+#categoria_jugueteriaDialog1 .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #D2D2D2;
+}
+#categoria_jugueteriaDialog1 .modal-body
+{
+   position: relative;
+   width: 481px;
+   height: 484px;
+}
+#categoria_jugueteriaDialog1 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #212529;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#categoria_jugueteriaDialog1 .modal-footer
+{
+   border-top: 1px solid #DEE2E6;
+   padding: 0;
+   text-align: center;
+}
+#categoria_jugueteriaDialog1 .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: var(--bs-modal-margin) auto;
+   min-height: calc(100% - var(--bs-modal-margin) * 2);
+   pointer-events: none;
+}
+#categoria_jugueteriaDialog1 .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#categoria_jugueteriaDialog1 .modal-title
+{
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-align: center;
+   margin: 0;
+}
+#categoria_jugueteriaDialog1 .btn
+{
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 1.4285;
+   margin: 6px 6px 6px 0 ;
+   padding: 4px 8px 4px 8px;
+   text-align: center;
+   user-select: none;
+   vertical-align: middle;
+}
+#categoria_jugueteriaDialog1 .btn:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #000000;
+}
+#categoria_jugueteriaDialog1 .btn:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#categoria_jugueteriaDialog1 [disabled].btn
+{
+   cursor: not-allowed;
+   opacity: 0.65;
+}
+#wb_categoria_jugueteriaText1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_categoria_jugueteriaText1
+{
+   color: #000000;
+   font-family: "Lucida Console";
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 18px;
+}
+#wb_categoria_jugueteriaText1 p, #wb_categoria_jugueteriaText1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_categoria_jugueteriaImage1
+{
+   vertical-align: top;
+}
+#categoria_jugueteriaImage1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#categoria_jugueteriaDialog2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#categoria_jugueteriaDialog2 .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#categoria_jugueteriaDialog2.fade
+{
+   opacity: 1;
+   transition: all 400ms linear;
+}
+#categoria_jugueteriaDialog2 .animate-show
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+}
+#categoria_jugueteriaDialog2 .animate-hide
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+   animation-direction: reverse;
+}
+#categoria_jugueteriaDialog2.modal
+{
+   --bs-modal-margin: 0.5rem;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow-x: hidden;
+   overflow-y: auto;
+   outline: 0;
+}
+ .modal-open
+{
+   overflow: hidden;
+}
+#categoria_jugueteriaDialog2 .modal-dialog
+{
+   position: relative;
+   width: 481px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#categoria_jugueteriaDialog2 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#categoria_jugueteriaDialog2 .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #F8F8F8;
+   border-bottom: 1px solid #D2D2D2;
+}
+#categoria_jugueteriaDialog2 .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #D2D2D2;
+}
+#categoria_jugueteriaDialog2 .modal-body
+{
+   position: relative;
+   width: 481px;
+   height: 484px;
+}
+#categoria_jugueteriaDialog2 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #212529;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#categoria_jugueteriaDialog2 .modal-footer
+{
+   border-top: 1px solid #DEE2E6;
+   padding: 0;
+   text-align: center;
+}
+#categoria_jugueteriaDialog2 .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: var(--bs-modal-margin) auto;
+   min-height: calc(100% - var(--bs-modal-margin) * 2);
+   pointer-events: none;
+}
+#categoria_jugueteriaDialog2 .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#categoria_jugueteriaDialog2 .modal-title
+{
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-align: center;
+   margin: 0;
+}
+#categoria_jugueteriaDialog2 .btn
+{
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 1.4285;
+   margin: 6px 6px 6px 0 ;
+   padding: 4px 8px 4px 8px;
+   text-align: center;
+   user-select: none;
+   vertical-align: middle;
+}
+#categoria_jugueteriaDialog2 .btn:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #000000;
+}
+#categoria_jugueteriaDialog2 .btn:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#categoria_jugueteriaDialog2 [disabled].btn
+{
+   cursor: not-allowed;
+   opacity: 0.65;
+}
+#wb_categoria_jugueteriaText2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_categoria_jugueteriaText2
+{
+   color: #000000;
+   font-family: "Lucida Console";
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 18px;
+}
+#wb_categoria_jugueteriaText2 p, #wb_categoria_jugueteriaText2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_categoria_jugueteriaImage2
+{
+   vertical-align: top;
+}
+#categoria_jugueteriaImage2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#categoria_jugueteriaDialog3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#categoria_jugueteriaDialog3 .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#categoria_jugueteriaDialog3.fade
+{
+   opacity: 1;
+   transition: all 400ms linear;
+}
+#categoria_jugueteriaDialog3 .animate-show
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+}
+#categoria_jugueteriaDialog3 .animate-hide
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+   animation-direction: reverse;
+}
+#categoria_jugueteriaDialog3.modal
+{
+   --bs-modal-margin: 0.5rem;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow-x: hidden;
+   overflow-y: auto;
+   outline: 0;
+}
+ .modal-open
+{
+   overflow: hidden;
+}
+#categoria_jugueteriaDialog3 .modal-dialog
+{
+   position: relative;
+   width: 481px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#categoria_jugueteriaDialog3 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#categoria_jugueteriaDialog3 .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #F8F8F8;
+   border-bottom: 1px solid #D2D2D2;
+}
+#categoria_jugueteriaDialog3 .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #D2D2D2;
+}
+#categoria_jugueteriaDialog3 .modal-body
+{
+   position: relative;
+   width: 481px;
+   height: 484px;
+}
+#categoria_jugueteriaDialog3 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #212529;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#categoria_jugueteriaDialog3 .modal-footer
+{
+   border-top: 1px solid #DEE2E6;
+   padding: 0;
+   text-align: center;
+}
+#categoria_jugueteriaDialog3 .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: var(--bs-modal-margin) auto;
+   min-height: calc(100% - var(--bs-modal-margin) * 2);
+   pointer-events: none;
+}
+#categoria_jugueteriaDialog3 .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#categoria_jugueteriaDialog3 .modal-title
+{
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-align: center;
+   margin: 0;
+}
+#categoria_jugueteriaDialog3 .btn
+{
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 1.4285;
+   margin: 6px 6px 6px 0 ;
+   padding: 4px 8px 4px 8px;
+   text-align: center;
+   user-select: none;
+   vertical-align: middle;
+}
+#categoria_jugueteriaDialog3 .btn:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #000000;
+}
+#categoria_jugueteriaDialog3 .btn:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#categoria_jugueteriaDialog3 [disabled].btn
+{
+   cursor: not-allowed;
+   opacity: 0.65;
+}
+#wb_categoria_jugueteriaText3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_categoria_jugueteriaText3
+{
+   color: #000000;
+   font-family: "Lucida Console";
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 18px;
+}
+#wb_categoria_jugueteriaText3 p, #wb_categoria_jugueteriaText3 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_categoria_jugueteriaImage3
+{
+   vertical-align: top;
+}
+#categoria_jugueteriaImage3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_LayoutGrid8
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-image: linear-gradient(315deg, #FFFF57 0%, #048BB9 100%);
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid8
+{
+   box-sizing: border-box;
+   padding: 15px 15px 1px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid8 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid8:before,
+#LayoutGrid8:after,
+#LayoutGrid8 .row:before,
+#LayoutGrid8 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid8:after,
+#LayoutGrid8 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid8 > .row > .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_FontAwesomeIcon3
+{
+   background-image: linear-gradient(to top, #1E90FF 0%, #00BFFF 100%);
+   border: 0px solid #D0D6D7;
+   border-radius: 50%;
+   text-align: center;
+   margin: 0 10px 0 0 ;
+   padding: 12px 12px 12px 12px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon3 a
+{
+   text-decoration: none;
+}
+#wb_FontAwesomeIcon3 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_FontAwesomeIcon3:hover
+{
+   background-image: linear-gradient(to top, #00BFFF 0%, #FFFFFF 100%);
+   border: 0px solid #FFFFFF;
+}
+#FontAwesomeIcon3
+{
+   height: 46px;
+   width: 46px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#FontAwesomeIcon3 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 46px;
+   line-height: 46px;
+   vertical-align: middle;
+}
+#wb_FontAwesomeIcon3:hover #FontAwesomeIcon3 i
+{
+   color: #0000CD;
+}
+#wb_FontAwesomeIcon10
+{
+   background: linear-gradient(to top left, #FFFFFF, rgba(255,255,255,0.00), #FF4500), linear-gradient(to top right, #FFFFFF, rgba(255,255,255,0.00), #FFFFFF) #FFA280;
+   border: 0px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 0 10px 0 0 ;
+   padding: 12px 12px 12px 12px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon10 a
+{
+   text-decoration: none;
+}
+#wb_FontAwesomeIcon10 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_FontAwesomeIcon10:hover
+{
+   background: linear-gradient(to top left, #FFFFFF, rgba(255,255,255,0.00), #FFFFFF), linear-gradient(to top right, #FFFFFF, rgba(255,255,255,0.00), #FFFFFF) #FFFFFF;
+   border: 0px solid #F0FFF0;
+}
+#FontAwesomeIcon10
+{
+   height: 46px;
+   width: 46px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#FontAwesomeIcon10 i
+{
+   color: #4169E1;
+   display: inline-block;
+   font-size: 46px;
+   line-height: 46px;
+   vertical-align: middle;
+}
+#wb_FontAwesomeIcon10:hover #FontAwesomeIcon10 i
+{
+   color: #FF8C00;
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 0 15px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text17 div
+{
+   text-align: center;
+}
+#wb_Text17
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
 #wb_socialmediaButton4
 {
    display: inline-block;
    width: 150px;
    height: 40px;
-   z-index: 14;
+   z-index: 15;
 }
 #wb_OverlayMenu1
 {
@@ -2179,18 +3078,38 @@ body
    height: 40px;
    z-index: 0;
 }
+#wb_categoria_jugueteriaImage3
+{
+   position: absolute;
+   left: 65px;
+   top: 19px;
+   width: 348px;
+   height: 348px;
+   z-index: 21;
+}
+#wb_categoria_jugueteriaImage2
+{
+   position: absolute;
+   left: 65px;
+   top: 19px;
+   width: 348px;
+   height: 348px;
+   z-index: 19;
+}
+#wb_categoria_jugueteriaImage1
+{
+   position: absolute;
+   left: 65px;
+   top: 19px;
+   width: 348px;
+   height: 348px;
+   z-index: 17;
+}
 #wb_uid1
 {
    color: #FFFFFF;
    font-family: "Arial";
    font-size: 16px;
-}
-#categoria_jugueteriaButton1
-{
-   display: inline-block;
-   width: 166px;
-   height: 36px;
-   z-index: 5;
 }
 #indexButton3
 {
@@ -2213,11 +3132,31 @@ body
    height: 40px;
    z-index: 1;
 }
+#wb_categoria_jugueteriaText2
+{
+   position: absolute;
+   left: 114px;
+   top: 390px;
+   width: 251px;
+   height: 32px;
+   text-align: center;
+   z-index: 18;
+}
 #wb_uid0
 {
    color: #000000;
    font-family: "Arial Black";
    font-size: 16px;
+}
+#wb_categoria_jugueteriaText3
+{
+   position: absolute;
+   left: 114px;
+   top: 390px;
+   width: 251px;
+   height: 32px;
+   text-align: center;
+   z-index: 20;
 }
 #socialmediaButton4
 {
@@ -2228,42 +3167,66 @@ body
 {
    display: flex;
    width: 100%;
-   z-index: 9;
+   z-index: 10;
+}
+#wb_categoria_jugueteriaText1
+{
+   position: absolute;
+   left: 114px;
+   top: 390px;
+   width: 251px;
+   height: 32px;
+   text-align: center;
+   z-index: 16;
+}
+#wb_indexImage1
+{
+   display: block;
+   width: 100%;
+   height: auto;
+   z-index: 4;
 }
 #wb_InicioImage5
 {
    display: block;
    width: 100%;
    height: auto;
-   z-index: 13;
+   z-index: 14;
 }
-#categoria_jugueteriaSiteSearch1
+#InicioButton29
+{
+   display: inline-block;
+   width: 166px;
+   height: 52px;
+   z-index: 6;
+}
+#InicioSiteSearch1
 {
    display: block;
    width: 100%;
-   height: 36px;
-   z-index: 4;
+   height: 52px;
+   z-index: 5;
 }
 #wb_InicioImage4
 {
    display: block;
    width: 100%;
    height: auto;
-   z-index: 12;
+   z-index: 13;
 }
 #wb_TextArt2
 {
    display: inline-block;
    width: 285px;
    height: 120px;
-   z-index: 7;
+   z-index: 8;
    position: relative;
 }
 #wb_Card5
 {
    display: flex;
    width: 100%;
-   z-index: 8;
+   z-index: 9;
 }
 #TextArt2
 {
@@ -2274,7 +3237,7 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 6;
+   z-index: 7;
 }
 #wb_FontAwesomeIcon10
 {
@@ -2282,13 +3245,13 @@ body
    width: 46px;
    height: 46px;
    text-align: center;
-   z-index: 16;
+   z-index: 23;
 }
 #wb_Card4
 {
    display: flex;
    width: 100%;
-   z-index: 10;
+   z-index: 11;
 }
 #wb_FontAwesomeIcon3
 {
@@ -2296,7 +3259,7 @@ body
    width: 46px;
    height: 46px;
    text-align: center;
-   z-index: 15;
+   z-index: 22;
 }
 @media only screen and (max-width: 969px)
 {
@@ -2363,33 +3326,33 @@ body
    border-radius: 0px;
    text-align: center;
 }
-#wb_categoria_jugueteriaLayoutGrid1
+#wb_InicioLayoutGrid3
 {
    visibility: visible;
    display: table;
 }
-#wb_categoria_jugueteriaLayoutGrid1
+#wb_InicioLayoutGrid3
 {
    height: auto;
    margin-top: 0px;
    margin-bottom: 0px;
 }
-#categoria_jugueteriaLayoutGrid1
+#InicioLayoutGrid3
 {
    height: auto;
    padding: 4px 15px 4px 15px;
 }
-#categoria_jugueteriaLayoutGrid1 .row
+#InicioLayoutGrid3 .row
 {
    margin-right: -15px;
    margin-left: -15px;
 }
-#categoria_jugueteriaLayoutGrid1 > .row > .col-1, #categoria_jugueteriaLayoutGrid1 > .row > .col-2, #categoria_jugueteriaLayoutGrid1 > .row > .col-3
+#InicioLayoutGrid3 > .row > .col-1, #InicioLayoutGrid3 > .row > .col-2, #InicioLayoutGrid3 > .row > .col-3, #InicioLayoutGrid3 > .row > .col-4
 {
    padding-right: 15px;
    padding-left: 15px;
 }
-#categoria_jugueteriaLayoutGrid1 > .row > .col-1
+#InicioLayoutGrid3 > .row > .col-1
 {
    display: block;
    width: 100%;
@@ -2397,7 +3360,7 @@ body
    border-radius: 0px;
    text-align: center;
 }
-#categoria_jugueteriaLayoutGrid1 > .row > .col-2
+#InicioLayoutGrid3 > .row > .col-2
 {
    display: block;
    width: 100%;
@@ -2405,7 +3368,15 @@ body
    border-radius: 0px;
    text-align: center;
 }
-#categoria_jugueteriaLayoutGrid1 > .row > .col-3
+#InicioLayoutGrid3 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#InicioLayoutGrid3 > .row > .col-4
 {
    display: block;
    width: 100%;
@@ -2544,90 +3515,6 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: center;
-}
-#wb_LayoutGrid8
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid8
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid8
-{
-   height: auto;
-   padding: 3px 15px 3px 15px;
-}
-#LayoutGrid8 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid8 > .row > .col-1
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid8 > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#wb_Text17
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text17
-{
-   margin: 0;
-   padding: 15px 0 15px 0;
-}
-#wb_FontAwesomeIcon3
-{
-   width: 46px;
-   height: 46px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-}
-#FontAwesomeIcon3
-{
-   width: 46px;
-   height: 46px;
-}
-#FontAwesomeIcon3 i
-{
-   line-height: 46px;
-   font-size: 46px;
-   width: 47px;
-}
-#wb_FontAwesomeIcon10
-{
-   width: 46px;
-   height: 46px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-}
-#FontAwesomeIcon10
-{
-   width: 46px;
-   height: 46px;
-}
-#FontAwesomeIcon10 i
-{
-   line-height: 46px;
-   font-size: 46px;
-   width: 47px;
 }
 #wb_Card5
 {
@@ -2800,6 +3687,39 @@ body
    height: 12px;
    overflow: visible;
    margin-right: 0px;
+}
+#Card5-card-item9
+{
+   display: inline-block;
+   height: 40px;
+   box-sizing: border-box;
+   margin: 10px 12px 3px 12px;
+   border: 3px solid #DA70D6;
+   border-radius: 10px;
+   background-color: #DA70D6;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: "Arial Black";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 12px;
+}
+#Card5-card-item9
+{
+   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+   transition: box-shadow 200ms linear 0ms;
+}
+#Card5-card-item9:hover
+{
+   box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
+   transition: box-shadow 200ms linear 0ms;
+}
+#Card5-card-item9 a
+{
+   color: inherit;
+   display: block;
+   padding: 10px 12px 12px 12px;
+   text-decoration: none;
 }
 #wb_Card5
 {
@@ -2977,6 +3897,39 @@ body
    overflow: visible;
    margin-right: 0px;
 }
+#Card25-card-item9
+{
+   display: inline-block;
+   height: 40px;
+   box-sizing: border-box;
+   margin: 10px 12px 1px 12px;
+   border: 3px solid #357EBD;
+   border-radius: 10px;
+   background-color: #DA70D6;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: "Arial Black";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 12px;
+}
+#Card25-card-item9
+{
+   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+   transition: box-shadow 200ms linear 0ms;
+}
+#Card25-card-item9:hover
+{
+   box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
+   transition: box-shadow 200ms linear 0ms;
+}
+#Card25-card-item9 a
+{
+   color: inherit;
+   display: block;
+   padding: 10px 12px 12px 12px;
+   text-decoration: none;
+}
 #wb_Card25
 {
    text-align: center;
@@ -3153,6 +4106,39 @@ body
    overflow: visible;
    margin-right: 0px;
 }
+#Card4-card-item9
+{
+   display: inline-block;
+   height: 40px;
+   box-sizing: border-box;
+   margin: 10px 12px 1px 12px;
+   border: 3px solid #357EBD;
+   border-radius: 10px;
+   background-color: #DA70D6;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: "Arial Black";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 12px;
+}
+#Card4-card-item9
+{
+   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+   transition: box-shadow 200ms linear 0ms;
+}
+#Card4-card-item9:hover
+{
+   box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
+   transition: box-shadow 200ms linear 0ms;
+}
+#Card4-card-item9 a
+{
+   color: inherit;
+   display: block;
+   padding: 10px 12px 12px 12px;
+   text-decoration: none;
+}
 #wb_Card4
 {
    text-align: center;
@@ -3285,29 +4271,6 @@ body
 {
    line-height: 32px;
 }
-#categoria_jugueteriaSiteSearch1
-{
-   width: 100%;
-   height: 36px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   text-align: left;
-}
-#categoria_jugueteriaSiteSearch1
-{
-   line-height: 20px;
-}
-#categoria_jugueteriaButton1
-{
-   width: 166px;
-   height: 36px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 1px 6px 1px 6px;
-}
 #wb_InicioText18
 {
    visibility: visible;
@@ -3360,5 +4323,260 @@ body
 {
    line-height: 40px;
    padding: 0 0 0 48px;
+}
+#InicioSiteSearch1
+{
+   width: 100%;
+   height: 36px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#InicioSiteSearch1
+{
+   line-height: 20px;
+}
+#InicioButton29
+{
+   width: 166px;
+   height: 36px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+#wb_indexImage1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#indexImage1
+{
+   margin-left: auto;
+   margin-right: auto;
+}
+#indexToolTip2
+{
+   left: 1173px;
+   top: 15px;
+   width: 28px;
+   height: 28px;
+   visibility: visible;
+   display: inline;
+}
+#categoria_jugueteriaDialog1 .modal-dialog
+{
+   width: 400px;
+}
+#categoria_jugueteriaDialog1 .modal-body
+{
+   width: 400px;
+   height: 435px;
+}
+#categoria_jugueteriaDialog1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#wb_categoria_jugueteriaText1
+{
+   left: 95px;
+   top: 348px;
+   width: 216px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_categoria_jugueteriaText1
+{
+   font-size: 19px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 18px;
+}
+#wb_categoria_jugueteriaImage1
+{
+   left: 36px;
+   top: 15px;
+   width: 319px;
+   height: 318px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#categoria_jugueteriaDialog2 .modal-dialog
+{
+   width: 400px;
+}
+#categoria_jugueteriaDialog2 .modal-body
+{
+   width: 400px;
+   height: 435px;
+}
+#categoria_jugueteriaDialog2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#wb_categoria_jugueteriaText2
+{
+   left: 95px;
+   top: 348px;
+   width: 216px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_categoria_jugueteriaText2
+{
+   font-size: 19px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 18px;
+}
+#wb_categoria_jugueteriaImage2
+{
+   left: 36px;
+   top: 15px;
+   width: 319px;
+   height: 318px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#categoria_jugueteriaDialog3 .modal-dialog
+{
+   width: 400px;
+}
+#categoria_jugueteriaDialog3 .modal-body
+{
+   width: 400px;
+   height: 435px;
+}
+#categoria_jugueteriaDialog3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#wb_categoria_jugueteriaText3
+{
+   left: 95px;
+   top: 348px;
+   width: 216px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_categoria_jugueteriaText3
+{
+   font-size: 19px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 18px;
+}
+#wb_categoria_jugueteriaImage3
+{
+   left: 36px;
+   top: 15px;
+   width: 319px;
+   height: 318px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid8
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid8
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid8
+{
+   height: auto;
+   padding: 15px 15px 1px 15px;
+}
+#LayoutGrid8 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_FontAwesomeIcon3
+{
+   width: 46px;
+   height: 46px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 10px 0 0 ;
+   padding: 12px 12px 12px 12px;
+}
+#FontAwesomeIcon3
+{
+   width: 46px;
+   height: 46px;
+}
+#FontAwesomeIcon3 i
+{
+   line-height: 46px;
+   font-size: 46px;
+   width: 47px;
+}
+#wb_FontAwesomeIcon10
+{
+   width: 46px;
+   height: 46px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0 10px 0 0 ;
+   padding: 12px 12px 12px 12px;
+}
+#FontAwesomeIcon10
+{
+   width: 46px;
+   height: 46px;
+}
+#FontAwesomeIcon10 i
+{
+   line-height: 46px;
+   font-size: 46px;
+   width: 47px;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 15px 0 15px 0;
 }
 }

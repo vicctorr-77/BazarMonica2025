@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/fontawesome6.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&400&subset=latin&display=swap" rel="stylesheet">
-<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=2" rel="stylesheet">
-<link href="css/Categoria.css?v=2" rel="stylesheet">
+<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=3" rel="stylesheet">
+<link href="css/Categoria.css?v=3" rel="stylesheet">
 </head>
 <body>
    <div id="wb_wb17_backgroundclipLayoutGrid1">
@@ -35,17 +35,22 @@
          </div>
       </div>
    </div>
-   <div id="wb_CategoriaLayoutGrid1">
-      <div id="CategoriaLayoutGrid1">
+   <div id="wb_InicioLayoutGrid3">
+      <div id="InicioLayoutGrid3">
          <div class="row">
             <div class="col-1">
             </div>
             <div class="col-2">
-               <form name="CategoriaSiteSearch1_form" id="CategoriaSiteSearch1_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage(features)"></form>
-               <input type="text" id="CategoriaSiteSearch1" name="InicioSiteSearch1" value="" spellcheck="false" placeholder="Buscar Producto" role="searchbox" form="CategoriaSiteSearch1_form">
+               <div id="wb_indexImage1">
+                  <a href="./registrar-inicio-de-sesion.html"><img src="images/registrarse_.png" id="indexImage1" alt="" width="212" height="221"></a>
+               </div>
             </div>
             <div class="col-3">
-               <input type="button" id="CategoriaButton1" onclick="searchPage();return false;" name="Buscar" value="Buscar">
+               <form name="InicioSiteSearch1_form" id="InicioSiteSearch1_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage(features)"></form>
+               <input type="text" id="InicioSiteSearch1" name="InicioSiteSearch1" value="" spellcheck="false" placeholder="Buscar Producto" role="searchbox" form="InicioSiteSearch1_form">
+            </div>
+            <div class="col-4">
+               <input type="button" id="InicioButton29" onclick="searchPage();return false;" name="Buscar" value="Buscar">
             </div>
          </div>
       </div>
@@ -249,8 +254,8 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
    var features = 'toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,status=no,left=,top=,width=,height=';
    function searchPage(features)
    {
-      var element = document.getElementById('CategoriaSiteSearch1');
-      window.open('categoriasitesearch1-results.html?q='+encodeURIComponent(element.value), '', features);
+      var element = document.getElementById('InicioSiteSearch1');
+      window.open('iniciositesearch1-results.html?q='+encodeURIComponent(element.value), '', features);
       return false;
    }
    </script>
@@ -325,14 +330,27 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       {
          TimerStartheaderTimer();
       }
+      var indexImage1 = document.querySelector('#wb_indexImage1');
+      var bsindexImage1 = new bootstrap.Tooltip(indexImage1, {offset:[10,15],placement:'bottom', html: true, sanitize: false, title: '<span style="color:#000000;font-family:\'Arial Black\';font-size:17px;">Usuario debe registrar (solo es demo)</span>', trigger: 'hover', animation: true, customClass:'indexToolTip2'});
+      indexImage1.addEventListener('inserted.bs.tooltip', function(e)
+      {
+         var tooltip = document.getElementById(e.target.getAttribute('aria-describedby'));
+         tooltip.classList.add('animate-show');
+      });
+      indexImage1.addEventListener('hide.bs.tooltip', function(e)
+      {
+         var tooltip = document.getElementById(e.target.getAttribute('aria-describedby'));
+         tooltip.classList.remove('animate-show');
+         var forceReflow = e.target.offsetWidth;
+      });
    });
    </script>
    <script>   
    $(document).ready(function()
    {
+      $('#wb_socialmediaButton4').addClass('visibility-hidden');
       $('#wb_FontAwesomeIcon3').addClass('visibility-hidden');
       $('#wb_FontAwesomeIcon10').addClass('visibility-hidden');
-      $('#wb_socialmediaButton4').addClass('visibility-hidden');
       $('#OverlayMenu1-overlay').overlay({});
       $('.OverlayMenu1').drilldownmenu({backText: 'Atras'});
       $('#OverlayMenu1').on('click', function(e)
@@ -340,6 +358,21 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
          $.overlay.toggle($('#OverlayMenu1-overlay'));
          return false;
       });
+      function onScrollsocialmediaButton4()
+      {
+         var $obj = $("#wb_socialmediaButton4");
+         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+         {
+            $obj.addClass("in-viewport");
+            AnimateCss('wb_socialmediaButton4', 'transform-lightspeed-in', 100, 1000);
+         }
+      }
+      onScrollsocialmediaButton4();
+      $(window).scroll(function(event)
+      {
+         onScrollsocialmediaButton4();
+      });
+      searchParseURL('InicioSiteSearch1');
       function onScrollFontAwesomeIcon3()
       {
          var $obj = $("#wb_FontAwesomeIcon3");
@@ -367,21 +400,6 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       $(window).scroll(function(event)
       {
          onScrollFontAwesomeIcon10();
-      });
-      searchParseURL('CategoriaSiteSearch1');
-      function onScrollsocialmediaButton4()
-      {
-         var $obj = $("#wb_socialmediaButton4");
-         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-         {
-            $obj.addClass("in-viewport");
-            AnimateCss('wb_socialmediaButton4', 'transform-lightspeed-in', 100, 1000);
-         }
-      }
-      onScrollsocialmediaButton4();
-      $(window).scroll(function(event)
-      {
-         onScrollsocialmediaButton4();
       });
    });
    </script>
