@@ -5,10 +5,11 @@
 <title>Registrar/inicio de sesion</title>
 <meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/base/jquery-ui.min.css" rel="stylesheet">
 <link href="css/fontawesome6.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&400&subset=latin&display=swap" rel="stylesheet">
-<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=3" rel="stylesheet">
-<link href="css/registrar-inicio-de-sesion.css?v=3" rel="stylesheet">
+<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=2" rel="stylesheet">
+<link href="css/registrar-inicio-de-sesion.css?v=2" rel="stylesheet">
 </head>
 <body>
    <div id="wb_wb17_backgroundclipLayoutGrid1">
@@ -219,6 +220,18 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       </div>
       <a class="close-button" id="OverlayMenu1-close" href="#" role="button" aria-hidden="true"><span></span></a>
    </div>
+   <div id="InicioSiteSearch1-dialog" class="modal" role="dialog">
+      <div class="modal-dialog  modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+               <h4 class="modal-title">Search results</h4>
+            </div>
+            <div class="modal-body">
+            </div>
+         </div>
+      </div>
+   </div>
    <script src="js/popper.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
    <script src="js/jquery-3.7.1.min.js"></script>
@@ -227,11 +240,13 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
    <script src="js/searchindex.js"></script>
    <script src="js/wb.sitesearch.min.js"></script>
    <script>   
-   var features = 'toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,status=no,left=,top=,width=,height=';
+   var features = '';
    function searchPage(features)
    {
-      var element = document.getElementById('InicioSiteSearch1');
-      window.open('iniciositesearch1-results.html?q='+encodeURIComponent(element.value), '', features);
+      var InicioSiteSearch1 = document.querySelector('#InicioSiteSearch1-dialog');
+      var bsInicioSiteSearch1 = bootstrap.Modal.getOrCreateInstance(InicioSiteSearch1);
+      bsInicioSiteSearch1.show();
+      searchResults('InicioSiteSearch1', 'InicioSiteSearch1-dialog .modal-body', 250, 5, true, true, false, false, '_parent', 'No results', ' result(s) found for search term: ', 'seconds');
       return false;
    }
    </script>
@@ -348,7 +363,6 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       {
          onScrollsocialmediaButton4();
       });
-      searchParseURL('InicioSiteSearch1');
       function onScrollFontAwesomeIcon3()
       {
          var $obj = $("#wb_FontAwesomeIcon3");
@@ -377,6 +391,7 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       {
          onScrollFontAwesomeIcon10();
       });
+      searchParseURL('InicioSiteSearch1');
    });
    </script>
    <script>   
