@@ -5,7 +5,6 @@
 <title>Conjunto de aretes y collar de piedra color verde</title>
 <meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="css/base/jquery-ui.min.css" rel="stylesheet">
 <link href="css/fontawesome6.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&400&subset=latin&display=swap" rel="stylesheet">
 <link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=4" rel="stylesheet">
@@ -47,7 +46,7 @@
                </div>
             </div>
             <div class="col-3">
-               <form name="InicioSiteSearch1_form" id="InicioSiteSearch1_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage(features)"></form>
+               <form name="InicioSiteSearch1_form" id="InicioSiteSearch1_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage()"></form>
                <input type="text" id="InicioSiteSearch1" name="InicioSiteSearch1" value="" spellcheck="false" placeholder="Buscar Producto" role="searchbox" form="InicioSiteSearch1_form">
             </div>
             <div class="col-4">
@@ -805,18 +804,6 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       </div>
       <a class="close-button" id="OverlayMenu1-close" href="#" role="button" aria-hidden="true"><span></span></a>
    </div>
-   <div id="InicioSiteSearch1-dialog" class="modal" role="dialog">
-      <div class="modal-dialog  modal-dialog-centered">
-         <div class="modal-content">
-            <div class="modal-header">
-               <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
-               <h4 class="modal-title">Search results</h4>
-            </div>
-            <div class="modal-body">
-            </div>
-         </div>
-      </div>
-   </div>
    <script src="js/jquery-1.12.4.min.js"></script>
    <script src="js/jquery.ui.effect.min.js"></script>
    <script src="js/popper.min.js"></script>
@@ -826,13 +813,13 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
    <script src="js/searchindex.js"></script>
    <script src="js/wb.sitesearch.min.js"></script>
    <script>   
-   var features = '';
-   function searchPage(features)
+   function searchPage()
    {
-      var InicioSiteSearch1 = document.querySelector('#InicioSiteSearch1-dialog');
-      var bsInicioSiteSearch1 = bootstrap.Modal.getOrCreateInstance(InicioSiteSearch1);
-      bsInicioSiteSearch1.show();
-      searchResults('InicioSiteSearch1', 'InicioSiteSearch1-dialog .modal-body', 250, 5, true, true, false, false, '_parent', 'No results', ' result(s) found for search term: ', 'seconds');
+      var element = document.getElementById('InicioSiteSearch1');
+      if (element.value.length != 0 || element.value != " ")
+      {
+         window.location.href = './search.html?q='+encodeURIComponent(element.value);
+      }
       return false;
    }
    </script>
@@ -1609,7 +1596,6 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       {
          onScrollFontAwesomeIcon10();
       });
-      searchParseURL('InicioSiteSearch1');
    });
    </script>
    <script>   

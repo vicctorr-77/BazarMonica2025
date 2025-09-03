@@ -46,7 +46,7 @@
                </div>
             </div>
             <div class="col-3">
-               <form name="categoria_ropas-generalSiteSearch1_form" id="categoria_ropas-generalSiteSearch1_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage(features)"></form>
+               <form name="categoria_ropas-generalSiteSearch1_form" id="categoria_ropas-generalSiteSearch1_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage()"></form>
                <input type="text" id="categoria_ropas-generalSiteSearch1" name="InicioSiteSearch1" value="" spellcheck="false" placeholder="Buscar Producto" role="searchbox" form="categoria_ropas-generalSiteSearch1_form">
             </div>
             <div class="col-4">
@@ -202,11 +202,13 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
    <script src="js/searchindex.js"></script>
    <script src="js/wb.sitesearch.min.js"></script>
    <script>   
-   var features = 'toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,status=no,left=,top=,width=,height=';
-   function searchPage(features)
+   function searchPage()
    {
       var element = document.getElementById('categoria_ropas-generalSiteSearch1');
-      window.open('categoria_ropas-generalsitesearch1-results.html?q='+encodeURIComponent(element.value), '', features);
+      if (element.value.length != 0 || element.value != " ")
+      {
+         window.location.href = './search.html?q='+encodeURIComponent(element.value);
+      }
       return false;
    }
    </script>
@@ -323,7 +325,6 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       {
          onScrollsocialmediaButton4();
       });
-      searchParseURL('categoria_ropas-generalSiteSearch1');
       function onScrollFontAwesomeIcon3()
       {
          var $obj = $("#wb_FontAwesomeIcon3");
