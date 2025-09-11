@@ -96,6 +96,9 @@
          </div>
       </div>
    </div>
+<!-- appscrpist google -->
+   <div id="indexHtml2">
+   </div>
    <div id="wb_wb17_backgroundclipLayoutGrid1">
       <div id="wb17_backgroundclipLayoutGrid1">
          <div class="row">
@@ -880,6 +883,22 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
    function TimerStopheaderTimer()
    {
       clearTimeout(wb_headerTimer);
+   }
+   </script>
+   <script>   
+   const urlAPI = "https://script.google.com/macros/s/AKfycbx8wwYCxp51s21puA65enQJO4E4zK-IRQExjr6pjLv7XQO2gdcAxwV2Rj08giiPq6GU/exec"; // tu URL de Apps Script
+   
+   function guardarPedido(producto, precio, canal) {
+     fetch(urlAPI, {
+       method: "POST",
+       body: JSON.stringify({
+         producto: producto,
+         precio: precio,
+         cliente: "N/A", 
+         telefono: "N/A",
+         canal: canal
+       })
+     });
    }
    </script>
 </body>
