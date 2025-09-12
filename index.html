@@ -8,8 +8,8 @@
 <link href="css/owl.carousel.min.css" rel="stylesheet">
 <link href="css/fontawesome6.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&400&subset=latin&display=swap" rel="stylesheet">
-<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=5" rel="stylesheet">
-<link href="css/index.css?v=5" rel="stylesheet">
+<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=6" rel="stylesheet">
+<link href="css/index.css?v=6" rel="stylesheet">
 <!-- Google tag (gtag.js) -->
 </head>
 <body>
@@ -886,19 +886,25 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
    }
    </script>
    <script>   
-   const urlAPI = "https://script.google.com/macros/s/AKfycbx8wwYCxp51s21puA65enQJO4E4zK-IRQExjr6pjLv7XQO2gdcAxwV2Rj08giiPq6GU/exec"; // tu URL de Apps Script
+   const urlAPI = "https://script.google.com/macros/s/AKfycbx8wwYCxp51s21puA65enQJO4E4zK-IRQExjr6pjLv7XQO2gdcAxwV2Rj08giiPq6GU/exec"; // revisa que termine en /exec
    
    function guardarPedido(producto, precio, canal) {
      fetch(urlAPI, {
        method: "POST",
+       headers: {
+         "Content-Type": "application/json"
+       },
        body: JSON.stringify({
          producto: producto,
          precio: precio,
-         cliente: "N/A", 
+         cliente: "N/A",
          telefono: "N/A",
          canal: canal
        })
-     });
+     })
+     .then(r => r.text())
+     .then(txt => console.log("Respuesta del servidor:", txt))
+     .catch(err => console.error("Error al guardar pedido:", err));
    }
    </script>
 </body>
