@@ -536,7 +536,6 @@ body
    height: 36px;
    box-sizing: border-box;
    margin: 10px 12px 3px 12px;
-   padding: 10px 12px 12px 12px;
    border: 1px solid #357EBD;
    border-radius: 4px;
    background-color: #428BCA;
@@ -556,6 +555,13 @@ body
 {
    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
    transition: box-shadow 200ms linear 0ms;
+}
+#Card5-card-item7 a
+{
+   color: inherit;
+   display: block;
+   padding: 10px 12px 12px 12px;
+   text-decoration: none;
 }
 #Card5-card-item7 .svg-icon
 {
@@ -3434,7 +3440,6 @@ body
    height: 36px;
    box-sizing: border-box;
    margin: 10px 12px 3px 12px;
-   padding: 10px 12px 12px 12px;
    border: 1px solid #357EBD;
    border-radius: 4px;
    background-color: #428BCA;
@@ -3454,6 +3459,13 @@ body
 {
    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
    transition: box-shadow 200ms linear 0ms;
+}
+#Card5-card-item7 a
+{
+   color: inherit;
+   display: block;
+   padding: 10px 12px 12px 12px;
+   text-decoration: none;
 }
 #Card5-card-item7 .svg-icon
 {
