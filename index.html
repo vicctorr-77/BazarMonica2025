@@ -8,8 +8,8 @@
 <link href="css/owl.carousel.min.css" rel="stylesheet">
 <link href="css/fontawesome6.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&400&subset=latin&display=swap" rel="stylesheet">
-<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=7" rel="stylesheet">
-<link href="css/index.css?v=7" rel="stylesheet">
+<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=5" rel="stylesheet">
+<link href="css/index.css?v=5" rel="stylesheet">
 <!-- Google tag (gtag.js) -->
 </head>
 <body>
@@ -95,9 +95,6 @@
             </div>
          </div>
       </div>
-   </div>
-<!-- appscrpist google -->
-   <div id="indexHtml2">
    </div>
    <div id="wb_wb17_backgroundclipLayoutGrid1">
       <div id="wb17_backgroundclipLayoutGrid1">
@@ -281,7 +278,7 @@ VER PRODUCTO</a></div>
       <div id="CardContainer1" class="owl-carousel owl-theme">
          <div id="wb_Card6" class="card">
             <div id="Card6-card-body">
-               <img id="Card6-card-item0" src="images/20250318_052341.jpg" width="312" height="214" alt="Sortija dorada con un punto azul" title="Sortija dorada con un punto azul">
+               <img id="Card6-card-item0" src="images/foto42.png" width="680" height="470" alt="Sortija dorada con un punto azul" title="Sortija dorada con un punto azul">
                <div id="Card6-card-item1">Sortija dorada con un piedra azul</div>
                <div id="wb_uid4"><img id="Card6-card-item2" src="images/yapee.png" width="116" height="119" alt="yape" title="yape"></div>
                <div id="wb_uid5"><img id="Card6-card-item3" src="images/whatsapp.png" width="512" height="512" alt="whatsapp" title="whatsapp"></div>
@@ -337,7 +334,7 @@ Ver Producto</a></div>
          </div>
          <div id="wb_Card10" class="card">
             <div id="Card10-card-body">
-               <img id="Card10-card-item0" src="images/20250411_124238.jpg" width="312" height="314" alt="Vincha Primaveral" title="Vincha Primaveral">
+               <img id="Card10-card-item0" src="images/foto30.png" width="904" height="960" alt="Vincha Primaveral" title="Vincha Primaveral">
                <div id="Card10-card-item1">Vincha Primaveral</div>
                <img id="Card10-card-item2" src="images/yapee.png" width="116" height="119" alt="yape" title="yape">
                <img id="Card10-card-item3" src="images/whatsapp.png" width="512" height="512" alt="" title="">
@@ -379,7 +376,7 @@ Ver Producto</a></div>
          </div>
          <div id="wb_Card32" class="card">
             <div id="Card32-card-body">
-               <img id="Card32-card-item0" src="images/20250322_115853.jpg" width="312" height="339" alt="Conjunto de collar y aretes color verde" title="Conjunto de collar y aretes color verde">
+               <img id="Card32-card-item0" src="images/foto11.png" width="896" height="1152" alt="Conjunto de collar y aretes color verde" title="Conjunto de collar y aretes color verde">
                <div id="Card32-card-item1">Conjunto de collar y aretes color verde</div>
                <div id="wb_uid12"><img id="Card32-card-item2" src="images/yapee.png" width="116" height="119" alt="" title=""></div>
                <div id="wb_uid13"><img id="Card32-card-item3" src="images/whatsapp.png" width="512" height="512" alt="" title=""></div>
@@ -435,7 +432,7 @@ Ver Producto</a></div>
          </div>
          <div id="wb_Card8" class="card">
             <div id="Card8-card-body">
-               <img id="Card8-card-item0" src="images/20250329_051300.jpg" width="312" height="387" alt="Cuadro virgen de Guadalupe" title="Cuadro virgen de Guadalupe">
+               <img id="Card8-card-item0" src="images/foto32.png" width="586" height="761" alt="Cuadro virgen de Guadalupe" title="Cuadro virgen de Guadalupe">
                <div id="Card8-card-item1">Cuadro virgen de Guadalupe</div>
                <img id="Card8-card-item2" src="images/yapee.png" width="116" height="119" alt="" title="">
                <img id="Card8-card-item3" src="images/whatsapp.png" width="512" height="512" alt="" title="">
@@ -883,28 +880,6 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
    function TimerStopheaderTimer()
    {
       clearTimeout(wb_headerTimer);
-   }
-   </script>
-   <script>   
-   const urlAPI = "https://script.google.com/macros/s/AKfycbx8wwYCxp51s21puA65enQJO4E4zK-IRQExjr6pjLv7XQO2gdcAxwV2Rj08giiPq6GU/exec"; // revisa que termine en /exec
-   
-   function guardarPedido(producto, precio, canal) {
-     fetch(urlAPI, {
-       method: "POST",
-       headers: {
-         "Content-Type": "application/json"
-       },
-       body: JSON.stringify({
-         producto: producto,
-         precio: precio,
-         cliente: "N/A",
-         telefono: "N/A",
-         canal: canal
-       })
-     })
-     .then(r => r.text())
-     .then(txt => console.log("Respuesta del servidor:", txt))
-     .catch(err => console.error("Error al guardar pedido:", err));
    }
    </script>
 </body>
