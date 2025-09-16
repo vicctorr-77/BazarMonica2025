@@ -42,7 +42,7 @@ body
    --border-width: 1px;
    --color: #333333;
    --icon-color: #444444;
-   --colorize: invert(16%) sepia(0%) saturate(4132%) hue-rotate(1deg) brightness(116%) contrast(76%);
+   --colorize: invert(28%) sepia(1%) saturate(393%) hue-rotate(47deg) brightness(90%) contrast(93%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -104,7 +104,7 @@ body
    --border-width: 1px;
    --color: #CCCCCC;
    --icon-color: #3370B7;
-   --colorize: invert(40%) sepia(10%) saturate(5046%) hue-rotate(178deg) brightness(92%) contrast(82%);
+   --colorize: invert(36%) sepia(86%) saturate(397%) hue-rotate(171deg) brightness(96%) contrast(100%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {

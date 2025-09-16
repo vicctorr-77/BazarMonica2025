@@ -96,7 +96,49 @@ Pedir via WhatsApp1</a></div>
                               <path d="M891 1034 L133 1034 L133 262 L891 262Z  M187 982 L837 982 L837 314 L187 314Z  M699 394 L645 394 L645 176 C645 139, 631 106, 605 81 C579 55, 548 42, 511 42 C474 42, 443 55, 417 81 C391 106, 378 138, 379 176 L379 394 L325 394 L325 176 C325 124, 342 80, 378 44 C414 8, 459 -10, 511 -10 C564 -10, 608 8, 644 44 C680 80, 699 124, 699 176"/>
                            </svg>
 Pedir via WhatsApp2</a></div>
-                     <div id="Card5-card-item9" onclick="$('#categoria_articulo-de-bellezaDialog1').modal('show');return false;"><a href="./categoria_articulo-de-belleza.html" target="_blank">PAGAR CON YAPE</a></div>
+                     <div id="Card5-card-item9">```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagar con Yape</title>
+    </head>
+<body>
+                        <div class="product-container">
+                           <div class="product-info">
+                              <div class="product-title">Vincha Primaveral</div>
+                              <div class="product-price">S/. 5.00</div>
+                           </div>
+        
+                           <button class="pay-with-yape-btn" onclick="showQRModal()">
+                              <span class="yape-icon">📱</span> PAGAR CON YAPE (ESCANEAR QR)
+                           </button>
+                        </div>
+    <!-- Modal para el código QR -->
+                        <div id="qrModal" class="qr-modal">
+                           <div class="qr-modal-content">
+                              <h2>PAGO CON YAPE</h2>
+                              <div class="product-name-in-modal">Vincha Primaveral</div>
+                              <div class="payment-amount">Total a pagar: S/. 5.00</div>
+            
+                              <img src="images/QR_YAPE.jpg" alt="Código QR para pago con Yape" class="qr-image">
+            
+                              <div class="instructions">
+                                 <div class="instructions-title">INSTRUCCIONES:</div>
+                                 <p>1. Abre la aplicación Yape en tu teléfono</p>
+                                 <p>2. Selecciona la opción "Escanear QR"</p>
+                                 <p>3. Apunta la cámara hacia el código QR de arriba</p>
+                                 <p>4. Confirma el monto (S/. 5.00) y realiza el pago</p>
+                                 <p>5. ¡Listo! Tu pago ha sido procesado</p>
+                              </div>
+            
+                              <button class="close-btn" onclick="closeQRModal()">CERRAR</button>
+                           </div>
+                        </div>
+    </body>
+</html>
+```</div>
                   </div>
                </div>
             </div>
@@ -131,92 +173,10 @@ Pedir via WhatsApp2</a></div>
          </div>
       </div>
    </div>
-   <div id="categoria_articulo-de-bellezaDialog1" class="modal fade" data-bs-keyboard="true" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-         <div class="modal-content">
-            <div class="modal-header">
-               <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
-               <div class="modal-title">Pagar con yape con QR</div>
-            </div>
-            <div class="modal-body">
-               <div id="wb_categoria_articulo-de-bellezaText1">
-                  <p>Escanea usando la aplicación yape.</p></div>
-               <div id="wb_categoria_articulo-de-bellezaImage1">
-                  <img src="images/QR_YAPE.jpg" id="categoria_articulo-de-bellezaImage1" alt="" width="348" height="322"></div>
-            </div>
-            <div class="modal-footer">
-               <button class="btn" id="categoria_articulo-de-bellezaDialog1-btn1" type="button">CERRAR</button>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="categoria_articulo-de-bellezaDialog2" class="modal fade" data-bs-keyboard="true" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-         <div class="modal-content">
-            <div class="modal-header">
-               <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
-               <div class="modal-title">Pagar con yape con QR</div>
-            </div>
-            <div class="modal-body">
-               <div id="wb_categoria_articulo-de-bellezaText2">
-                  <p>Escanea usando la aplicación yape.</p></div>
-               <div id="wb_categoria_articulo-de-bellezaImage2">
-                  <img src="images/QR_YAPE.jpg" id="categoria_articulo-de-bellezaImage2" alt="" width="348" height="322"></div>
-            </div>
-            <div class="modal-footer">
-               <button class="btn" id="categoria_articulo-de-bellezaDialog2-btn1" type="button">CERRAR</button>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="categoria_articulo-de-bellezaDialog3" class="modal fade" data-bs-keyboard="true" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-         <div class="modal-content">
-            <div class="modal-header">
-               <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
-               <div class="modal-title">Pagar con yape con QR</div>
-            </div>
-            <div class="modal-body">
-               <div id="wb_categoria_articulo-de-bellezaText3">
-                  <p>Escanea usando la aplicación yape.</p></div>
-               <div id="wb_categoria_articulo-de-bellezaImage3">
-                  <img src="images/QR_YAPE.jpg" id="categoria_articulo-de-bellezaImage3" alt="" width="348" height="322"></div>
-            </div>
-            <div class="modal-footer">
-               <button class="btn" id="categoria_articulo-de-bellezaDialog3-btn1" type="button">CERRAR</button>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="categoria_articulo-de-bellezaDialog4" class="modal fade" data-bs-keyboard="true" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-         <div class="modal-content">
-            <div class="modal-header">
-               <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
-               <div class="modal-title">Pagar con yape con QR</div>
-            </div>
-            <div class="modal-body">
-               <div id="wb_categoria_articulo-de-bellezaText4">
-                  <p>Escanea usando la aplicación yape.</p></div>
-               <div id="wb_categoria_articulo-de-bellezaImage4">
-                  <img src="images/QR_YAPE.jpg" id="categoria_articulo-de-bellezaImage4" alt="" width="348" height="322"></div>
-            </div>
-            <div class="modal-footer">
-               <button class="btn" id="categoria_articulo-de-bellezaDialog4-btn1" type="button">CERRAR</button>
-            </div>
-         </div>
-      </div>
-   </div>
    <div id="wb_LayoutGrid8">
       <div id="LayoutGrid8">
          <div class="row">
             <div class="col-1">
-               <div id="wb_FontAwesomeIcon3">
-                  <div id="FontAwesomeIcon3"><i class="fa fa-brands fa-facebook"></i></div>
-               </div>
-               <div id="wb_FontAwesomeIcon10">
-                  <div id="FontAwesomeIcon10"><i class="fa fa-brands fa-instagram"></i></div>
-               </div>
                <div id="wb_Text17">
                   <span id="wb_uid1"><strong>Copyright 2025 Proyecto Aplicación Web</strong></span>
                </div>
@@ -392,90 +352,12 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
          tooltip.classList.remove('animate-show');
          var forceReflow = e.target.offsetWidth;
       });
-      var categoria_articulo_de_bellezaDialog1 = document.querySelector('#categoria_articulo-de-bellezaDialog1');
-      var bscategoria_articulo_de_bellezaDialog1 = new bootstrap.Modal(categoria_articulo_de_bellezaDialog1);
-      categoria_articulo_de_bellezaDialog1.addEventListener('show.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_articulo-de-bellezaDialog1 .modal-dialog');
-         dlg.classList.remove('animate-hide');
-         dlg.classList.add('animate-show');
-      });
-      categoria_articulo_de_bellezaDialog1.addEventListener('hide.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_articulo-de-bellezaDialog1 .modal-dialog');
-         dlg.classList.remove('animate-show');
-         var forceReflow = e.target.offsetWidth;
-         dlg.classList.add('animate-hide');
-      });
-      document.querySelector('#categoria_articulo-de-bellezaDialog1-btn1').addEventListener('click', function(e)
-      {
-         bscategoria_articulo_de_bellezaDialog1.hide();
-      });
-      var categoria_articulo_de_bellezaDialog2 = document.querySelector('#categoria_articulo-de-bellezaDialog2');
-      var bscategoria_articulo_de_bellezaDialog2 = new bootstrap.Modal(categoria_articulo_de_bellezaDialog2);
-      categoria_articulo_de_bellezaDialog2.addEventListener('show.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_articulo-de-bellezaDialog2 .modal-dialog');
-         dlg.classList.remove('animate-hide');
-         dlg.classList.add('animate-show');
-      });
-      categoria_articulo_de_bellezaDialog2.addEventListener('hide.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_articulo-de-bellezaDialog2 .modal-dialog');
-         dlg.classList.remove('animate-show');
-         var forceReflow = e.target.offsetWidth;
-         dlg.classList.add('animate-hide');
-      });
-      document.querySelector('#categoria_articulo-de-bellezaDialog2-btn1').addEventListener('click', function(e)
-      {
-         bscategoria_articulo_de_bellezaDialog2.hide();
-      });
-      var categoria_articulo_de_bellezaDialog3 = document.querySelector('#categoria_articulo-de-bellezaDialog3');
-      var bscategoria_articulo_de_bellezaDialog3 = new bootstrap.Modal(categoria_articulo_de_bellezaDialog3);
-      categoria_articulo_de_bellezaDialog3.addEventListener('show.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_articulo-de-bellezaDialog3 .modal-dialog');
-         dlg.classList.remove('animate-hide');
-         dlg.classList.add('animate-show');
-      });
-      categoria_articulo_de_bellezaDialog3.addEventListener('hide.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_articulo-de-bellezaDialog3 .modal-dialog');
-         dlg.classList.remove('animate-show');
-         var forceReflow = e.target.offsetWidth;
-         dlg.classList.add('animate-hide');
-      });
-      document.querySelector('#categoria_articulo-de-bellezaDialog3-btn1').addEventListener('click', function(e)
-      {
-         bscategoria_articulo_de_bellezaDialog3.hide();
-      });
-      var categoria_articulo_de_bellezaDialog4 = document.querySelector('#categoria_articulo-de-bellezaDialog4');
-      var bscategoria_articulo_de_bellezaDialog4 = new bootstrap.Modal(categoria_articulo_de_bellezaDialog4);
-      categoria_articulo_de_bellezaDialog4.addEventListener('show.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_articulo-de-bellezaDialog4 .modal-dialog');
-         dlg.classList.remove('animate-hide');
-         dlg.classList.add('animate-show');
-      });
-      categoria_articulo_de_bellezaDialog4.addEventListener('hide.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_articulo-de-bellezaDialog4 .modal-dialog');
-         dlg.classList.remove('animate-show');
-         var forceReflow = e.target.offsetWidth;
-         dlg.classList.add('animate-hide');
-      });
-      document.querySelector('#categoria_articulo-de-bellezaDialog4-btn1').addEventListener('click', function(e)
-      {
-         bscategoria_articulo_de_bellezaDialog4.hide();
-      });
    });
    </script>
    <script>   
    $(document).ready(function()
    {
       $('#wb_socialmediaButton4').addClass('visibility-hidden');
-      $('#wb_FontAwesomeIcon3').addClass('visibility-hidden');
-      $('#wb_FontAwesomeIcon10').addClass('visibility-hidden');
       $("a[href*='#LayoutGrid4']").click(function(event)
       {
          event.preventDefault();
@@ -502,35 +384,25 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       {
          onScrollsocialmediaButton4();
       });
-      function onScrollFontAwesomeIcon3()
-      {
-         var $obj = $("#wb_FontAwesomeIcon3");
-         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-         {
-            $obj.addClass("in-viewport");
-            AnimateCss('wb_FontAwesomeIcon3', 'transform-lightspeed-in', 100, 1000);
-         }
-      }
-      onScrollFontAwesomeIcon3();
-      $(window).scroll(function(event)
-      {
-         onScrollFontAwesomeIcon3();
-      });
-      function onScrollFontAwesomeIcon10()
-      {
-         var $obj = $("#wb_FontAwesomeIcon10");
-         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-         {
-            $obj.addClass("in-viewport");
-            AnimateCss('wb_FontAwesomeIcon10', 'transform-lightspeed-in', 300, 1000);
-         }
-      }
-      onScrollFontAwesomeIcon10();
-      $(window).scroll(function(event)
-      {
-         onScrollFontAwesomeIcon10();
-      });
    });
+   </script>
+   <script>   
+           function showQRModal() {
+               document.getElementById('qrModal').style.display = 'flex';
+           }
+           
+           function closeQRModal() {
+               document.getElementById('qrModal').style.display = 'none';
+           }
+           
+           // Cerrar modal si se hace clic fuera del contenido
+           window.onclick = function(event) {
+               const modal = document.getElementById('qrModal');
+               if (event.target == modal) {
+                   modal.style.display = 'none';
+               }
+           }
+       
    </script>
    <script>   
    var wb_headerTimer;
