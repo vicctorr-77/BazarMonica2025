@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/fontawesome6.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&400&subset=latin&display=swap" rel="stylesheet">
-<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=5" rel="stylesheet">
-<link href="css/Collar-Dorado-con-Perla-Blanca-en-Caja-Roja.css?v=5" rel="stylesheet">
+<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=6" rel="stylesheet">
+<link href="css/Collar-Dorado-con-Perla-Blanca-en-Caja-Roja.css?v=6" rel="stylesheet">
 </head>
 <body>
    <div id="wb_wb17_backgroundclipLayoutGrid1">
@@ -79,11 +79,55 @@
                      <div id="Card14-card-item2">Este encantador collar dorado presenta un elegante colgante con una perla blanca brillante. Se presenta en una atractiva caja roja con un lazo.</div>
                      <img id="Card14-card-item3" src="images/yapee.png" width="116" height="119" alt="" title="">
                      <img id="Card14-card-item4" src="images/whatsapp.png" width="512" height="512" alt="" title="">
-                     <div id="Card14-card-item5">Precio 58.00 S/.</div>
-                     <hr id="Card14-card-item6">
-                     <div id="Card14-card-item7"><a href="https://api.whatsapp.com/send?phone=51994874750" target="_blank" title="ver producto">Pedir via WhatsApp1</a></div>
-                     <div id="Card14-card-item8"><a href="https://api.whatsapp.com/send?phone=51917750021" target="_blank" title="ver producto">Pedir via WhatsApp2</a></div>
-                     <div id="Card14-card-item9" onclick="$('#categoria-joyas-en-general-2Dialog15').modal('show');return false;"><a href="./categoria-joyas-en-general-2.html" target="_blank">PAGAR CON YAPE</a></div>
+                     <div id="Card14-card-item5"><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagar con Yape</title>
+    </head>
+<body>
+                        <div class="product-container">
+                           <div class="product-info">
+                              <div class="product-title">Collar Dorado con Perla Blanca en Caja Roja</div>
+                              <div class="product-price">S/. 38.00</div>
+                           </div>
+        
+                           <a href="https://wa.me/51994874750?text=Hola,%20quiero%20información%20Collar%20Dorado%20con%20Perla%20Blanca%20en%20Caja%20Roja" class="whatsapp-btn" target="_blank">
+                              <span class="whatsapp-icon">🟢</span> CONSULTA/PEDIR VIA WHATSAPP 1
+                           </a>
+        
+                           <a href="https://wa.me/51917750021?text=Hola,%20quiero%20comprar%20Collar%20Dorado%20con%20Perla%20Blanca%20en%20Caja%20Roja" class="whatsapp-btn" target="_blank">
+                              <span class="whatsapp-icon">🟢</span> CONSULTA/PEDIR VIA WHATSAPP 2
+                           </a>
+        
+                           <button class="pay-with-yape-btn" onclick="showQRModal()" id="wb_uid0">
+                              <span class="yape-icon">📱</span> PAGAR CON YAPE
+                           </button>
+                        </div>
+    <!-- Modal para el código QR -->
+                        <div id="qrModal" class="qr-modal">
+                           <div class="qr-modal-content">
+                              <h2>PAGO CON YAPE</h2>
+                              <div class="product-name-in-modal">Collar Dorado con Perla Blanca en Caja Roja</div>
+                              <div class="payment-amount">Total a pagar: S/. 38.00</div>
+            
+                              <img src="images/QR_YAPE.jpg" alt="Código QR para pago con Yape" class="qr-image">
+            
+                              <div class="instructions">
+                                 <div class="instructions-title">INSTRUCCIONES:</div>
+                                 <p>1. Abre la aplicación Yape en tu teléfono</p>
+                                 <p>2. Selecciona la opción "Escanear QR"</p>
+                                 <p>3. Apunta la cámara hacia el código QR de arriba</p>
+                                 <p>4. Confirma el monto (S/. 38.00) y realiza el pago</p>
+                                 <p>5. ¡Listo! Tu pago ha sido procesado</p>
+                              </div>
+            
+                              <button class="close-btn" onclick="closeQRModal()">CERRAR</button>
+                           </div>
+                        </div>
+    </body>
+</html></div>
                   </div>
                </div>
             </div>
@@ -101,7 +145,7 @@
          <div class="row">
             <div class="col-1">
                <div id="wb_InicioText18">
-                  <span id="wb_uid0"><strong>Se paga mediante Yape y Efectivo</strong></span>
+                  <span id="wb_uid1"><strong>Se paga mediante Yape y Efectivo</strong></span>
                </div>
             </div>
             <div class="col-2">
@@ -558,14 +602,8 @@
       <div id="LayoutGrid8">
          <div class="row">
             <div class="col-1">
-               <div id="wb_FontAwesomeIcon3">
-                  <div id="FontAwesomeIcon3"><i class="fa fa-brands fa-facebook"></i></div>
-               </div>
-               <div id="wb_FontAwesomeIcon10">
-                  <div id="FontAwesomeIcon10"><i class="fa fa-brands fa-instagram"></i></div>
-               </div>
                <div id="wb_Text17">
-                  <span id="wb_uid1"><strong>Copyright 2025 Proyecto Aplicación Web</strong></span>
+                  <span id="wb_uid2"><strong>Copyright 2025 Proyecto Aplicación Web</strong></span>
                </div>
             </div>
          </div>
@@ -1201,8 +1239,6 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
    $(document).ready(function()
    {
       $('#wb_socialmediaButton4').addClass('visibility-hidden');
-      $('#wb_FontAwesomeIcon3').addClass('visibility-hidden');
-      $('#wb_FontAwesomeIcon10').addClass('visibility-hidden');
       $("a[href*='#LayoutGrid5']").click(function(event)
       {
          event.preventDefault();
@@ -1229,35 +1265,37 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       {
          onScrollsocialmediaButton4();
       });
-      function onScrollFontAwesomeIcon3()
-      {
-         var $obj = $("#wb_FontAwesomeIcon3");
-         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-         {
-            $obj.addClass("in-viewport");
-            AnimateCss('wb_FontAwesomeIcon3', 'transform-lightspeed-in', 100, 1000);
-         }
-      }
-      onScrollFontAwesomeIcon3();
-      $(window).scroll(function(event)
-      {
-         onScrollFontAwesomeIcon3();
-      });
-      function onScrollFontAwesomeIcon10()
-      {
-         var $obj = $("#wb_FontAwesomeIcon10");
-         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-         {
-            $obj.addClass("in-viewport");
-            AnimateCss('wb_FontAwesomeIcon10', 'transform-lightspeed-in', 300, 1000);
-         }
-      }
-      onScrollFontAwesomeIcon10();
-      $(window).scroll(function(event)
-      {
-         onScrollFontAwesomeIcon10();
-      });
    });
+   </script>
+   <script>   
+           function showQRModal() {
+               document.getElementById('qrModal').style.display = 'flex';
+               // Prevenir scroll con la rueda del mouse
+               document.body.style.overflow = 'hidden';
+               document.body.addEventListener('wheel', preventScroll, { passive: false });
+               document.body.addEventListener('touchmove', preventScroll, { passive: false });
+           }
+           
+           function closeQRModal() {
+               document.getElementById('qrModal').style.display = 'none';
+               // Restaurar scroll
+               document.body.style.overflow = 'auto';
+               document.body.removeEventListener('wheel', preventScroll);
+               document.body.removeEventListener('touchmove', preventScroll);
+           }
+           
+           function preventScroll(e) {
+               e.preventDefault();
+           }
+           
+           // Eliminar la funcionalidad de cerrar al hacer clic fuera del modal
+           // window.onclick = function(event) {
+           //     const modal = document.getElementById('qrModal');
+           //     if (event.target == modal) {
+           //         modal.style.display = 'none';
+           //     }
+           // }
+       
    </script>
    <script>   
    var wb_headerTimer;

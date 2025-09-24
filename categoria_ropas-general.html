@@ -5,10 +5,9 @@
 <title>Categoria Ropa en  General</title>
 <meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="css/fontawesome6.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&400&subset=latin&display=swap" rel="stylesheet">
-<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=3" rel="stylesheet">
-<link href="css/categoria_ropas-general.css?v=3" rel="stylesheet">
+<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=4" rel="stylesheet">
+<link href="css/categoria_ropas-general.css?v=4" rel="stylesheet">
 </head>
 <body>
    <div id="wb_wb17_backgroundclipLayoutGrid1">
@@ -116,12 +115,6 @@
       <div id="LayoutGrid8">
          <div class="row">
             <div class="col-1">
-               <div id="wb_FontAwesomeIcon3">
-                  <div id="FontAwesomeIcon3"><i class="fa fa-brands fa-facebook"></i></div>
-               </div>
-               <div id="wb_FontAwesomeIcon10">
-                  <div id="FontAwesomeIcon10"><i class="fa fa-brands fa-instagram"></i></div>
-               </div>
                <div id="wb_Text17">
                   <span id="wb_uid1"><strong>Copyright 2025 Proyecto Aplicación Web</strong></span>
                </div>
@@ -302,8 +295,6 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
    $(document).ready(function()
    {
       $('#wb_socialmediaButton4').addClass('visibility-hidden');
-      $('#wb_FontAwesomeIcon3').addClass('visibility-hidden');
-      $('#wb_FontAwesomeIcon10').addClass('visibility-hidden');
       $('#OverlayMenu1-overlay').overlay({});
       $('.OverlayMenu1').drilldownmenu({backText: 'Atras'});
       $('#OverlayMenu1').on('click', function(e)
@@ -324,34 +315,6 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       $(window).scroll(function(event)
       {
          onScrollsocialmediaButton4();
-      });
-      function onScrollFontAwesomeIcon3()
-      {
-         var $obj = $("#wb_FontAwesomeIcon3");
-         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-         {
-            $obj.addClass("in-viewport");
-            AnimateCss('wb_FontAwesomeIcon3', 'transform-lightspeed-in', 100, 1000);
-         }
-      }
-      onScrollFontAwesomeIcon3();
-      $(window).scroll(function(event)
-      {
-         onScrollFontAwesomeIcon3();
-      });
-      function onScrollFontAwesomeIcon10()
-      {
-         var $obj = $("#wb_FontAwesomeIcon10");
-         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-         {
-            $obj.addClass("in-viewport");
-            AnimateCss('wb_FontAwesomeIcon10', 'transform-lightspeed-in', 300, 1000);
-         }
-      }
-      onScrollFontAwesomeIcon10();
-      $(window).scroll(function(event)
-      {
-         onScrollFontAwesomeIcon10();
       });
    });
    </script>

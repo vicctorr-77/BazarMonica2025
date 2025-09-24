@@ -2159,110 +2159,6 @@ body
    width: 100%;
 }
 }
-#wb_FontAwesomeIcon3
-{
-   background-image: linear-gradient(to top, #1E90FF 0%, #00BFFF 100%);
-   border: 0px solid #D0D6D7;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_FontAwesomeIcon3 a
-{
-   text-decoration: none;
-}
-#wb_FontAwesomeIcon3 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_FontAwesomeIcon3:hover
-{
-   background-image: linear-gradient(to top, #00BFFF 0%, #FFFFFF 100%);
-   border: 0px solid #FFFFFF;
-}
-#FontAwesomeIcon3
-{
-   height: 46px;
-   width: 46px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#FontAwesomeIcon3 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 46px;
-   line-height: 46px;
-   vertical-align: middle;
-}
-#wb_FontAwesomeIcon3:hover #FontAwesomeIcon3 i
-{
-   color: #0000CD;
-}
-#wb_FontAwesomeIcon10
-{
-   background: linear-gradient(to top left, #FFFFFF, rgba(255,255,255,0.00), #FF4500), linear-gradient(to top right, #FFFFFF, rgba(255,255,255,0.00), #FFFFFF) #FFA280;
-   border: 0px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_FontAwesomeIcon10 a
-{
-   text-decoration: none;
-}
-#wb_FontAwesomeIcon10 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_FontAwesomeIcon10:hover
-{
-   background: linear-gradient(to top left, #FFFFFF, rgba(255,255,255,0.00), #FFFFFF), linear-gradient(to top right, #FFFFFF, rgba(255,255,255,0.00), #FFFFFF) #FFFFFF;
-   border: 0px solid #F0FFF0;
-}
-#FontAwesomeIcon10
-{
-   height: 46px;
-   width: 46px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#FontAwesomeIcon10 i
-{
-   color: #4169E1;
-   display: inline-block;
-   font-size: 46px;
-   line-height: 46px;
-   vertical-align: middle;
-}
-#wb_FontAwesomeIcon10:hover #FontAwesomeIcon10 i
-{
-   color: #FF8C00;
-}
 #wb_Text17 
 {
    background-color: transparent;
@@ -2430,14 +2326,6 @@ body
    width: 100%;
    z-index: 7;
 }
-#wb_FontAwesomeIcon10
-{
-   display: inline-block;
-   width: 46px;
-   height: 46px;
-   text-align: center;
-   z-index: 22;
-}
 #upStickyLayer
 {
    position: fixed;
@@ -2448,20 +2336,12 @@ body
    bottom: 25px;
    width: 50px;
    height: 50px;
-   z-index: 30;
+   z-index: 28;
 }
 #wb_Card4
 {
    display: flex;
    z-index: 12;
-}
-#wb_FontAwesomeIcon3
-{
-   display: inline-block;
-   width: 46px;
-   height: 46px;
-   text-align: center;
-   z-index: 21;
 }
 @media only screen and (max-width: 969px)
 {
@@ -3439,46 +3319,6 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: center;
-}
-#wb_FontAwesomeIcon3
-{
-   width: 46px;
-   height: 46px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-}
-#FontAwesomeIcon3
-{
-   width: 46px;
-   height: 46px;
-}
-#FontAwesomeIcon3 i
-{
-   line-height: 46px;
-   font-size: 46px;
-   width: 47px;
-}
-#wb_FontAwesomeIcon10
-{
-   width: 46px;
-   height: 46px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-}
-#FontAwesomeIcon10
-{
-   width: 46px;
-   height: 46px;
-}
-#FontAwesomeIcon10 i
-{
-   line-height: 46px;
-   font-size: 46px;
-   width: 47px;
 }
 #wb_Text17
 {

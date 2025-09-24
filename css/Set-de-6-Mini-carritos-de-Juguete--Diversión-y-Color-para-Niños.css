@@ -556,138 +556,9 @@ body
 #Card25-card-item5
 {
    box-sizing: border-box;
-   margin: 10px 20px 3px 50px;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 20px;
-   text-align: center;
-}
-#Card25-card-item6
-{
-   box-sizing: border-box;
-   margin: 3px 0 3px 0 ;
-   border-top: 1px #FFFFFF solid;
-   border-width: 1px 0 0 0;
-   height: 0;
-   line-height: 0;
-}
-#Card25-card-item7
-{
-   display: inline-block;
-   height: 36px;
-   box-sizing: border-box;
-   margin: 10px 12px 3px 12px;
-   border: 1px solid #357EBD;
-   border-radius: 4px;
-   background-color: #428BCA;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 12px;
-}
-#Card25-card-item7
-{
-   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
-   transition: box-shadow 200ms linear 0ms;
-}
-#Card25-card-item7:hover
-{
-   box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
-   transition: box-shadow 200ms linear 0ms;
-}
-#Card25-card-item7 a
-{
-   color: inherit;
-   display: block;
-   padding: 10px 12px 12px 12px;
-   text-decoration: none;
-}
-#Card25-card-item7 .svg-icon
-{
-   fill: currentColor;
-   width: 12px;
-   height: 12px;
-   overflow: visible;
-   margin-right: 0px;
-}
-#Card25-card-item8
-{
-   display: inline-block;
-   height: 36px;
-   box-sizing: border-box;
-   margin: 10px 12px 3px 12px;
-   border: 1px solid #357EBD;
-   border-radius: 4px;
-   background-color: #428BCA;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 12px;
-}
-#Card25-card-item8
-{
-   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
-   transition: box-shadow 200ms linear 0ms;
-}
-#Card25-card-item8:hover
-{
-   box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
-   transition: box-shadow 200ms linear 0ms;
-}
-#Card25-card-item8 a
-{
-   color: inherit;
-   display: block;
-   padding: 10px 12px 12px 12px;
-   text-decoration: none;
-}
-#Card25-card-item8 .svg-icon
-{
-   fill: currentColor;
-   width: 12px;
-   height: 12px;
-   overflow: visible;
-   margin-right: 0px;
-}
-#Card25-card-item9
-{
-   display: inline-block;
-   height: 40px;
-   box-sizing: border-box;
-   margin: 10px 12px 3px 12px;
-   border: 3px solid #357EBD;
-   border-radius: 10px;
-   background-color: #DA70D6;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: "Arial Black";
-   font-weight: normal;
-   font-style: normal;
-   font-size: 12px;
-}
-#Card25-card-item9
-{
-   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
-   transition: box-shadow 200ms linear 0ms;
-}
-#Card25-card-item9:hover
-{
-   box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
-   transition: box-shadow 200ms linear 0ms;
-}
-#Card25-card-item9 a
-{
-   color: inherit;
-   display: block;
-   padding: 10px 12px 12px 12px;
-   text-decoration: none;
+   margin: 0;
+   width: 100%;
+   height: auto;
 }
 .indexToolTip1
 {
@@ -2425,110 +2296,6 @@ body
    width: 100%;
 }
 }
-#wb_FontAwesomeIcon3
-{
-   background-image: linear-gradient(to top, #1E90FF 0%, #00BFFF 100%);
-   border: 0px solid #D0D6D7;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_FontAwesomeIcon3 a
-{
-   text-decoration: none;
-}
-#wb_FontAwesomeIcon3 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_FontAwesomeIcon3:hover
-{
-   background-image: linear-gradient(to top, #00BFFF 0%, #FFFFFF 100%);
-   border: 0px solid #FFFFFF;
-}
-#FontAwesomeIcon3
-{
-   height: 46px;
-   width: 46px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#FontAwesomeIcon3 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 46px;
-   line-height: 46px;
-   vertical-align: middle;
-}
-#wb_FontAwesomeIcon3:hover #FontAwesomeIcon3 i
-{
-   color: #0000CD;
-}
-#wb_FontAwesomeIcon10
-{
-   background: linear-gradient(to top left, #FFFFFF, rgba(255,255,255,0.00), #FF4500), linear-gradient(to top right, #FFFFFF, rgba(255,255,255,0.00), #FFFFFF) #FFA280;
-   border: 0px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_FontAwesomeIcon10 a
-{
-   text-decoration: none;
-}
-#wb_FontAwesomeIcon10 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_FontAwesomeIcon10:hover
-{
-   background: linear-gradient(to top left, #FFFFFF, rgba(255,255,255,0.00), #FFFFFF), linear-gradient(to top right, #FFFFFF, rgba(255,255,255,0.00), #FFFFFF) #FFFFFF;
-   border: 0px solid #F0FFF0;
-}
-#FontAwesomeIcon10
-{
-   height: 46px;
-   width: 46px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#FontAwesomeIcon10 i
-{
-   color: #4169E1;
-   display: inline-block;
-   font-size: 46px;
-   line-height: 46px;
-   vertical-align: middle;
-}
-#wb_FontAwesomeIcon10:hover #FontAwesomeIcon10 i
-{
-   color: #FF8C00;
-}
 #wb_Text17 
 {
    background-color: transparent;
@@ -2626,6 +2393,12 @@ body
    height: 40px;
    z-index: 0;
 }
+#wb_uid2
+{
+   color: #FFFFFF;
+   font-family: "Arial";
+   font-size: 16px;
+}
 #wb_categoria_jugueteriaImage3
 {
    position: absolute;
@@ -2655,8 +2428,8 @@ body
 }
 #wb_uid1
 {
-   color: #FFFFFF;
-   font-family: "Arial";
+   color: #000000;
+   font-family: "Arial Black";
    font-size: 16px;
 }
 #indexButton3
@@ -2692,9 +2465,8 @@ body
 }
 #wb_uid0
 {
-   color: #000000;
-   font-family: "Arial Black";
-   font-size: 16px;
+   display: block;
+   margin: 30px auto 10px auto;
 }
 #wb_categoria_jugueteriaText3
 {
@@ -2780,22 +2552,6 @@ body
    display: block;
    width: 100%;
    z-index: 7;
-}
-#wb_FontAwesomeIcon10
-{
-   display: inline-block;
-   width: 46px;
-   height: 46px;
-   text-align: center;
-   z-index: 21;
-}
-#wb_FontAwesomeIcon3
-{
-   display: inline-block;
-   width: 46px;
-   height: 46px;
-   text-align: center;
-   z-index: 20;
 }
 @media only screen and (max-width: 969px)
 {
@@ -3125,137 +2881,8 @@ body
 {
    box-sizing: border-box;
    margin: 5px 20px 3px 160px;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 19px;
-   text-align: center;
-}
-#Card25-card-item6
-{
-   box-sizing: border-box;
-   margin: 3px 0 3px 0 ;
-   border-top: 1px #FFFFFF solid;
-   border-width: 1px 0 0 0;
-   height: 0;
-   line-height: 0;
-}
-#Card25-card-item7
-{
-   display: inline-block;
-   height: 36px;
-   box-sizing: border-box;
-   margin: 10px 12px 1px 12px;
-   border: 1px solid #357EBD;
-   border-radius: 4px;
-   background-color: #428BCA;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 12px;
-}
-#Card25-card-item7
-{
-   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
-   transition: box-shadow 200ms linear 0ms;
-}
-#Card25-card-item7:hover
-{
-   box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
-   transition: box-shadow 200ms linear 0ms;
-}
-#Card25-card-item7 a
-{
-   color: inherit;
-   display: block;
-   padding: 10px 12px 12px 12px;
-   text-decoration: none;
-}
-#Card25-card-item7 .svg-icon
-{
-   fill: currentColor;
-   width: 12px;
-   height: 12px;
-   overflow: visible;
-   margin-right: 0px;
-}
-#Card25-card-item8
-{
-   display: inline-block;
-   height: 36px;
-   box-sizing: border-box;
-   margin: 10px 12px 1px 12px;
-   border: 1px solid #357EBD;
-   border-radius: 4px;
-   background-color: #428BCA;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 12px;
-}
-#Card25-card-item8
-{
-   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
-   transition: box-shadow 200ms linear 0ms;
-}
-#Card25-card-item8:hover
-{
-   box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
-   transition: box-shadow 200ms linear 0ms;
-}
-#Card25-card-item8 a
-{
-   color: inherit;
-   display: block;
-   padding: 10px 12px 12px 12px;
-   text-decoration: none;
-}
-#Card25-card-item8 .svg-icon
-{
-   fill: currentColor;
-   width: 12px;
-   height: 12px;
-   overflow: visible;
-   margin-right: 0px;
-}
-#Card25-card-item9
-{
-   display: inline-block;
-   height: 40px;
-   box-sizing: border-box;
-   margin: 10px 12px 1px 12px;
-   border: 3px solid #357EBD;
-   border-radius: 10px;
-   background-color: #DA70D6;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: "Arial Black";
-   font-weight: normal;
-   font-style: normal;
-   font-size: 12px;
-}
-#Card25-card-item9
-{
-   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 5%);
-   transition: box-shadow 200ms linear 0ms;
-}
-#Card25-card-item9:hover
-{
-   box-shadow: 0 5px 11px 0 rgb(0 0 0 / 14%), 0 4px 15px 0 rgb(0 0 0 / 12%);
-   transition: box-shadow 200ms linear 0ms;
-}
-#Card25-card-item9 a
-{
-   color: inherit;
-   display: block;
-   padding: 10px 12px 12px 12px;
-   text-decoration: none;
+   width: calc(100% - 180px);
+   height: ~~px;
 }
 #wb_Card25
 {
@@ -3611,46 +3238,6 @@ body
    border-radius: 0px;
    text-align: center;
 }
-#wb_FontAwesomeIcon3
-{
-   width: 46px;
-   height: 46px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-}
-#FontAwesomeIcon3
-{
-   width: 46px;
-   height: 46px;
-}
-#FontAwesomeIcon3 i
-{
-   line-height: 46px;
-   font-size: 46px;
-   width: 47px;
-}
-#wb_FontAwesomeIcon10
-{
-   width: 46px;
-   height: 46px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-}
-#FontAwesomeIcon10
-{
-   width: 46px;
-   height: 46px;
-}
-#FontAwesomeIcon10 i
-{
-   line-height: 46px;
-   font-size: 46px;
-   width: 47px;
-}
 #wb_Text17
 {
    visibility: visible;
@@ -3698,3 +3285,186 @@ body
    margin-right: auto;
 }
 }
+        .product-container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .product-info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .product-title {
+            display: none;
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .product-price {
+            font-size: 32px;
+            font-weight: bold;
+            color: #28a745;
+            margin: 15px 0;
+        }
+        
+        .whatsapp-btn {
+            background: #25D366;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            width: 100%;
+            margin: 10px 0;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+        }
+        
+        .whatsapp-btn:hover {
+            background: #128C7E;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(37, 211, 102, 0.3);
+        }
+        
+        .whatsapp-btn:active {
+            transform: translateY(0);
+        }
+        
+        .pay-with-yape-btn {
+            background: #9370DB;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+            width: 100%;
+            margin: 30px auto 10px auto;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .pay-with-yape-btn:hover {
+            background: #8A2BE2;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(147, 112, 219, 0.3);
+        }
+        
+        .pay-with-yape-btn:active {
+            transform: translateY(0);
+        }
+        
+        .whatsapp-icon {
+            font-size: 24px;
+        }
+        
+        .yape-icon {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .qr-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .qr-modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            max-width: 90%;
+            max-height: 90%;
+            overflow-y: auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .close-btn {
+            background: #dc3545;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        
+        .close-btn:hover {
+            background: #c82333;
+        }
+        
+        .qr-image {
+            max-width: 300px;
+            max-height: 300px;
+            margin: 20px auto;
+            border: 3px solid #28a745;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .instructions {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 20px 0;
+            color: #333;
+        }
+        
+        .instructions-title {
+            font-weight: bold;
+            color: #28a745;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        .payment-amount {
+            font-size: 24px;
+            font-weight: bold;
+            color: #dc3545;
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 2px solid #dc3545;
+        }
+        
+        .product-name-in-modal {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin: 15px 0;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            display: block;
+        }
+    
