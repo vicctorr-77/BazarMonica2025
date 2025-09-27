@@ -9,10 +9,6 @@ body
    margin: 0;
    padding: 0;
 }
-.visibility-hidden
-{
-   visibility: hidden;
-}
 #wb_wb17_backgroundclipLayoutGrid1
 {
    clear: both;
@@ -8061,9 +8057,9 @@ body
 #Card6-card-item5
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 50px;
-   width: calc(100% - 70px);
-   height: ~~px;
+   margin: 5px 20px 3px 0 ;
+   width: 360px;
+   height: auto;
 }
 #wb_Card6
 {

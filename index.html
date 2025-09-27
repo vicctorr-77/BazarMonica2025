@@ -8,8 +8,8 @@
 <link href="css/owl.carousel.min.css" rel="stylesheet">
 <link href="css/fontawesome6.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&400&subset=latin&display=swap" rel="stylesheet">
-<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=7" rel="stylesheet">
-<link href="css/index.css?v=7" rel="stylesheet">
+<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=8" rel="stylesheet">
+<link href="css/index.css?v=8" rel="stylesheet">
 <!-- Google tag (gtag.js) -->
 </head>
 <body>
@@ -638,7 +638,6 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
    <script>   
    $(document).ready(function()
    {
-      $('#wb_socialmediaButton4').addClass('visibility-hidden');
       $("a[href*='#reviews']").click(function(event)
       {
          event.preventDefault();
@@ -680,27 +679,13 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       {
          onScrollInicioLayoutGrid1DividerTop();
       });
-      $("#CardContainer1").owlCarousel({autoplayTimeout:5000, smartSpeed: 300, margin: 8, autoplay: true, nav: false, loop: true, dots: true, responsive: {0: {items: 3, margin: 8},365: {items: 3, margin: 8},480: {items: 3}, slideBy: 1}});
+      $("#CardContainer1").owlCarousel({autoplayTimeout:5000, smartSpeed: 300, margin: 8, autoplay: true, nav: false, loop: true, dots: true, responsive: {0: {items: 3, margin: 8},480: {items: 3}, slideBy: 1}});
       $('#OverlayMenu1-overlay').overlay({});
       $('.OverlayMenu1').drilldownmenu({backText: 'Atras'});
       $('#OverlayMenu1').on('click', function(e)
       {
          $.overlay.toggle($('#OverlayMenu1-overlay'));
          return false;
-      });
-      function onScrollsocialmediaButton4()
-      {
-         var $obj = $("#wb_socialmediaButton4");
-         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-         {
-            $obj.addClass("in-viewport");
-            AnimateCss('wb_socialmediaButton4', 'transform-lightspeed-in', 100, 1000);
-         }
-      }
-      onScrollsocialmediaButton4();
-      $(window).scroll(function(event)
-      {
-         onScrollsocialmediaButton4();
       });
    });
    </script>
