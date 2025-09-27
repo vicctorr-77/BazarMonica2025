@@ -38,7 +38,7 @@ body
    --border-width: 1px;
    --color: #333333;
    --icon-color: #444444;
-   --colorize: invert(23%) sepia(10%) saturate(17%) hue-rotate(354deg) brightness(101%) contrast(90%);
+   --colorize: invert(21%) sepia(2%) saturate(9%) hue-rotate(326deg) brightness(100%) contrast(80%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -100,7 +100,7 @@ body
    --border-width: 1px;
    --color: #CCCCCC;
    --icon-color: #3370B7;
-   --colorize: invert(36%) sepia(76%) saturate(435%) hue-rotate(171deg) brightness(99%) contrast(100%);
+   --colorize: invert(39%) sepia(81%) saturate(492%) hue-rotate(172deg) brightness(86%) contrast(89%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -5349,7 +5349,7 @@ body
 #Card34-card-item5
 {
    box-sizing: border-box;
-   margin: 8px 10px 3px 190px;
+   margin: 8px 10px 3px 150px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -5487,7 +5487,7 @@ body
 #Card35-card-item5
 {
    box-sizing: border-box;
-   margin: 8px 0 5px 190px;
+   margin: 8px 0 5px 150px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -5915,7 +5915,7 @@ body
 #Card6-card-item6
 {
    display: inline-block;
-   height: 33px;
+   height: 31px;
    box-sizing: border-box;
    margin: 0 0 5px 5px;
    border: 1px solid #87CEEB;
@@ -5926,7 +5926,7 @@ body
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #Card6-card-item6:hover
 {
@@ -5950,8 +5950,8 @@ body
 #Card6-card-item6 .svg-icon
 {
    fill: currentColor;
-   width: 13px;
-   height: 13px;
+   width: 11px;
+   height: 11px;
    overflow: visible;
    margin-right: 0px;
    transition: fill 500ms linear 0ms;
@@ -6056,7 +6056,7 @@ body
 #Card7-card-item6
 {
    display: inline-block;
-   height: 33px;
+   height: 31px;
    box-sizing: border-box;
    margin: 0 0 5px 5px;
    border: 1px solid #87CEEB;
@@ -6067,7 +6067,7 @@ body
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #Card7-card-item6:hover
 {
@@ -6091,8 +6091,8 @@ body
 #Card7-card-item6 .svg-icon
 {
    fill: currentColor;
-   width: 13px;
-   height: 13px;
+   width: 11px;
+   height: 11px;
    overflow: visible;
    margin-right: 0px;
    transition: fill 500ms linear 0ms;
@@ -6192,7 +6192,7 @@ body
 #Card11-card-item6
 {
    display: inline-block;
-   height: 33px;
+   height: 31px;
    box-sizing: border-box;
    margin: 0 0 5px 5px;
    border: 1px solid #87CEEB;
@@ -6203,7 +6203,7 @@ body
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #Card11-card-item6:hover
 {
@@ -6227,8 +6227,8 @@ body
 #Card11-card-item6 .svg-icon
 {
    fill: currentColor;
-   width: 13px;
-   height: 13px;
+   width: 11px;
+   height: 11px;
    overflow: visible;
    margin-right: 0px;
    transition: fill 500ms linear 0ms;
@@ -6333,7 +6333,7 @@ body
 #Card15-card-item6
 {
    display: inline-block;
-   height: 33px;
+   height: 31px;
    box-sizing: border-box;
    margin: 0 0 5px 5px;
    border: 1px solid #87CEEB;
@@ -6344,7 +6344,7 @@ body
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #Card15-card-item6:hover
 {
@@ -6368,8 +6368,8 @@ body
 #Card15-card-item6 .svg-icon
 {
    fill: currentColor;
-   width: 13px;
-   height: 13px;
+   width: 11px;
+   height: 11px;
    overflow: visible;
    margin-right: 0px;
    transition: fill 500ms linear 0ms;
@@ -6474,7 +6474,7 @@ body
 #Card10-card-item6
 {
    display: inline-block;
-   height: 33px;
+   height: 31px;
    box-sizing: border-box;
    margin: 0 0 5px 5px;
    border: 1px solid #87CEEB;
@@ -6485,7 +6485,7 @@ body
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #Card10-card-item6:hover
 {
@@ -6509,8 +6509,8 @@ body
 #Card10-card-item6 .svg-icon
 {
    fill: currentColor;
-   width: 13px;
-   height: 13px;
+   width: 11px;
+   height: 11px;
    overflow: visible;
    margin-right: 0px;
    transition: fill 500ms linear 0ms;
@@ -6615,7 +6615,7 @@ body
 #Card13-card-item6
 {
    display: inline-block;
-   height: 33px;
+   height: 31px;
    box-sizing: border-box;
    margin: 0 0 5px 5px;
    border: 1px solid #87CEEB;
@@ -6626,7 +6626,7 @@ body
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #Card13-card-item6:hover
 {
@@ -6650,8 +6650,8 @@ body
 #Card13-card-item6 .svg-icon
 {
    fill: currentColor;
-   width: 13px;
-   height: 13px;
+   width: 11px;
+   height: 11px;
    overflow: visible;
    margin-right: 0px;
    transition: fill 500ms linear 0ms;
@@ -6756,7 +6756,7 @@ body
 #Card12-card-item6
 {
    display: inline-block;
-   height: 33px;
+   height: 31px;
    box-sizing: border-box;
    margin: 0 0 5px 5px;
    border: 1px solid #87CEEB;
@@ -6767,7 +6767,7 @@ body
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #Card12-card-item6:hover
 {
@@ -6791,8 +6791,8 @@ body
 #Card12-card-item6 .svg-icon
 {
    fill: currentColor;
-   width: 13px;
-   height: 13px;
+   width: 11px;
+   height: 11px;
    overflow: visible;
    margin-right: 0px;
    transition: fill 500ms linear 0ms;
@@ -6897,7 +6897,7 @@ body
 #Card32-card-item6
 {
    display: inline-block;
-   height: 35px;
+   height: 33px;
    box-sizing: border-box;
    margin: 0 0 5px 5px;
    border: 1px solid #87CEEB;
@@ -6908,7 +6908,7 @@ body
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #Card32-card-item6:hover
 {
@@ -6932,8 +6932,8 @@ body
 #Card32-card-item6 .svg-icon
 {
    fill: currentColor;
-   width: 13px;
-   height: 13px;
+   width: 11px;
+   height: 11px;
    overflow: visible;
    margin-right: 0px;
    transition: fill 500ms linear 0ms;
@@ -7038,7 +7038,7 @@ body
 #Card31-card-item6
 {
    display: inline-block;
-   height: 35px;
+   height: 33px;
    box-sizing: border-box;
    margin: 0 0 5px 5px;
    border: 1px solid #87CEEB;
@@ -7049,7 +7049,7 @@ body
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #Card31-card-item6:hover
 {
@@ -7073,8 +7073,8 @@ body
 #Card31-card-item6 .svg-icon
 {
    fill: currentColor;
-   width: 13px;
-   height: 13px;
+   width: 11px;
+   height: 11px;
    overflow: visible;
    margin-right: 0px;
    transition: fill 500ms linear 0ms;
@@ -7179,7 +7179,7 @@ body
 #Card30-card-item6
 {
    display: inline-block;
-   height: 35px;
+   height: 33px;
    box-sizing: border-box;
    margin: 0 0 5px 5px;
    border: 1px solid #87CEEB;
@@ -7190,7 +7190,7 @@ body
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #Card30-card-item6:hover
 {
@@ -7214,8 +7214,8 @@ body
 #Card30-card-item6 .svg-icon
 {
    fill: currentColor;
-   width: 13px;
-   height: 13px;
+   width: 11px;
+   height: 11px;
    overflow: visible;
    margin-right: 0px;
    transition: fill 500ms linear 0ms;
@@ -7322,7 +7322,7 @@ body
 #Card29-card-item6
 {
    display: inline-block;
-   height: 35px;
+   height: 33px;
    box-sizing: border-box;
    margin: 0 0 5px 5px;
    border: 1px solid #87CEEB;
@@ -7333,7 +7333,7 @@ body
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #Card29-card-item6:hover
 {
@@ -7357,8 +7357,8 @@ body
 #Card29-card-item6 .svg-icon
 {
    fill: currentColor;
-   width: 13px;
-   height: 13px;
+   width: 11px;
+   height: 11px;
    overflow: visible;
    margin-right: 0px;
    transition: fill 500ms linear 0ms;
@@ -7463,7 +7463,7 @@ body
 #Card8-card-item6
 {
    display: inline-block;
-   height: 35px;
+   height: 33px;
    box-sizing: border-box;
    margin: 0 0 5px 5px;
    border: 1px solid #87CEEB;
@@ -7474,7 +7474,7 @@ body
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #Card8-card-item6:hover
 {
@@ -7498,8 +7498,8 @@ body
 #Card8-card-item6 .svg-icon
 {
    fill: currentColor;
-   width: 13px;
-   height: 13px;
+   width: 11px;
+   height: 11px;
    overflow: visible;
    margin-right: 0px;
    transition: fill 500ms linear 0ms;
@@ -7713,10 +7713,6 @@ body
    margin: 0;
    padding: 4px 4px 4px 4px;
    text-align: left;
-   color: #333333;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 4px solid #DDDDDD;
 }
 #InicioSiteSearch1
 {
