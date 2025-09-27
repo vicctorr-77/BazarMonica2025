@@ -42,7 +42,7 @@ body
    --border-width: 1px;
    --color: #333333;
    --icon-color: #444444;
-   --colorize: invert(23%) sepia(58%) saturate(3%) hue-rotate(328deg) brightness(92%) contrast(88%);
+   --colorize: invert(29%) sepia(0%) saturate(1669%) hue-rotate(178deg) brightness(88%) contrast(96%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -104,7 +104,7 @@ body
    --border-width: 1px;
    --color: #CCCCCC;
    --icon-color: #3370B7;
-   --colorize: invert(34%) sepia(82%) saturate(528%) hue-rotate(173deg) brightness(98%) contrast(85%);
+   --colorize: invert(39%) sepia(100%) saturate(543%) hue-rotate(177deg) brightness(80%) contrast(85%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -4360,7 +4360,7 @@ body
    border: none !important;
    padding: 0;
    margin: 10px 0 25px 0 ;
-   text-align: center;
+   text-align: justify;
 }
 #wb_InicioText17
 {
@@ -4898,7 +4898,7 @@ body
    top: 11px;
    width: 349px;
    height: 91px;
-   text-align: center;
+   text-align: justify;
    z-index: 31;
 }
 #wb_upIcon
@@ -5119,9 +5119,9 @@ body
    position: fixed;
    text-align: left;
    left: auto;
-   right: 25px;
+   right: 20px;
    top: auto;
-   bottom: 25px;
+   bottom: 20px;
    width: 50px;
    height: 50px;
    z-index: 46;
@@ -7786,12 +7786,12 @@ body
 }
 #InicioDialog15 .modal-dialog
 {
-   width: 478px;
+   width: 377px;
 }
 #InicioDialog15 .modal-body
 {
-   width: 478px;
-   height: 217px;
+   width: 377px;
+   height: 339px;
 }
 #InicioDialog15
 {
@@ -7802,8 +7802,8 @@ body
 {
    left: 33px;
    top: 24px;
-   width: 392px;
-   height: 73px;
+   width: 272px;
+   height: 127px;
    visibility: visible;
    display: inline;
 }
@@ -7812,13 +7812,13 @@ body
    font-size: 15px;
    margin: 10px 0 25px 0 ;
    padding: 0;
-   text-align: center;
+   text-align: justify;
    line-height: 18px;
 }
 #wb_InicioMorphingIcon1
 {
-   left: 346px;
-   top: 121px;
+   left: 180px;
+   top: 188px;
    width: 69px;
    height: 65px;
    visibility: visible;
@@ -10664,7 +10664,7 @@ body
    font-size: 15px;
    margin: 10px 0 25px 0 ;
    padding: 0;
-   text-align: center;
+   text-align: justify;
    line-height: 18px;
 }
 #wb_InicioMorphingIcon1
