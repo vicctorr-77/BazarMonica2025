@@ -38,7 +38,7 @@ body
    --border-width: 1px;
    --color: #333333;
    --icon-color: #444444;
-   --colorize: invert(24%) sepia(39%) saturate(0%) hue-rotate(237deg) brightness(89%) contrast(87%);
+   --colorize: invert(26%) sepia(0%) saturate(0%) hue-rotate(289deg) brightness(99%) contrast(95%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -100,7 +100,7 @@ body
    --border-width: 1px;
    --color: #CCCCCC;
    --icon-color: #3370B7;
-   --colorize: invert(36%) sepia(51%) saturate(739%) hue-rotate(172deg) brightness(100%) contrast(89%);
+   --colorize: invert(36%) sepia(32%) saturate(1374%) hue-rotate(176deg) brightness(100%) contrast(87%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -5208,7 +5208,7 @@ body
 #Card33-card-item5
 {
    box-sizing: border-box;
-   margin: 8px 10px 5px 190px;
+   margin: 8px 10px 5px 150px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -7640,7 +7640,7 @@ body
 }
 #indexButton1
 {
-   width: 172px;
+   width: 183px;
    height: 40px;
    visibility: visible;
    display: inline-block;
@@ -7653,7 +7653,7 @@ body
 }
 #indexButton2
 {
-   width: 172px;
+   width: 183px;
    height: 40px;
    visibility: visible;
    display: inline-block;
@@ -7666,7 +7666,7 @@ body
 }
 #indexButton3
 {
-   width: 172px;
+   width: 178px;
    height: 38px;
    visibility: visible;
    display: inline-block;
