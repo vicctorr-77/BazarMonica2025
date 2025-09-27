@@ -9,10 +9,6 @@ body
    margin: 0;
    padding: 0;
 }
-.visibility-hidden
-{
-   visibility: hidden;
-}
 #wb_wb17_backgroundclipLayoutGrid1
 {
    clear: both;
@@ -1975,7 +1971,7 @@ body
 #Card23-card-item0
 {
    box-sizing: border-box;
-   margin: 10px 50px -90px 140px;
+   margin: 10px 50px -90px 100px;
    padding: 0;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
@@ -2032,7 +2028,7 @@ body
 #Card1-card-item0
 {
    box-sizing: border-box;
-   margin: 10px 50px -90px 140px;
+   margin: 10px 50px -90px 100px;
    padding: 0;
    border: 0px solid #FFFFFF;
    border-radius: 0px;

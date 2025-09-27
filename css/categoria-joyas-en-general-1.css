@@ -9,10 +9,6 @@ body
    margin: 0;
    padding: 0;
 }
-.visibility-hidden
-{
-   visibility: hidden;
-}
 #wb_Card5
 {
    position: relative;
@@ -7563,7 +7559,7 @@ body
 #Card5-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -7686,7 +7682,7 @@ body
 #Card25-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -8182,7 +8178,7 @@ body
 #Card1-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -8305,7 +8301,7 @@ body
 #Card4-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -8447,7 +8443,7 @@ body
 #Card2-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -8570,7 +8566,7 @@ body
 #Card3-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -8693,7 +8689,7 @@ body
 #Card6-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -8816,7 +8812,7 @@ body
 #Card7-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -8939,7 +8935,7 @@ body
 #Card8-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -9062,7 +9058,7 @@ body
 #Card9-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -9185,7 +9181,7 @@ body
 #Card10-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -9308,7 +9304,7 @@ body
 #Card11-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -9431,7 +9427,7 @@ body
 #Card12-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -9554,7 +9550,7 @@ body
 #Card13-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -9677,7 +9673,7 @@ body
 #Card14-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -9800,7 +9796,7 @@ body
 #Card15-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 166px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -9923,7 +9919,7 @@ body
 #Card16-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -10046,7 +10042,7 @@ body
 #Card17-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -10169,7 +10165,7 @@ body
 #Card18-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -10292,7 +10288,7 @@ body
 #Card19-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -10415,7 +10411,7 @@ body
 #Card20-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -10538,7 +10534,7 @@ body
 #Card21-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -10661,7 +10657,7 @@ body
 #Card22-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -10784,7 +10780,7 @@ body
 #Card23-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -10907,7 +10903,7 @@ body
 #Card24-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -11030,7 +11026,7 @@ body
 #Card26-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -11153,7 +11149,7 @@ body
 #Card27-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -11352,7 +11348,7 @@ body
 #joyas-en-generalCard1-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -11475,7 +11471,7 @@ body
 #joyas-en-generalCard2-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -11598,7 +11594,7 @@ body
 #joyas-en-generalCard3-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -11721,7 +11717,7 @@ body
 #joyas-en-generalCard4-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -11844,7 +11840,7 @@ body
 #joyas-en-generalCard5-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;
@@ -11967,7 +11963,7 @@ body
 #joyas-en-generalCard6-card-item4
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
+   margin: 5px 20px 3px 130px;
    padding: 0;
    color: #000000;
    font-family: Arial;

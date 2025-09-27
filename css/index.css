@@ -38,7 +38,7 @@ body
    --border-width: 1px;
    --color: #333333;
    --icon-color: #444444;
-   --colorize: invert(22%) sepia(0%) saturate(0%) hue-rotate(24deg) brightness(99%) contrast(82%);
+   --colorize: invert(21%) sepia(1%) saturate(2756%) hue-rotate(337deg) brightness(114%) contrast(87%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -100,7 +100,7 @@ body
    --border-width: 1px;
    --color: #CCCCCC;
    --icon-color: #3370B7;
-   --colorize: invert(37%) sepia(85%) saturate(619%) hue-rotate(176deg) brightness(87%) contrast(83%);
+   --colorize: invert(34%) sepia(96%) saturate(436%) hue-rotate(171deg) brightness(96%) contrast(87%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -1540,20 +1540,6 @@ body
    padding: 8px 15px 10px 15px;
    text-decoration: none;
 }
-#Card6-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 13px;
-   height: 13px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card6-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card7
 {
    position: relative;
@@ -1688,20 +1674,6 @@ body
    padding: 8px 15px 10px 15px;
    text-decoration: none;
 }
-#Card7-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 13px;
-   height: 13px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card7-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card11
 {
    position: relative;
@@ -1830,20 +1802,6 @@ body
    display: block;
    padding: 8px 15px 10px 15px;
    text-decoration: none;
-}
-#Card11-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 13px;
-   height: 13px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card11-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
 }
 #wb_Card15
 {
@@ -1979,20 +1937,6 @@ body
    padding: 8px 15px 10px 15px;
    text-decoration: none;
 }
-#Card15-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 13px;
-   height: 13px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card15-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card10
 {
    position: relative;
@@ -2126,20 +2070,6 @@ body
    display: block;
    padding: 8px 15px 10px 15px;
    text-decoration: none;
-}
-#Card10-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 13px;
-   height: 13px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card10-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
 }
 #wb_Card13
 {
@@ -2275,20 +2205,6 @@ body
    padding: 8px 10px 10px 10px;
    text-decoration: none;
 }
-#Card13-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 13px;
-   height: 13px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card13-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card12
 {
    position: relative;
@@ -2422,20 +2338,6 @@ body
    display: block;
    padding: 8px 10px 10px 10px;
    text-decoration: none;
-}
-#Card12-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 13px;
-   height: 13px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card12-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
 }
 #wb_Card32
 {
@@ -2571,20 +2473,6 @@ body
    padding: 10px 15px 10px 15px;
    text-decoration: none;
 }
-#Card32-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 13px;
-   height: 13px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card32-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card31
 {
    position: relative;
@@ -2718,20 +2606,6 @@ body
    display: block;
    padding: 10px 15px 10px 15px;
    text-decoration: none;
-}
-#Card31-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 13px;
-   height: 13px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card31-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
 }
 #wb_Card30
 {
@@ -2867,20 +2741,6 @@ body
    padding: 10px 15px 10px 15px;
    text-decoration: none;
 }
-#Card30-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 13px;
-   height: 13px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card30-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card29
 {
    position: relative;
@@ -3015,20 +2875,6 @@ body
    padding: 10px 15px 10px 15px;
    text-decoration: none;
 }
-#Card29-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 13px;
-   height: 13px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card29-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card8
 {
    position: relative;
@@ -3162,20 +3008,6 @@ body
    display: block;
    padding: 10px 15px 10px 15px;
    text-decoration: none;
-}
-#Card8-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 13px;
-   height: 13px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card8-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
 }
 #wb_TextArt2 a img
 {
@@ -5947,20 +5779,6 @@ body
    padding: 8px 15px 10px 15px;
    text-decoration: none;
 }
-#Card6-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 11px;
-   height: 11px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card6-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card6
 {
    text-align: center;
@@ -6088,20 +5906,6 @@ body
    padding: 8px 15px 10px 15px;
    text-decoration: none;
 }
-#Card7-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 11px;
-   height: 11px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card7-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card7
 {
    text-align: center;
@@ -6223,20 +6027,6 @@ body
    display: block;
    padding: 8px 15px 10px 15px;
    text-decoration: none;
-}
-#Card11-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 11px;
-   height: 11px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card11-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
 }
 #wb_Card11
 {
@@ -6365,20 +6155,6 @@ body
    padding: 8px 15px 10px 15px;
    text-decoration: none;
 }
-#Card15-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 11px;
-   height: 11px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card15-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card15
 {
    text-align: center;
@@ -6505,20 +6281,6 @@ body
    display: block;
    padding: 8px 15px 10px 15px;
    text-decoration: none;
-}
-#Card10-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 11px;
-   height: 11px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card10-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
 }
 #wb_Card10
 {
@@ -6647,20 +6409,6 @@ body
    padding: 8px 10px 10px 10px;
    text-decoration: none;
 }
-#Card13-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 11px;
-   height: 11px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card13-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card13
 {
    text-align: center;
@@ -6787,20 +6535,6 @@ body
    display: block;
    padding: 8px 10px 10px 10px;
    text-decoration: none;
-}
-#Card12-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 11px;
-   height: 11px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card12-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
 }
 #wb_Card12
 {
@@ -6929,20 +6663,6 @@ body
    padding: 10px 15px 10px 15px;
    text-decoration: none;
 }
-#Card32-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 11px;
-   height: 11px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card32-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card32
 {
    text-align: center;
@@ -7070,20 +6790,6 @@ body
    padding: 10px 15px 10px 15px;
    text-decoration: none;
 }
-#Card31-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 11px;
-   height: 11px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card31-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card31
 {
    text-align: center;
@@ -7210,20 +6916,6 @@ body
    display: block;
    padding: 10px 15px 10px 15px;
    text-decoration: none;
-}
-#Card30-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 11px;
-   height: 11px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card30-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
 }
 #wb_Card30
 {
@@ -7354,20 +7046,6 @@ body
    padding: 10px 15px 10px 15px;
    text-decoration: none;
 }
-#Card29-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 11px;
-   height: 11px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card29-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
-}
 #wb_Card29
 {
    text-align: center;
@@ -7494,20 +7172,6 @@ body
    display: block;
    padding: 10px 15px 10px 15px;
    text-decoration: none;
-}
-#Card8-card-item6 .svg-icon
-{
-   fill: currentColor;
-   width: 11px;
-   height: 11px;
-   overflow: visible;
-   margin-right: 0px;
-   transition: fill 500ms linear 0ms;
-}
-#Card8-card-item6 .svg-icon:hover
-{
-   fill: #FFFFFF;
-   transition: fill 500ms linear 0ms;
 }
 #wb_Card8
 {

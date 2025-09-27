@@ -6,8 +6,8 @@
 <meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&400&subset=latin&display=swap" rel="stylesheet">
-<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=11" rel="stylesheet">
-<link href="css/categoria_jugueteria.css?v=11" rel="stylesheet">
+<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=12" rel="stylesheet">
+<link href="css/categoria_jugueteria.css?v=12" rel="stylesheet">
 </head>
 <body>
    <div id="wb_wb17_backgroundclipLayoutGrid1">
@@ -149,63 +149,6 @@ Ver Producto</a></div>
    </div>
 
 
-   <div id="categoria_jugueteriaDialog1" class="modal fade" data-bs-keyboard="true" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-         <div class="modal-content">
-            <div class="modal-header">
-               <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
-               <h4 class="modal-title">Pagar con yape con QR</h4>
-            </div>
-            <div class="modal-body">
-               <div id="wb_categoria_jugueteriaText1">
-                  <p>Escanea usando la aplicación yape.</p></div>
-               <div id="wb_categoria_jugueteriaImage1">
-                  <img src="images/QR_YAPE.jpg" id="categoria_jugueteriaImage1" alt="" width="348" height="322"></div>
-            </div>
-            <div class="modal-footer">
-               <button class="btn" id="categoria_jugueteriaDialog1-btn1" type="button">CERRAR</button>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="categoria_jugueteriaDialog2" class="modal fade" data-bs-keyboard="true" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-         <div class="modal-content">
-            <div class="modal-header">
-               <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
-               <div class="modal-title">Pagar con yape con QR</div>
-            </div>
-            <div class="modal-body">
-               <div id="wb_categoria_jugueteriaText2">
-                  <p>Escanea usando la aplicación yape.</p></div>
-               <div id="wb_categoria_jugueteriaImage2">
-                  <img src="images/QR_YAPE.jpg" id="categoria_jugueteriaImage2" alt="" width="348" height="322"></div>
-            </div>
-            <div class="modal-footer">
-               <button class="btn" id="categoria_jugueteriaDialog2-btn1" type="button">CERRAR</button>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="categoria_jugueteriaDialog3" class="modal fade" data-bs-keyboard="true" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-         <div class="modal-content">
-            <div class="modal-header">
-               <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
-               <div class="modal-title">Pagar con yape con QR</div>
-            </div>
-            <div class="modal-body">
-               <div id="wb_categoria_jugueteriaText3">
-                  <p>Escanea usando la aplicación yape.</p></div>
-               <div id="wb_categoria_jugueteriaImage3">
-                  <img src="images/QR_YAPE.jpg" id="categoria_jugueteriaImage3" alt="" width="348" height="322"></div>
-            </div>
-            <div class="modal-footer">
-               <button class="btn" id="categoria_jugueteriaDialog3-btn1" type="button">CERRAR</button>
-            </div>
-         </div>
-      </div>
-   </div>
    <div id="wb_LayoutGrid8">
       <div id="LayoutGrid8">
          <div class="row">
@@ -385,69 +328,11 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
          tooltip.classList.remove('animate-show');
          var forceReflow = e.target.offsetWidth;
       });
-      var categoria_jugueteriaDialog1 = document.querySelector('#categoria_jugueteriaDialog1');
-      var bscategoria_jugueteriaDialog1 = new bootstrap.Modal(categoria_jugueteriaDialog1);
-      categoria_jugueteriaDialog1.addEventListener('show.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_jugueteriaDialog1 .modal-dialog');
-         dlg.classList.remove('animate-hide');
-         dlg.classList.add('animate-show');
-      });
-      categoria_jugueteriaDialog1.addEventListener('hide.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_jugueteriaDialog1 .modal-dialog');
-         dlg.classList.remove('animate-show');
-         var forceReflow = e.target.offsetWidth;
-         dlg.classList.add('animate-hide');
-      });
-      document.querySelector('#categoria_jugueteriaDialog1-btn1').addEventListener('click', function(e)
-      {
-         bscategoria_jugueteriaDialog1.hide();
-      });
-      var categoria_jugueteriaDialog2 = document.querySelector('#categoria_jugueteriaDialog2');
-      var bscategoria_jugueteriaDialog2 = new bootstrap.Modal(categoria_jugueteriaDialog2);
-      categoria_jugueteriaDialog2.addEventListener('show.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_jugueteriaDialog2 .modal-dialog');
-         dlg.classList.remove('animate-hide');
-         dlg.classList.add('animate-show');
-      });
-      categoria_jugueteriaDialog2.addEventListener('hide.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_jugueteriaDialog2 .modal-dialog');
-         dlg.classList.remove('animate-show');
-         var forceReflow = e.target.offsetWidth;
-         dlg.classList.add('animate-hide');
-      });
-      document.querySelector('#categoria_jugueteriaDialog2-btn1').addEventListener('click', function(e)
-      {
-         bscategoria_jugueteriaDialog2.hide();
-      });
-      var categoria_jugueteriaDialog3 = document.querySelector('#categoria_jugueteriaDialog3');
-      var bscategoria_jugueteriaDialog3 = new bootstrap.Modal(categoria_jugueteriaDialog3);
-      categoria_jugueteriaDialog3.addEventListener('show.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_jugueteriaDialog3 .modal-dialog');
-         dlg.classList.remove('animate-hide');
-         dlg.classList.add('animate-show');
-      });
-      categoria_jugueteriaDialog3.addEventListener('hide.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#categoria_jugueteriaDialog3 .modal-dialog');
-         dlg.classList.remove('animate-show');
-         var forceReflow = e.target.offsetWidth;
-         dlg.classList.add('animate-hide');
-      });
-      document.querySelector('#categoria_jugueteriaDialog3-btn1').addEventListener('click', function(e)
-      {
-         bscategoria_jugueteriaDialog3.hide();
-      });
    });
    </script>
    <script>   
    $(document).ready(function()
    {
-      $('#wb_socialmediaButton4').addClass('visibility-hidden');
       $("a[href*='#LayoutGrid4']").click(function(event)
       {
          event.preventDefault();
@@ -459,20 +344,6 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       {
          $.overlay.toggle($('#OverlayMenu1-overlay'));
          return false;
-      });
-      function onScrollsocialmediaButton4()
-      {
-         var $obj = $("#wb_socialmediaButton4");
-         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-         {
-            $obj.addClass("in-viewport");
-            AnimateCss('wb_socialmediaButton4', 'transform-lightspeed-in', 100, 1000);
-         }
-      }
-      onScrollsocialmediaButton4();
-      $(window).scroll(function(event)
-      {
-         onScrollsocialmediaButton4();
       });
    });
    </script>

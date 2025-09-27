@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/fontawesome6.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&400&subset=latin&display=swap" rel="stylesheet">
-<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=13" rel="stylesheet">
-<link href="css/Articulo-de-Aseoo.css?v=13" rel="stylesheet">
+<link href="css/aplicacionweb_nuevo_con_FOTOS_MODIFICADAS.css?v=14" rel="stylesheet">
+<link href="css/Articulo-de-Aseoo.css?v=14" rel="stylesheet">
 </head>
 <body>
    <div id="wb_wb17_backgroundclipLayoutGrid1">
@@ -146,24 +146,6 @@ VER PRODUCTO</a></div>
                <div id="wb_socialmediaButton4">
                   <a class="ui-button ui-corner-all" id="socialmediaButton4" href="https://wa.me/?text=Visita%20mi%20página%20web%20aquí:%20https://vicctorr-77.github.io/BazarMonica2025/" target="_blank" title="Compartir Pagina"><span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span>Compartir</a>
                </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div id="Articulo-de-AseooDialog1" class="modal fade" data-bs-keyboard="true" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-         <div class="modal-content">
-            <div class="modal-header">
-               <div class="modal-title">Pagar con yape con QR</div>
-            </div>
-            <div class="modal-body">
-               <div id="wb_Articulo-de-AseooText1">
-                  <p>Escanea usando la aplicación yape.</p></div>
-               <div id="wb_Articulo-de-AseooImage1">
-                  <img src="images/QR_YAPE.jpg" id="Articulo-de-AseooImage1" alt="" width="348" height="322"></div>
-            </div>
-            <div class="modal-footer">
-               <button class="btn" id="Articulo-de-AseooDialog1-btn1" type="button">CERRAR</button>
             </div>
          </div>
       </div>
@@ -347,31 +329,11 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
          tooltip.classList.remove('animate-show');
          var forceReflow = e.target.offsetWidth;
       });
-      var Articulo_de_AseooDialog1 = document.querySelector('#Articulo-de-AseooDialog1');
-      var bsArticulo_de_AseooDialog1 = new bootstrap.Modal(Articulo_de_AseooDialog1);
-      Articulo_de_AseooDialog1.addEventListener('show.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#Articulo-de-AseooDialog1 .modal-dialog');
-         dlg.classList.remove('animate-hide');
-         dlg.classList.add('animate-show');
-      });
-      Articulo_de_AseooDialog1.addEventListener('hide.bs.modal', function(e)
-      {
-         var dlg = document.querySelector('#Articulo-de-AseooDialog1 .modal-dialog');
-         dlg.classList.remove('animate-show');
-         var forceReflow = e.target.offsetWidth;
-         dlg.classList.add('animate-hide');
-      });
-      document.querySelector('#Articulo-de-AseooDialog1-btn1').addEventListener('click', function(e)
-      {
-         bsArticulo_de_AseooDialog1.hide();
-      });
    });
    </script>
    <script>   
    $(document).ready(function()
    {
-      $('#wb_socialmediaButton4').addClass('visibility-hidden');
       $("a[href*='#LayoutGrid4']").click(function(event)
       {
          event.preventDefault();
@@ -383,20 +345,6 @@ Artículos&nbsp;de&nbsp;Accesorios</a></li>
       {
          $.overlay.toggle($('#OverlayMenu1-overlay'));
          return false;
-      });
-      function onScrollsocialmediaButton4()
-      {
-         var $obj = $("#wb_socialmediaButton4");
-         if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-         {
-            $obj.addClass("in-viewport");
-            AnimateCss('wb_socialmediaButton4', 'transform-lightspeed-in', 100, 1000);
-         }
-      }
-      onScrollsocialmediaButton4();
-      $(window).scroll(function(event)
-      {
-         onScrollsocialmediaButton4();
       });
    });
    </script>
