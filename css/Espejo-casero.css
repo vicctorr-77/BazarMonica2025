@@ -1546,6 +1546,2049 @@ body
    animation-fill-mode: both;
    animation-name: animate-fade-in-up;
 }
+#categoria_adornos-1Dialog1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#categoria_adornos-1Dialog1 .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#categoria_adornos-1Dialog1.fade
+{
+   opacity: 1;
+   transition: all 400ms linear;
+}
+#categoria_adornos-1Dialog1 .animate-show
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+}
+#categoria_adornos-1Dialog1 .animate-hide
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+   animation-direction: reverse;
+}
+#categoria_adornos-1Dialog1.modal
+{
+   --bs-modal-margin: 0.5rem;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow-x: hidden;
+   overflow-y: auto;
+   outline: 0;
+}
+ .modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog1 .modal-dialog
+{
+   position: relative;
+   width: 481px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#categoria_adornos-1Dialog1 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#categoria_adornos-1Dialog1 .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #F8F8F8;
+   border-bottom: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog1 .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog1 .modal-body
+{
+   position: relative;
+   width: 481px;
+   height: 484px;
+}
+#categoria_adornos-1Dialog1 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #212529;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog1 .modal-footer
+{
+   border-top: 1px solid #DEE2E6;
+   padding: 0;
+   text-align: center;
+}
+#categoria_adornos-1Dialog1 .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: var(--bs-modal-margin) auto;
+   min-height: calc(100% - var(--bs-modal-margin) * 2);
+   pointer-events: none;
+}
+#categoria_adornos-1Dialog1 .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#categoria_adornos-1Dialog1 .modal-title
+{
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-align: center;
+   margin: 0;
+}
+#categoria_adornos-1Dialog1 .btn
+{
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 1.4285;
+   margin: 6px 6px 6px 0 ;
+   padding: 4px 8px 4px 8px;
+   text-align: center;
+   user-select: none;
+   vertical-align: middle;
+}
+#categoria_adornos-1Dialog1 .btn:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #000000;
+}
+#categoria_adornos-1Dialog1 .btn:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#categoria_adornos-1Dialog1 [disabled].btn
+{
+   cursor: not-allowed;
+   opacity: 0.65;
+}
+#wb_categoria_adornos-1Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_categoria_adornos-1Text1
+{
+   color: #000000;
+   font-family: "Lucida Console";
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Text1 p, #wb_categoria_adornos-1Text1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_categoria_adornos-1Image1
+{
+   vertical-align: top;
+}
+#categoria_adornos-1Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#categoria_adornos-1Dialog2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#categoria_adornos-1Dialog2 .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#categoria_adornos-1Dialog2.fade
+{
+   opacity: 1;
+   transition: all 400ms linear;
+}
+#categoria_adornos-1Dialog2 .animate-show
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+}
+#categoria_adornos-1Dialog2 .animate-hide
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+   animation-direction: reverse;
+}
+#categoria_adornos-1Dialog2.modal
+{
+   --bs-modal-margin: 0.5rem;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow-x: hidden;
+   overflow-y: auto;
+   outline: 0;
+}
+ .modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog2 .modal-dialog
+{
+   position: relative;
+   width: 481px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#categoria_adornos-1Dialog2 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#categoria_adornos-1Dialog2 .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #F8F8F8;
+   border-bottom: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog2 .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog2 .modal-body
+{
+   position: relative;
+   width: 481px;
+   height: 484px;
+}
+#categoria_adornos-1Dialog2 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #212529;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog2 .modal-footer
+{
+   border-top: 1px solid #DEE2E6;
+   padding: 0;
+   text-align: center;
+}
+#categoria_adornos-1Dialog2 .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: var(--bs-modal-margin) auto;
+   min-height: calc(100% - var(--bs-modal-margin) * 2);
+   pointer-events: none;
+}
+#categoria_adornos-1Dialog2 .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#categoria_adornos-1Dialog2 .modal-title
+{
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-align: center;
+   margin: 0;
+}
+#categoria_adornos-1Dialog2 .btn
+{
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 1.4285;
+   margin: 6px 6px 6px 0 ;
+   padding: 4px 8px 4px 8px;
+   text-align: center;
+   user-select: none;
+   vertical-align: middle;
+}
+#categoria_adornos-1Dialog2 .btn:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #000000;
+}
+#categoria_adornos-1Dialog2 .btn:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#categoria_adornos-1Dialog2 [disabled].btn
+{
+   cursor: not-allowed;
+   opacity: 0.65;
+}
+#wb_categoria_adornos-1Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_categoria_adornos-1Text2
+{
+   color: #000000;
+   font-family: "Lucida Console";
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Text2 p, #wb_categoria_adornos-1Text2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_categoria_adornos-1Image2
+{
+   vertical-align: top;
+}
+#categoria_adornos-1Image2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#categoria_adornos-1Dialog3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#categoria_adornos-1Dialog3 .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#categoria_adornos-1Dialog3.fade
+{
+   opacity: 1;
+   transition: all 400ms linear;
+}
+#categoria_adornos-1Dialog3 .animate-show
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+}
+#categoria_adornos-1Dialog3 .animate-hide
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+   animation-direction: reverse;
+}
+#categoria_adornos-1Dialog3.modal
+{
+   --bs-modal-margin: 0.5rem;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow-x: hidden;
+   overflow-y: auto;
+   outline: 0;
+}
+ .modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog3 .modal-dialog
+{
+   position: relative;
+   width: 481px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#categoria_adornos-1Dialog3 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#categoria_adornos-1Dialog3 .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #F8F8F8;
+   border-bottom: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog3 .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog3 .modal-body
+{
+   position: relative;
+   width: 481px;
+   height: 484px;
+}
+#categoria_adornos-1Dialog3 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #212529;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog3 .modal-footer
+{
+   border-top: 1px solid #DEE2E6;
+   padding: 0;
+   text-align: center;
+}
+#categoria_adornos-1Dialog3 .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: var(--bs-modal-margin) auto;
+   min-height: calc(100% - var(--bs-modal-margin) * 2);
+   pointer-events: none;
+}
+#categoria_adornos-1Dialog3 .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#categoria_adornos-1Dialog3 .modal-title
+{
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-align: center;
+   margin: 0;
+}
+#categoria_adornos-1Dialog3 .btn
+{
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 1.4285;
+   margin: 6px 6px 6px 0 ;
+   padding: 4px 8px 4px 8px;
+   text-align: center;
+   user-select: none;
+   vertical-align: middle;
+}
+#categoria_adornos-1Dialog3 .btn:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #000000;
+}
+#categoria_adornos-1Dialog3 .btn:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#categoria_adornos-1Dialog3 [disabled].btn
+{
+   cursor: not-allowed;
+   opacity: 0.65;
+}
+#wb_categoria_adornos-1Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_categoria_adornos-1Text3
+{
+   color: #000000;
+   font-family: "Lucida Console";
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Text3 p, #wb_categoria_adornos-1Text3 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_categoria_adornos-1Image3
+{
+   vertical-align: top;
+}
+#categoria_adornos-1Image3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#categoria_adornos-1Dialog4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#categoria_adornos-1Dialog4 .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#categoria_adornos-1Dialog4.fade
+{
+   opacity: 1;
+   transition: all 400ms linear;
+}
+#categoria_adornos-1Dialog4 .animate-show
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+}
+#categoria_adornos-1Dialog4 .animate-hide
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+   animation-direction: reverse;
+}
+#categoria_adornos-1Dialog4.modal
+{
+   --bs-modal-margin: 0.5rem;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow-x: hidden;
+   overflow-y: auto;
+   outline: 0;
+}
+ .modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog4 .modal-dialog
+{
+   position: relative;
+   width: 481px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#categoria_adornos-1Dialog4 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#categoria_adornos-1Dialog4 .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #F8F8F8;
+   border-bottom: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog4 .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog4 .modal-body
+{
+   position: relative;
+   width: 481px;
+   height: 484px;
+}
+#categoria_adornos-1Dialog4 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #212529;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog4 .modal-footer
+{
+   border-top: 1px solid #DEE2E6;
+   padding: 0;
+   text-align: center;
+}
+#categoria_adornos-1Dialog4 .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: var(--bs-modal-margin) auto;
+   min-height: calc(100% - var(--bs-modal-margin) * 2);
+   pointer-events: none;
+}
+#categoria_adornos-1Dialog4 .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#categoria_adornos-1Dialog4 .modal-title
+{
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-align: center;
+   margin: 0;
+}
+#categoria_adornos-1Dialog4 .btn
+{
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 1.4285;
+   margin: 6px 6px 6px 0 ;
+   padding: 4px 8px 4px 8px;
+   text-align: center;
+   user-select: none;
+   vertical-align: middle;
+}
+#categoria_adornos-1Dialog4 .btn:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #000000;
+}
+#categoria_adornos-1Dialog4 .btn:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#categoria_adornos-1Dialog4 [disabled].btn
+{
+   cursor: not-allowed;
+   opacity: 0.65;
+}
+#wb_categoria_adornos-1Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_categoria_adornos-1Text4
+{
+   color: #000000;
+   font-family: "Lucida Console";
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Text4 p, #wb_categoria_adornos-1Text4 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_categoria_adornos-1Image4
+{
+   vertical-align: top;
+}
+#categoria_adornos-1Image4
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#categoria_adornos-1Dialog5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#categoria_adornos-1Dialog5 .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#categoria_adornos-1Dialog5.fade
+{
+   opacity: 1;
+   transition: all 400ms linear;
+}
+#categoria_adornos-1Dialog5 .animate-show
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+}
+#categoria_adornos-1Dialog5 .animate-hide
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+   animation-direction: reverse;
+}
+#categoria_adornos-1Dialog5.modal
+{
+   --bs-modal-margin: 0.5rem;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow-x: hidden;
+   overflow-y: auto;
+   outline: 0;
+}
+ .modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog5 .modal-dialog
+{
+   position: relative;
+   width: 481px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#categoria_adornos-1Dialog5 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#categoria_adornos-1Dialog5 .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #F8F8F8;
+   border-bottom: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog5 .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog5 .modal-body
+{
+   position: relative;
+   width: 481px;
+   height: 484px;
+}
+#categoria_adornos-1Dialog5 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #212529;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog5 .modal-footer
+{
+   border-top: 1px solid #DEE2E6;
+   padding: 0;
+   text-align: center;
+}
+#categoria_adornos-1Dialog5 .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: var(--bs-modal-margin) auto;
+   min-height: calc(100% - var(--bs-modal-margin) * 2);
+   pointer-events: none;
+}
+#categoria_adornos-1Dialog5 .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#categoria_adornos-1Dialog5 .modal-title
+{
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-align: center;
+   margin: 0;
+}
+#categoria_adornos-1Dialog5 .btn
+{
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 1.4285;
+   margin: 6px 6px 6px 0 ;
+   padding: 4px 8px 4px 8px;
+   text-align: center;
+   user-select: none;
+   vertical-align: middle;
+}
+#categoria_adornos-1Dialog5 .btn:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #000000;
+}
+#categoria_adornos-1Dialog5 .btn:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#categoria_adornos-1Dialog5 [disabled].btn
+{
+   cursor: not-allowed;
+   opacity: 0.65;
+}
+#wb_categoria_adornos-1Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_categoria_adornos-1Text5
+{
+   color: #000000;
+   font-family: "Lucida Console";
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Text5 p, #wb_categoria_adornos-1Text5 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_categoria_adornos-1Image5
+{
+   vertical-align: top;
+}
+#categoria_adornos-1Image5
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#categoria_adornos-1Dialog6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#categoria_adornos-1Dialog6 .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#categoria_adornos-1Dialog6.fade
+{
+   opacity: 1;
+   transition: all 400ms linear;
+}
+#categoria_adornos-1Dialog6 .animate-show
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+}
+#categoria_adornos-1Dialog6 .animate-hide
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+   animation-direction: reverse;
+}
+#categoria_adornos-1Dialog6.modal
+{
+   --bs-modal-margin: 0.5rem;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow-x: hidden;
+   overflow-y: auto;
+   outline: 0;
+}
+ .modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog6 .modal-dialog
+{
+   position: relative;
+   width: 481px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#categoria_adornos-1Dialog6 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#categoria_adornos-1Dialog6 .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #F8F8F8;
+   border-bottom: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog6 .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog6 .modal-body
+{
+   position: relative;
+   width: 481px;
+   height: 484px;
+}
+#categoria_adornos-1Dialog6 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #212529;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog6 .modal-footer
+{
+   border-top: 1px solid #DEE2E6;
+   padding: 0;
+   text-align: center;
+}
+#categoria_adornos-1Dialog6 .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: var(--bs-modal-margin) auto;
+   min-height: calc(100% - var(--bs-modal-margin) * 2);
+   pointer-events: none;
+}
+#categoria_adornos-1Dialog6 .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#categoria_adornos-1Dialog6 .modal-title
+{
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-align: center;
+   margin: 0;
+}
+#categoria_adornos-1Dialog6 .btn
+{
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 1.4285;
+   margin: 6px 6px 6px 0 ;
+   padding: 4px 8px 4px 8px;
+   text-align: center;
+   user-select: none;
+   vertical-align: middle;
+}
+#categoria_adornos-1Dialog6 .btn:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #000000;
+}
+#categoria_adornos-1Dialog6 .btn:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#categoria_adornos-1Dialog6 [disabled].btn
+{
+   cursor: not-allowed;
+   opacity: 0.65;
+}
+#wb_categoria_adornos-1Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_categoria_adornos-1Text6
+{
+   color: #000000;
+   font-family: "Lucida Console";
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Text6 p, #wb_categoria_adornos-1Text6 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_categoria_adornos-1Image6
+{
+   vertical-align: top;
+}
+#categoria_adornos-1Image6
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#categoria_adornos-1Dialog7
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#categoria_adornos-1Dialog7 .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#categoria_adornos-1Dialog7.fade
+{
+   opacity: 1;
+   transition: all 400ms linear;
+}
+#categoria_adornos-1Dialog7 .animate-show
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+}
+#categoria_adornos-1Dialog7 .animate-hide
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+   animation-direction: reverse;
+}
+#categoria_adornos-1Dialog7.modal
+{
+   --bs-modal-margin: 0.5rem;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow-x: hidden;
+   overflow-y: auto;
+   outline: 0;
+}
+ .modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog7 .modal-dialog
+{
+   position: relative;
+   width: 481px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#categoria_adornos-1Dialog7 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#categoria_adornos-1Dialog7 .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #F8F8F8;
+   border-bottom: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog7 .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog7 .modal-body
+{
+   position: relative;
+   width: 481px;
+   height: 484px;
+}
+#categoria_adornos-1Dialog7 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #212529;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog7 .modal-footer
+{
+   border-top: 1px solid #DEE2E6;
+   padding: 0;
+   text-align: center;
+}
+#categoria_adornos-1Dialog7 .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: var(--bs-modal-margin) auto;
+   min-height: calc(100% - var(--bs-modal-margin) * 2);
+   pointer-events: none;
+}
+#categoria_adornos-1Dialog7 .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#categoria_adornos-1Dialog7 .modal-title
+{
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-align: center;
+   margin: 0;
+}
+#categoria_adornos-1Dialog7 .btn
+{
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 1.4285;
+   margin: 6px 6px 6px 0 ;
+   padding: 4px 8px 4px 8px;
+   text-align: center;
+   user-select: none;
+   vertical-align: middle;
+}
+#categoria_adornos-1Dialog7 .btn:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #000000;
+}
+#categoria_adornos-1Dialog7 .btn:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#categoria_adornos-1Dialog7 [disabled].btn
+{
+   cursor: not-allowed;
+   opacity: 0.65;
+}
+#wb_categoria_adornos-1Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_categoria_adornos-1Text7
+{
+   color: #000000;
+   font-family: "Lucida Console";
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Text7 p, #wb_categoria_adornos-1Text7 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_categoria_adornos-1Image7
+{
+   vertical-align: top;
+}
+#categoria_adornos-1Image7
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#categoria_adornos-1Dialog8
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#categoria_adornos-1Dialog8 .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#categoria_adornos-1Dialog8.fade
+{
+   opacity: 1;
+   transition: all 400ms linear;
+}
+#categoria_adornos-1Dialog8 .animate-show
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+}
+#categoria_adornos-1Dialog8 .animate-hide
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+   animation-direction: reverse;
+}
+#categoria_adornos-1Dialog8.modal
+{
+   --bs-modal-margin: 0.5rem;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow-x: hidden;
+   overflow-y: auto;
+   outline: 0;
+}
+ .modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog8 .modal-dialog
+{
+   position: relative;
+   width: 481px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#categoria_adornos-1Dialog8 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#categoria_adornos-1Dialog8 .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #F8F8F8;
+   border-bottom: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog8 .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog8 .modal-body
+{
+   position: relative;
+   width: 481px;
+   height: 484px;
+}
+#categoria_adornos-1Dialog8 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #212529;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog8 .modal-footer
+{
+   border-top: 1px solid #DEE2E6;
+   padding: 0;
+   text-align: center;
+}
+#categoria_adornos-1Dialog8 .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: var(--bs-modal-margin) auto;
+   min-height: calc(100% - var(--bs-modal-margin) * 2);
+   pointer-events: none;
+}
+#categoria_adornos-1Dialog8 .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#categoria_adornos-1Dialog8 .modal-title
+{
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-align: center;
+   margin: 0;
+}
+#categoria_adornos-1Dialog8 .btn
+{
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 1.4285;
+   margin: 6px 6px 6px 0 ;
+   padding: 4px 8px 4px 8px;
+   text-align: center;
+   user-select: none;
+   vertical-align: middle;
+}
+#categoria_adornos-1Dialog8 .btn:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #000000;
+}
+#categoria_adornos-1Dialog8 .btn:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#categoria_adornos-1Dialog8 [disabled].btn
+{
+   cursor: not-allowed;
+   opacity: 0.65;
+}
+#wb_categoria_adornos-1Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_categoria_adornos-1Text8
+{
+   color: #000000;
+   font-family: "Lucida Console";
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Text8 p, #wb_categoria_adornos-1Text8 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_categoria_adornos-1Image8
+{
+   vertical-align: top;
+}
+#categoria_adornos-1Image8
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#categoria_adornos-1Dialog9
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#categoria_adornos-1Dialog9 .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DEE2E6;
+   border-radius: 0px;
+   overflow: visible;
+   pointer-events: all;
+}
+#categoria_adornos-1Dialog9.fade
+{
+   opacity: 1;
+   transition: all 400ms linear;
+}
+#categoria_adornos-1Dialog9 .animate-show
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+}
+#categoria_adornos-1Dialog9 .animate-hide
+{
+   animation-duration: 400ms;
+   animation-fill-mode: both;
+   animation-name: animate-fade-in;
+   animation-direction: reverse;
+}
+#categoria_adornos-1Dialog9.modal
+{
+   --bs-modal-margin: 0.5rem;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
+   display: none;
+   overflow-x: hidden;
+   overflow-y: auto;
+   outline: 0;
+}
+ .modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog9 .modal-dialog
+{
+   position: relative;
+   width: 481px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#categoria_adornos-1Dialog9 .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#categoria_adornos-1Dialog9 .modal-header
+{
+   padding: 10px 10px 10px 10px;
+   background-color: #F8F8F8;
+   border-bottom: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog9 .modal-footer
+{
+   padding: 10px 10px 10px 10px;
+   border-top: 1px solid #D2D2D2;
+}
+#categoria_adornos-1Dialog9 .modal-body
+{
+   position: relative;
+   width: 481px;
+   height: 484px;
+}
+#categoria_adornos-1Dialog9 .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #212529;
+   text-shadow: 0px 1px 0px #fff;
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 0;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   opacity: 0;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.show
+{
+   opacity: 0.5 !important;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#categoria_adornos-1Dialog9 .modal-footer
+{
+   border-top: 1px solid #DEE2E6;
+   padding: 0;
+   text-align: center;
+}
+#categoria_adornos-1Dialog9 .modal-dialog-centered
+{
+   display: flex;
+   align-items: center;
+   margin: var(--bs-modal-margin) auto;
+   min-height: calc(100% - var(--bs-modal-margin) * 2);
+   pointer-events: none;
+}
+#categoria_adornos-1Dialog9 .modal-dialog-centered::before
+{
+   display: block;
+   height: calc(100vh - 3.5rem);
+   content: "";
+}
+#categoria_adornos-1Dialog9 .modal-title
+{
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-align: center;
+   margin: 0;
+}
+#categoria_adornos-1Dialog9 .btn
+{
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 1.4285;
+   margin: 6px 6px 6px 0 ;
+   padding: 4px 8px 4px 8px;
+   text-align: center;
+   user-select: none;
+   vertical-align: middle;
+}
+#categoria_adornos-1Dialog9 .btn:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #000000;
+}
+#categoria_adornos-1Dialog9 .btn:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#categoria_adornos-1Dialog9 [disabled].btn
+{
+   cursor: not-allowed;
+   opacity: 0.65;
+}
+#wb_categoria_adornos-1Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_categoria_adornos-1Text9
+{
+   color: #000000;
+   font-family: "Lucida Console";
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Text9 p, #wb_categoria_adornos-1Text9 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_categoria_adornos-1Image9
+{
+   vertical-align: top;
+}
+#categoria_adornos-1Image9
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #wb_Text17 
 {
    background-color: transparent;
@@ -1705,6 +3748,105 @@ body
    height: 40px;
    z-index: 13;
 }
+#wb_categoria_adornos-1Text9
+{
+   position: absolute;
+   left: 114px;
+   top: 390px;
+   width: 251px;
+   height: 32px;
+   text-align: center;
+   z-index: 30;
+}
+#wb_categoria_adornos-1Text8
+{
+   position: absolute;
+   left: 114px;
+   top: 390px;
+   width: 251px;
+   height: 32px;
+   text-align: center;
+   z-index: 28;
+}
+#wb_categoria_adornos-1Text7
+{
+   position: absolute;
+   left: 114px;
+   top: 390px;
+   width: 251px;
+   height: 32px;
+   text-align: center;
+   z-index: 26;
+}
+#wb_categoria_adornos-1Text6
+{
+   position: absolute;
+   left: 114px;
+   top: 390px;
+   width: 251px;
+   height: 32px;
+   text-align: center;
+   z-index: 24;
+}
+#wb_categoria_adornos-1Text5
+{
+   position: absolute;
+   left: 114px;
+   top: 390px;
+   width: 251px;
+   height: 32px;
+   text-align: center;
+   z-index: 22;
+}
+#wb_categoria_adornos-1Text4
+{
+   position: absolute;
+   left: 114px;
+   top: 390px;
+   width: 251px;
+   height: 32px;
+   text-align: center;
+   z-index: 20;
+}
+#wb_categoria_adornos-1Text3
+{
+   position: absolute;
+   left: 114px;
+   top: 390px;
+   width: 251px;
+   height: 32px;
+   text-align: center;
+   z-index: 18;
+}
+#wb_categoria_adornos-1Text2
+{
+   position: absolute;
+   left: 114px;
+   top: 390px;
+   width: 251px;
+   height: 32px;
+   text-align: center;
+   z-index: 16;
+}
+#wb_categoria_adornos-1Text1
+{
+   position: absolute;
+   left: 114px;
+   top: 390px;
+   width: 251px;
+   height: 32px;
+   text-align: center;
+   z-index: 14;
+}
+#wb_categoria_adornos-1Image9
+{
+   position: absolute;
+   left: 65px;
+   top: 19px;
+   width: 348px;
+   height: 348px;
+   z-index: 31;
+}
 #wb_OverlayMenu1
 {
    display: inline-block;
@@ -1717,6 +3859,24 @@ body
    color: #FFFFFF;
    font-family: "Arial";
    font-size: 16px;
+}
+#wb_categoria_adornos-1Image8
+{
+   position: absolute;
+   left: 65px;
+   top: 19px;
+   width: 348px;
+   height: 348px;
+   z-index: 29;
+}
+#wb_categoria_adornos-1Image7
+{
+   position: absolute;
+   left: 65px;
+   top: 19px;
+   width: 348px;
+   height: 348px;
+   z-index: 27;
 }
 #wb_uid1
 {
@@ -1751,15 +3911,60 @@ body
    height: 40px;
    z-index: 1;
 }
+#wb_categoria_adornos-1Image6
+{
+   position: absolute;
+   left: 65px;
+   top: 19px;
+   width: 348px;
+   height: 348px;
+   z-index: 25;
+}
 #wb_uid0
 {
    display: block;
    margin: 30px auto 10px auto;
 }
+#wb_categoria_adornos-1Image5
+{
+   position: absolute;
+   left: 65px;
+   top: 19px;
+   width: 348px;
+   height: 348px;
+   z-index: 23;
+}
+#wb_categoria_adornos-1Image4
+{
+   position: absolute;
+   left: 65px;
+   top: 19px;
+   width: 348px;
+   height: 348px;
+   z-index: 21;
+}
 #socialmediaButton4
 {
    width: 100%;
    height: 100%;
+}
+#wb_categoria_adornos-1Image3
+{
+   position: absolute;
+   left: 65px;
+   top: 19px;
+   width: 348px;
+   height: 348px;
+   z-index: 19;
+}
+#wb_categoria_adornos-1Image2
+{
+   position: absolute;
+   left: 65px;
+   top: 19px;
+   width: 348px;
+   height: 348px;
+   z-index: 17;
 }
 #wb_indexImage1
 {
@@ -1767,6 +3972,15 @@ body
    width: 100%;
    height: auto;
    z-index: 4;
+}
+#wb_categoria_adornos-1Image1
+{
+   position: absolute;
+   left: 65px;
+   top: 19px;
+   width: 348px;
+   height: 348px;
+   z-index: 15;
 }
 #wb_InicioImage5
 {
@@ -2339,6 +4553,384 @@ body
    height: 28px;
    visibility: visible;
    display: inline;
+}
+#categoria_adornos-1Dialog1 .modal-dialog
+{
+   width: 400px;
+}
+#categoria_adornos-1Dialog1 .modal-body
+{
+   width: 400px;
+   height: 435px;
+}
+#categoria_adornos-1Dialog1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#wb_categoria_adornos-1Text1
+{
+   left: 95px;
+   top: 348px;
+   width: 216px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_categoria_adornos-1Text1
+{
+   font-size: 19px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Image1
+{
+   left: 36px;
+   top: 15px;
+   width: 319px;
+   height: 318px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#categoria_adornos-1Dialog2 .modal-dialog
+{
+   width: 400px;
+}
+#categoria_adornos-1Dialog2 .modal-body
+{
+   width: 400px;
+   height: 435px;
+}
+#categoria_adornos-1Dialog2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#wb_categoria_adornos-1Text2
+{
+   left: 95px;
+   top: 348px;
+   width: 216px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_categoria_adornos-1Text2
+{
+   font-size: 19px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Image2
+{
+   left: 36px;
+   top: 15px;
+   width: 319px;
+   height: 318px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#categoria_adornos-1Dialog3 .modal-dialog
+{
+   width: 400px;
+}
+#categoria_adornos-1Dialog3 .modal-body
+{
+   width: 400px;
+   height: 435px;
+}
+#categoria_adornos-1Dialog3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#wb_categoria_adornos-1Text3
+{
+   left: 95px;
+   top: 348px;
+   width: 216px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_categoria_adornos-1Text3
+{
+   font-size: 19px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Image3
+{
+   left: 36px;
+   top: 15px;
+   width: 319px;
+   height: 318px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#categoria_adornos-1Dialog4 .modal-dialog
+{
+   width: 400px;
+}
+#categoria_adornos-1Dialog4 .modal-body
+{
+   width: 400px;
+   height: 435px;
+}
+#categoria_adornos-1Dialog4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#wb_categoria_adornos-1Text4
+{
+   left: 95px;
+   top: 348px;
+   width: 216px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_categoria_adornos-1Text4
+{
+   font-size: 19px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Image4
+{
+   left: 36px;
+   top: 15px;
+   width: 319px;
+   height: 318px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#categoria_adornos-1Dialog5 .modal-dialog
+{
+   width: 400px;
+}
+#categoria_adornos-1Dialog5 .modal-body
+{
+   width: 400px;
+   height: 435px;
+}
+#categoria_adornos-1Dialog5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#wb_categoria_adornos-1Text5
+{
+   left: 95px;
+   top: 348px;
+   width: 216px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_categoria_adornos-1Text5
+{
+   font-size: 19px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Image5
+{
+   left: 36px;
+   top: 15px;
+   width: 319px;
+   height: 318px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#categoria_adornos-1Dialog6 .modal-dialog
+{
+   width: 400px;
+}
+#categoria_adornos-1Dialog6 .modal-body
+{
+   width: 400px;
+   height: 435px;
+}
+#categoria_adornos-1Dialog6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#wb_categoria_adornos-1Text6
+{
+   left: 95px;
+   top: 348px;
+   width: 216px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_categoria_adornos-1Text6
+{
+   font-size: 19px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Image6
+{
+   left: 36px;
+   top: 15px;
+   width: 319px;
+   height: 318px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#categoria_adornos-1Dialog7 .modal-dialog
+{
+   width: 400px;
+}
+#categoria_adornos-1Dialog7 .modal-body
+{
+   width: 400px;
+   height: 435px;
+}
+#categoria_adornos-1Dialog7
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#wb_categoria_adornos-1Text7
+{
+   left: 95px;
+   top: 348px;
+   width: 216px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_categoria_adornos-1Text7
+{
+   font-size: 19px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Image7
+{
+   left: 36px;
+   top: 15px;
+   width: 319px;
+   height: 318px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#categoria_adornos-1Dialog8 .modal-dialog
+{
+   width: 400px;
+}
+#categoria_adornos-1Dialog8 .modal-body
+{
+   width: 400px;
+   height: 435px;
+}
+#categoria_adornos-1Dialog8
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#wb_categoria_adornos-1Text8
+{
+   left: 95px;
+   top: 348px;
+   width: 216px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_categoria_adornos-1Text8
+{
+   font-size: 19px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Image8
+{
+   left: 36px;
+   top: 15px;
+   width: 319px;
+   height: 318px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#categoria_adornos-1Dialog9 .modal-dialog
+{
+   width: 400px;
+}
+#categoria_adornos-1Dialog9 .modal-body
+{
+   width: 400px;
+   height: 435px;
+}
+#categoria_adornos-1Dialog9
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#wb_categoria_adornos-1Text9
+{
+   left: 95px;
+   top: 348px;
+   width: 216px;
+   height: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_categoria_adornos-1Text9
+{
+   font-size: 19px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 18px;
+}
+#wb_categoria_adornos-1Image9
+{
+   left: 36px;
+   top: 15px;
+   width: 319px;
+   height: 318px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
 }
 #wb_Text17
 {

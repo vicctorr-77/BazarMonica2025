@@ -42,7 +42,7 @@ body
    --border-width: 1px;
    --color: #333333;
    --icon-color: #444444;
-   --colorize: invert(27%) sepia(6%) saturate(11%) hue-rotate(348deg) brightness(91%) contrast(94%);
+   --colorize: invert(23%) sepia(58%) saturate(3%) hue-rotate(328deg) brightness(92%) contrast(88%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -104,7 +104,7 @@ body
    --border-width: 1px;
    --color: #CCCCCC;
    --icon-color: #3370B7;
-   --colorize: invert(37%) sepia(46%) saturate(1007%) hue-rotate(174deg) brightness(97%) contrast(81%);
+   --colorize: invert(34%) sepia(82%) saturate(528%) hue-rotate(173deg) brightness(98%) contrast(85%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -4223,7 +4223,7 @@ body
 {
    position: relative;
    width: 519px;
-   height: 211px;
+   height: 182px;
 }
 #InicioDialog15 .close
 {
@@ -5080,8 +5080,8 @@ body
 #wb_InicioMorphingIcon1
 {
    position: absolute;
-   left: 401px;
-   top: 32px;
+   left: 416px;
+   top: 30px;
    width: 69px;
    height: 65px;
    z-index: 30;
@@ -7786,12 +7786,12 @@ body
 }
 #InicioDialog15 .modal-dialog
 {
-   width: 387px;
+   width: 478px;
 }
 #InicioDialog15 .modal-body
 {
-   width: 387px;
-   height: 295px;
+   width: 478px;
+   height: 217px;
 }
 #InicioDialog15
 {
@@ -7802,8 +7802,8 @@ body
 {
    left: 33px;
    top: 24px;
-   width: 302px;
-   height: 109px;
+   width: 392px;
+   height: 73px;
    visibility: visible;
    display: inline;
 }
@@ -7817,8 +7817,8 @@ body
 }
 #wb_InicioMorphingIcon1
 {
-   left: 241px;
-   top: 151px;
+   left: 346px;
+   top: 121px;
    width: 69px;
    height: 65px;
    visibility: visible;
@@ -8003,7 +8003,7 @@ body
    display: inline;
 }
 }
-@media only screen and (max-width: 360px)
+@media only screen and (max-width: 365px)
 {
 body
 {
@@ -10638,12 +10638,12 @@ body
 }
 #InicioDialog15 .modal-dialog
 {
-   width: 308px;
+   width: 343px;
 }
 #InicioDialog15 .modal-body
 {
-   width: 308px;
-   height: 310px;
+   width: 343px;
+   height: 353px;
 }
 #InicioDialog15
 {
@@ -10654,7 +10654,7 @@ body
 {
    left: 38px;
    top: 10px;
-   width: 231px;
+   width: 241px;
    height: 127px;
    visibility: visible;
    display: inline;
@@ -10669,8 +10669,8 @@ body
 }
 #wb_InicioMorphingIcon1
 {
-   left: 154px;
-   top: 164px;
+   left: 160px;
+   top: 193px;
    width: 69px;
    height: 65px;
    visibility: visible;
