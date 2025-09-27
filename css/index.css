@@ -42,7 +42,7 @@ body
    --border-width: 1px;
    --color: #333333;
    --icon-color: #444444;
-   --colorize: invert(29%) sepia(0%) saturate(1669%) hue-rotate(178deg) brightness(88%) contrast(96%);
+   --colorize: invert(23%) sepia(67%) saturate(3%) hue-rotate(9deg) brightness(95%) contrast(94%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -104,7 +104,7 @@ body
    --border-width: 1px;
    --color: #CCCCCC;
    --icon-color: #3370B7;
-   --colorize: invert(39%) sepia(100%) saturate(543%) hue-rotate(177deg) brightness(80%) contrast(85%);
+   --colorize: invert(40%) sepia(45%) saturate(1082%) hue-rotate(176deg) brightness(87%) contrast(84%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -3301,59 +3301,6 @@ body
 {
    color: #0D6EFD;
 }
-#upStickyLayer
-{
-   background-color: #598CB6;
-   background-image: none;
-   border-radius: 50%;
-   opacity: 0.77;
-}
-#wb_upIcon
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #3E3E3E;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   vertical-align: top;
-}
-#wb_upIcon a
-{
-   text-decoration: none;
-}
-#wb_upIcon a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#upIcon
-{
-   height: 24px;
-   width: 24px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#upIcon i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 24px;
-   line-height: 24px;
-   vertical-align: middle;
-}
-#wb_upIcon:hover #upIcon i
-{
-   color: #EC9C29;
-}
 #wb_InicioHeading1
 {
    background-color: transparent;
@@ -4833,7 +4780,7 @@ body
    display: inline-block;
    width: 150px;
    height: 40px;
-   z-index: 35;
+   z-index: 34;
 }
 #wb_uid12
 {
@@ -4899,17 +4846,7 @@ body
    width: 349px;
    height: 91px;
    text-align: justify;
-   z-index: 31;
-}
-#wb_upIcon
-{
-   position: absolute;
-   left: 9px;
-   top: 9px;
-   width: 24px;
-   height: 24px;
-   text-align: center;
-   z-index: 29;
+   z-index: 30;
 }
 #wb_Card32
 {
@@ -5061,7 +4998,7 @@ body
    display: block;
    width: 100%;
    height: auto;
-   z-index: 34;
+   z-index: 33;
 }
 #InicioButton29
 {
@@ -5084,14 +5021,14 @@ body
    top: 30px;
    width: 69px;
    height: 65px;
-   z-index: 30;
+   z-index: 29;
 }
 #wb_InicioImage4
 {
    display: block;
    width: 100%;
    height: auto;
-   z-index: 33;
+   z-index: 32;
 }
 #wb_TextArt2
 {
@@ -5113,18 +5050,6 @@ body
 {
    width: 326px;
    height: 98px;
-}
-#upStickyLayer
-{
-   position: fixed;
-   text-align: left;
-   left: auto;
-   right: 20px;
-   top: auto;
-   bottom: 20px;
-   width: 50px;
-   height: 50px;
-   z-index: 46;
 }
 #wb_uid7
 {
@@ -7596,35 +7521,6 @@ body
    font-size: 48px;
    width: 48px;
 }
-#upStickyLayer
-{
-   width: 50px;
-   height: 50px;
-   visibility: visible;
-   display: block;
-}
-#wb_upIcon
-{
-   left: 9px;
-   top: 9px;
-   width: 24px;
-   height: 24px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-}
-#upIcon
-{
-   width: 24px;
-   height: 24px;
-}
-#upIcon i
-{
-   line-height: 24px;
-   font-size: 24px;
-   width: 23px;
-}
 #wb_InicioHeading1
 {
    width: 100%;
@@ -7770,6 +7666,10 @@ body
    margin: 0;
    padding: 4px 4px 4px 4px;
    text-align: left;
+   color: #333333;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 4px solid #DDDDDD;
 }
 #InicioSiteSearch1
 {
@@ -7786,11 +7686,11 @@ body
 }
 #InicioDialog15 .modal-dialog
 {
-   width: 377px;
+   width: 352px;
 }
 #InicioDialog15 .modal-body
 {
-   width: 377px;
+   width: 352px;
    height: 339px;
 }
 #InicioDialog15
@@ -10448,35 +10348,6 @@ body
    font-size: 48px;
    width: 48px;
 }
-#upStickyLayer
-{
-   width: 50px;
-   height: 50px;
-   visibility: visible;
-   display: block;
-}
-#wb_upIcon
-{
-   left: 9px;
-   top: 9px;
-   width: 24px;
-   height: 24px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-}
-#upIcon
-{
-   width: 24px;
-   height: 24px;
-}
-#upIcon i
-{
-   line-height: 24px;
-   font-size: 24px;
-   width: 23px;
-}
 #wb_InicioHeading1
 {
    width: 100%;
@@ -10622,6 +10493,10 @@ body
    margin: 0;
    padding: 4px 4px 4px 4px;
    text-align: left;
+   color: #333333;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 4px solid #DDDDDD;
 }
 #InicioSiteSearch1
 {
@@ -10638,11 +10513,11 @@ body
 }
 #InicioDialog15 .modal-dialog
 {
-   width: 343px;
+   width: 331px;
 }
 #InicioDialog15 .modal-body
 {
-   width: 343px;
+   width: 331px;
    height: 353px;
 }
 #InicioDialog15
