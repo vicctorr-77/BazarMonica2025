@@ -9,10 +9,6 @@ body
    margin: 0;
    padding: 0;
 }
-.visibility-hidden
-{
-   visibility: hidden;
-}
 #wb_wb17_backgroundclipLayoutGrid1
 {
    clear: both;
@@ -303,59 +299,6 @@ body
    margin: 0 0 -20px 0 ;
    animation: transform-wobble 3000ms linear 0ms infinite normal both;
    vertical-align: top;
-}
-#upStickyLayer
-{
-   background-color: #598CB6;
-   background-image: none;
-   border-radius: 50%;
-   opacity: 0.77;
-}
-#wb_upIcon
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #3E3E3E;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   vertical-align: top;
-}
-#wb_upIcon a
-{
-   text-decoration: none;
-}
-#wb_upIcon a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#upIcon
-{
-   height: 24px;
-   width: 24px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#upIcon i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 24px;
-   line-height: 24px;
-   vertical-align: middle;
-}
-#wb_upIcon:hover #upIcon i
-{
-   color: #EC9C29;
 }
 .indexToolTip1
 {
@@ -1667,7 +1610,7 @@ body
    display: inline-block;
    width: 150px;
    height: 40px;
-   z-index: 14;
+   z-index: 13;
 }
 #wb_OverlayMenu1
 {
@@ -1675,16 +1618,6 @@ body
    width: 50px;
    height: 40px;
    z-index: 0;
-}
-#wb_upIcon
-{
-   position: absolute;
-   left: 9px;
-   top: 9px;
-   width: 24px;
-   height: 24px;
-   text-align: center;
-   z-index: 9;
 }
 #wb_uid1
 {
@@ -1740,14 +1673,14 @@ body
    display: block;
    width: 100%;
    height: auto;
-   z-index: 13;
+   z-index: 12;
 }
 #registrar-inicio-de-sesionHtml1
 {
    display: inline-block;
    width: 154px;
    height: 103px;
-   z-index: 10;
+   z-index: 9;
 }
 #InicioButton29
 {
@@ -1768,7 +1701,7 @@ body
    display: block;
    width: 100%;
    height: auto;
-   z-index: 12;
+   z-index: 11;
 }
 #wb_TextArt2
 {
@@ -1792,18 +1725,6 @@ body
    display: block;
    width: 100%;
    z-index: 7;
-}
-#upStickyLayer
-{
-   position: fixed;
-   text-align: left;
-   left: auto;
-   right: 25px;
-   top: auto;
-   bottom: 25px;
-   width: 50px;
-   height: 50px;
-   z-index: 19;
 }
 @media only screen and (max-width: 969px)
 {
@@ -1980,35 +1901,6 @@ body
    visibility: visible;
    display: inline-block;
    margin: 0 0 -20px 0 ;
-}
-#upStickyLayer
-{
-   width: 50px;
-   height: 50px;
-   visibility: visible;
-   display: block;
-}
-#wb_upIcon
-{
-   left: 9px;
-   top: 9px;
-   width: 24px;
-   height: 24px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-}
-#upIcon
-{
-   width: 24px;
-   height: 24px;
-}
-#upIcon i
-{
-   line-height: 24px;
-   font-size: 24px;
-   width: 23px;
 }
 #indexToolTip1
 {

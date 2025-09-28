@@ -1546,1822 +1546,6 @@ body
    animation-fill-mode: both;
    animation-name: animate-fade-in-up;
 }
-#categoria-joyas-en-general-1Dialog1
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#categoria-joyas-en-general-1Dialog1 .modal-content
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   overflow: visible;
-   pointer-events: all;
-}
-#categoria-joyas-en-general-1Dialog1.fade
-{
-   opacity: 1;
-   transition: all 400ms linear;
-}
-#categoria-joyas-en-general-1Dialog1 .animate-show
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-}
-#categoria-joyas-en-general-1Dialog1 .animate-hide
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-   animation-direction: reverse;
-}
-#categoria-joyas-en-general-1Dialog1.modal
-{
-   --bs-modal-margin: 0.5rem;
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 9999;
-   display: none;
-   overflow-x: hidden;
-   overflow-y: auto;
-   outline: 0;
-}
- .modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog1 .modal-dialog
-{
-   position: relative;
-   width: 481px;
-   margin-left: auto;
-   margin-right: auto;
-}
-#categoria-joyas-en-general-1Dialog1 .modal-content
-{
-   position: relative;
-   -webkit-background-clip: padding-box;
-   background-clip: padding-box;
-   outline: 0;
-}
-#categoria-joyas-en-general-1Dialog1 .modal-header
-{
-   padding: 10px 10px 10px 10px;
-   background-color: #F8F8F8;
-   border-bottom: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog1 .modal-footer
-{
-   padding: 10px 10px 10px 10px;
-   border-top: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog1 .modal-body
-{
-   position: relative;
-   width: 481px;
-   height: 484px;
-}
-#categoria-joyas-en-general-1Dialog1 .close
-{
-   float: right;
-   font-size: 21px;
-   font-weight: 700;
-   line-height: 1;
-   color: #212529;
-   text-shadow: 0px 1px 0px #fff;
-   opacity: 0.5;
-   -webkit-appearance: none;
-   padding: 0;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   margin-top: -2px;
-}
-.modal-backdrop
-{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1040;
-   background-color: #000;
-}
-.modal-backdrop.fade
-{
-   opacity: 0;
-   transition: opacity .15s linear;
-}
-.modal-backdrop.show
-{
-   opacity: 0.5 !important;
-}
-.modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog1 .modal-footer
-{
-   border-top: 1px solid #DEE2E6;
-   padding: 0;
-   text-align: center;
-}
-#categoria-joyas-en-general-1Dialog1 .modal-dialog-centered
-{
-   display: flex;
-   align-items: center;
-   margin: var(--bs-modal-margin) auto;
-   min-height: calc(100% - var(--bs-modal-margin) * 2);
-   pointer-events: none;
-}
-#categoria-joyas-en-general-1Dialog1 .modal-dialog-centered::before
-{
-   display: block;
-   height: calc(100vh - 3.5rem);
-   content: "";
-}
-#categoria-joyas-en-general-1Dialog1 .modal-title
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   text-align: center;
-   margin: 0;
-}
-#categoria-joyas-en-general-1Dialog1 .btn
-{
-   border: 1px solid #0D6EFD;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   cursor: pointer;
-   display: inline-block;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   line-height: 1.4285;
-   margin: 6px 6px 6px 0 ;
-   padding: 4px 8px 4px 8px;
-   text-align: center;
-   user-select: none;
-   vertical-align: middle;
-}
-#categoria-joyas-en-general-1Dialog1 .btn:hover
-{
-   border-color: #0A58CA;
-   background-color: #0B5ED7;
-   background-image: none;
-   color: #000000;
-}
-#categoria-joyas-en-general-1Dialog1 .btn:active
-{
-   border-color: #0A53BE;
-   background-color: #0A58CA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#categoria-joyas-en-general-1Dialog1 [disabled].btn
-{
-   cursor: not-allowed;
-   opacity: 0.65;
-}
-#wb_categoria-joyas-en-general-1Text1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_categoria-joyas-en-general-1Text1
-{
-   color: #000000;
-   font-family: "Lucida Console";
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Text1 p, #wb_categoria-joyas-en-general-1Text1 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_categoria-joyas-en-general-1Image1
-{
-   vertical-align: top;
-}
-#categoria-joyas-en-general-1Image1
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#categoria-joyas-en-general-1Dialog2
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#categoria-joyas-en-general-1Dialog2 .modal-content
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   overflow: visible;
-   pointer-events: all;
-}
-#categoria-joyas-en-general-1Dialog2.fade
-{
-   opacity: 1;
-   transition: all 400ms linear;
-}
-#categoria-joyas-en-general-1Dialog2 .animate-show
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-}
-#categoria-joyas-en-general-1Dialog2 .animate-hide
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-   animation-direction: reverse;
-}
-#categoria-joyas-en-general-1Dialog2.modal
-{
-   --bs-modal-margin: 0.5rem;
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 9999;
-   display: none;
-   overflow-x: hidden;
-   overflow-y: auto;
-   outline: 0;
-}
- .modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog2 .modal-dialog
-{
-   position: relative;
-   width: 481px;
-   margin-left: auto;
-   margin-right: auto;
-}
-#categoria-joyas-en-general-1Dialog2 .modal-content
-{
-   position: relative;
-   -webkit-background-clip: padding-box;
-   background-clip: padding-box;
-   outline: 0;
-}
-#categoria-joyas-en-general-1Dialog2 .modal-header
-{
-   padding: 10px 10px 10px 10px;
-   background-color: #F8F8F8;
-   border-bottom: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog2 .modal-footer
-{
-   padding: 10px 10px 10px 10px;
-   border-top: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog2 .modal-body
-{
-   position: relative;
-   width: 481px;
-   height: 484px;
-}
-#categoria-joyas-en-general-1Dialog2 .close
-{
-   float: right;
-   font-size: 21px;
-   font-weight: 700;
-   line-height: 1;
-   color: #212529;
-   text-shadow: 0px 1px 0px #fff;
-   opacity: 0.5;
-   -webkit-appearance: none;
-   padding: 0;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   margin-top: -2px;
-}
-.modal-backdrop
-{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1040;
-   background-color: #000;
-}
-.modal-backdrop.fade
-{
-   opacity: 0;
-   transition: opacity .15s linear;
-}
-.modal-backdrop.show
-{
-   opacity: 0.5 !important;
-}
-.modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog2 .modal-footer
-{
-   border-top: 1px solid #DEE2E6;
-   padding: 0;
-   text-align: center;
-}
-#categoria-joyas-en-general-1Dialog2 .modal-dialog-centered
-{
-   display: flex;
-   align-items: center;
-   margin: var(--bs-modal-margin) auto;
-   min-height: calc(100% - var(--bs-modal-margin) * 2);
-   pointer-events: none;
-}
-#categoria-joyas-en-general-1Dialog2 .modal-dialog-centered::before
-{
-   display: block;
-   height: calc(100vh - 3.5rem);
-   content: "";
-}
-#categoria-joyas-en-general-1Dialog2 .modal-title
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   text-align: center;
-   margin: 0;
-}
-#categoria-joyas-en-general-1Dialog2 .btn
-{
-   border: 1px solid #0D6EFD;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   cursor: pointer;
-   display: inline-block;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   line-height: 1.4285;
-   margin: 6px 6px 6px 0 ;
-   padding: 4px 8px 4px 8px;
-   text-align: center;
-   user-select: none;
-   vertical-align: middle;
-}
-#categoria-joyas-en-general-1Dialog2 .btn:hover
-{
-   border-color: #0A58CA;
-   background-color: #0B5ED7;
-   background-image: none;
-   color: #000000;
-}
-#categoria-joyas-en-general-1Dialog2 .btn:active
-{
-   border-color: #0A53BE;
-   background-color: #0A58CA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#categoria-joyas-en-general-1Dialog2 [disabled].btn
-{
-   cursor: not-allowed;
-   opacity: 0.65;
-}
-#wb_categoria-joyas-en-general-1Text2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_categoria-joyas-en-general-1Text2
-{
-   color: #000000;
-   font-family: "Lucida Console";
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Text2 p, #wb_categoria-joyas-en-general-1Text2 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_categoria-joyas-en-general-1Image2
-{
-   vertical-align: top;
-}
-#categoria-joyas-en-general-1Image2
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#categoria-joyas-en-general-1Dialog3
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#categoria-joyas-en-general-1Dialog3 .modal-content
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   overflow: visible;
-   pointer-events: all;
-}
-#categoria-joyas-en-general-1Dialog3.fade
-{
-   opacity: 1;
-   transition: all 400ms linear;
-}
-#categoria-joyas-en-general-1Dialog3 .animate-show
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-}
-#categoria-joyas-en-general-1Dialog3 .animate-hide
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-   animation-direction: reverse;
-}
-#categoria-joyas-en-general-1Dialog3.modal
-{
-   --bs-modal-margin: 0.5rem;
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 9999;
-   display: none;
-   overflow-x: hidden;
-   overflow-y: auto;
-   outline: 0;
-}
- .modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog3 .modal-dialog
-{
-   position: relative;
-   width: 481px;
-   margin-left: auto;
-   margin-right: auto;
-}
-#categoria-joyas-en-general-1Dialog3 .modal-content
-{
-   position: relative;
-   -webkit-background-clip: padding-box;
-   background-clip: padding-box;
-   outline: 0;
-}
-#categoria-joyas-en-general-1Dialog3 .modal-header
-{
-   padding: 10px 10px 10px 10px;
-   background-color: #F8F8F8;
-   border-bottom: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog3 .modal-footer
-{
-   padding: 10px 10px 10px 10px;
-   border-top: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog3 .modal-body
-{
-   position: relative;
-   width: 481px;
-   height: 484px;
-}
-#categoria-joyas-en-general-1Dialog3 .close
-{
-   float: right;
-   font-size: 21px;
-   font-weight: 700;
-   line-height: 1;
-   color: #212529;
-   text-shadow: 0px 1px 0px #fff;
-   opacity: 0.5;
-   -webkit-appearance: none;
-   padding: 0;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   margin-top: -2px;
-}
-.modal-backdrop
-{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1040;
-   background-color: #000;
-}
-.modal-backdrop.fade
-{
-   opacity: 0;
-   transition: opacity .15s linear;
-}
-.modal-backdrop.show
-{
-   opacity: 0.5 !important;
-}
-.modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog3 .modal-footer
-{
-   border-top: 1px solid #DEE2E6;
-   padding: 0;
-   text-align: center;
-}
-#categoria-joyas-en-general-1Dialog3 .modal-dialog-centered
-{
-   display: flex;
-   align-items: center;
-   margin: var(--bs-modal-margin) auto;
-   min-height: calc(100% - var(--bs-modal-margin) * 2);
-   pointer-events: none;
-}
-#categoria-joyas-en-general-1Dialog3 .modal-dialog-centered::before
-{
-   display: block;
-   height: calc(100vh - 3.5rem);
-   content: "";
-}
-#categoria-joyas-en-general-1Dialog3 .modal-title
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   text-align: center;
-   margin: 0;
-}
-#categoria-joyas-en-general-1Dialog3 .btn
-{
-   border: 1px solid #0D6EFD;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   cursor: pointer;
-   display: inline-block;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   line-height: 1.4285;
-   margin: 6px 6px 6px 0 ;
-   padding: 4px 8px 4px 8px;
-   text-align: center;
-   user-select: none;
-   vertical-align: middle;
-}
-#categoria-joyas-en-general-1Dialog3 .btn:hover
-{
-   border-color: #0A58CA;
-   background-color: #0B5ED7;
-   background-image: none;
-   color: #000000;
-}
-#categoria-joyas-en-general-1Dialog3 .btn:active
-{
-   border-color: #0A53BE;
-   background-color: #0A58CA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#categoria-joyas-en-general-1Dialog3 [disabled].btn
-{
-   cursor: not-allowed;
-   opacity: 0.65;
-}
-#wb_categoria-joyas-en-general-1Text3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_categoria-joyas-en-general-1Text3
-{
-   color: #000000;
-   font-family: "Lucida Console";
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Text3 p, #wb_categoria-joyas-en-general-1Text3 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_categoria-joyas-en-general-1Image3
-{
-   vertical-align: top;
-}
-#categoria-joyas-en-general-1Image3
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#categoria-joyas-en-general-1Dialog4
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#categoria-joyas-en-general-1Dialog4 .modal-content
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   overflow: visible;
-   pointer-events: all;
-}
-#categoria-joyas-en-general-1Dialog4.fade
-{
-   opacity: 1;
-   transition: all 400ms linear;
-}
-#categoria-joyas-en-general-1Dialog4 .animate-show
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-}
-#categoria-joyas-en-general-1Dialog4 .animate-hide
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-   animation-direction: reverse;
-}
-#categoria-joyas-en-general-1Dialog4.modal
-{
-   --bs-modal-margin: 0.5rem;
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 9999;
-   display: none;
-   overflow-x: hidden;
-   overflow-y: auto;
-   outline: 0;
-}
- .modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog4 .modal-dialog
-{
-   position: relative;
-   width: 481px;
-   margin-left: auto;
-   margin-right: auto;
-}
-#categoria-joyas-en-general-1Dialog4 .modal-content
-{
-   position: relative;
-   -webkit-background-clip: padding-box;
-   background-clip: padding-box;
-   outline: 0;
-}
-#categoria-joyas-en-general-1Dialog4 .modal-header
-{
-   padding: 10px 10px 10px 10px;
-   background-color: #F8F8F8;
-   border-bottom: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog4 .modal-footer
-{
-   padding: 10px 10px 10px 10px;
-   border-top: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog4 .modal-body
-{
-   position: relative;
-   width: 481px;
-   height: 484px;
-}
-#categoria-joyas-en-general-1Dialog4 .close
-{
-   float: right;
-   font-size: 21px;
-   font-weight: 700;
-   line-height: 1;
-   color: #212529;
-   text-shadow: 0px 1px 0px #fff;
-   opacity: 0.5;
-   -webkit-appearance: none;
-   padding: 0;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   margin-top: -2px;
-}
-.modal-backdrop
-{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1040;
-   background-color: #000;
-}
-.modal-backdrop.fade
-{
-   opacity: 0;
-   transition: opacity .15s linear;
-}
-.modal-backdrop.show
-{
-   opacity: 0.5 !important;
-}
-.modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog4 .modal-footer
-{
-   border-top: 1px solid #DEE2E6;
-   padding: 0;
-   text-align: center;
-}
-#categoria-joyas-en-general-1Dialog4 .modal-dialog-centered
-{
-   display: flex;
-   align-items: center;
-   margin: var(--bs-modal-margin) auto;
-   min-height: calc(100% - var(--bs-modal-margin) * 2);
-   pointer-events: none;
-}
-#categoria-joyas-en-general-1Dialog4 .modal-dialog-centered::before
-{
-   display: block;
-   height: calc(100vh - 3.5rem);
-   content: "";
-}
-#categoria-joyas-en-general-1Dialog4 .modal-title
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   text-align: center;
-   margin: 0;
-}
-#categoria-joyas-en-general-1Dialog4 .btn
-{
-   border: 1px solid #0D6EFD;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   cursor: pointer;
-   display: inline-block;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   line-height: 1.4285;
-   margin: 6px 6px 6px 0 ;
-   padding: 4px 8px 4px 8px;
-   text-align: center;
-   user-select: none;
-   vertical-align: middle;
-}
-#categoria-joyas-en-general-1Dialog4 .btn:hover
-{
-   border-color: #0A58CA;
-   background-color: #0B5ED7;
-   background-image: none;
-   color: #000000;
-}
-#categoria-joyas-en-general-1Dialog4 .btn:active
-{
-   border-color: #0A53BE;
-   background-color: #0A58CA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#categoria-joyas-en-general-1Dialog4 [disabled].btn
-{
-   cursor: not-allowed;
-   opacity: 0.65;
-}
-#wb_categoria-joyas-en-general-1Text4 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_categoria-joyas-en-general-1Text4
-{
-   color: #000000;
-   font-family: "Lucida Console";
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Text4 p, #wb_categoria-joyas-en-general-1Text4 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_categoria-joyas-en-general-1Image4
-{
-   vertical-align: top;
-}
-#categoria-joyas-en-general-1Image4
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#categoria-joyas-en-general-1Dialog5
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#categoria-joyas-en-general-1Dialog5 .modal-content
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   overflow: visible;
-   pointer-events: all;
-}
-#categoria-joyas-en-general-1Dialog5.fade
-{
-   opacity: 1;
-   transition: all 400ms linear;
-}
-#categoria-joyas-en-general-1Dialog5 .animate-show
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-}
-#categoria-joyas-en-general-1Dialog5 .animate-hide
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-   animation-direction: reverse;
-}
-#categoria-joyas-en-general-1Dialog5.modal
-{
-   --bs-modal-margin: 0.5rem;
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 9999;
-   display: none;
-   overflow-x: hidden;
-   overflow-y: auto;
-   outline: 0;
-}
- .modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog5 .modal-dialog
-{
-   position: relative;
-   width: 481px;
-   margin-left: auto;
-   margin-right: auto;
-}
-#categoria-joyas-en-general-1Dialog5 .modal-content
-{
-   position: relative;
-   -webkit-background-clip: padding-box;
-   background-clip: padding-box;
-   outline: 0;
-}
-#categoria-joyas-en-general-1Dialog5 .modal-header
-{
-   padding: 10px 10px 10px 10px;
-   background-color: #F8F8F8;
-   border-bottom: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog5 .modal-footer
-{
-   padding: 10px 10px 10px 10px;
-   border-top: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog5 .modal-body
-{
-   position: relative;
-   width: 481px;
-   height: 484px;
-}
-#categoria-joyas-en-general-1Dialog5 .close
-{
-   float: right;
-   font-size: 21px;
-   font-weight: 700;
-   line-height: 1;
-   color: #212529;
-   text-shadow: 0px 1px 0px #fff;
-   opacity: 0.5;
-   -webkit-appearance: none;
-   padding: 0;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   margin-top: -2px;
-}
-.modal-backdrop
-{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1040;
-   background-color: #000;
-}
-.modal-backdrop.fade
-{
-   opacity: 0;
-   transition: opacity .15s linear;
-}
-.modal-backdrop.show
-{
-   opacity: 0.5 !important;
-}
-.modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog5 .modal-footer
-{
-   border-top: 1px solid #DEE2E6;
-   padding: 0;
-   text-align: center;
-}
-#categoria-joyas-en-general-1Dialog5 .modal-dialog-centered
-{
-   display: flex;
-   align-items: center;
-   margin: var(--bs-modal-margin) auto;
-   min-height: calc(100% - var(--bs-modal-margin) * 2);
-   pointer-events: none;
-}
-#categoria-joyas-en-general-1Dialog5 .modal-dialog-centered::before
-{
-   display: block;
-   height: calc(100vh - 3.5rem);
-   content: "";
-}
-#categoria-joyas-en-general-1Dialog5 .modal-title
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   text-align: center;
-   margin: 0;
-}
-#categoria-joyas-en-general-1Dialog5 .btn
-{
-   border: 1px solid #0D6EFD;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   cursor: pointer;
-   display: inline-block;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   line-height: 1.4285;
-   margin: 6px 6px 6px 0 ;
-   padding: 4px 8px 4px 8px;
-   text-align: center;
-   user-select: none;
-   vertical-align: middle;
-}
-#categoria-joyas-en-general-1Dialog5 .btn:hover
-{
-   border-color: #0A58CA;
-   background-color: #0B5ED7;
-   background-image: none;
-   color: #000000;
-}
-#categoria-joyas-en-general-1Dialog5 .btn:active
-{
-   border-color: #0A53BE;
-   background-color: #0A58CA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#categoria-joyas-en-general-1Dialog5 [disabled].btn
-{
-   cursor: not-allowed;
-   opacity: 0.65;
-}
-#wb_categoria-joyas-en-general-1Text5 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_categoria-joyas-en-general-1Text5
-{
-   color: #000000;
-   font-family: "Lucida Console";
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Text5 p, #wb_categoria-joyas-en-general-1Text5 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_categoria-joyas-en-general-1Image5
-{
-   vertical-align: top;
-}
-#categoria-joyas-en-general-1Image5
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#categoria-joyas-en-general-1Dialog6
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#categoria-joyas-en-general-1Dialog6 .modal-content
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   overflow: visible;
-   pointer-events: all;
-}
-#categoria-joyas-en-general-1Dialog6.fade
-{
-   opacity: 1;
-   transition: all 400ms linear;
-}
-#categoria-joyas-en-general-1Dialog6 .animate-show
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-}
-#categoria-joyas-en-general-1Dialog6 .animate-hide
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-   animation-direction: reverse;
-}
-#categoria-joyas-en-general-1Dialog6.modal
-{
-   --bs-modal-margin: 0.5rem;
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 9999;
-   display: none;
-   overflow-x: hidden;
-   overflow-y: auto;
-   outline: 0;
-}
- .modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog6 .modal-dialog
-{
-   position: relative;
-   width: 481px;
-   margin-left: auto;
-   margin-right: auto;
-}
-#categoria-joyas-en-general-1Dialog6 .modal-content
-{
-   position: relative;
-   -webkit-background-clip: padding-box;
-   background-clip: padding-box;
-   outline: 0;
-}
-#categoria-joyas-en-general-1Dialog6 .modal-header
-{
-   padding: 10px 10px 10px 10px;
-   background-color: #F8F8F8;
-   border-bottom: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog6 .modal-footer
-{
-   padding: 10px 10px 10px 10px;
-   border-top: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog6 .modal-body
-{
-   position: relative;
-   width: 481px;
-   height: 484px;
-}
-#categoria-joyas-en-general-1Dialog6 .close
-{
-   float: right;
-   font-size: 21px;
-   font-weight: 700;
-   line-height: 1;
-   color: #212529;
-   text-shadow: 0px 1px 0px #fff;
-   opacity: 0.5;
-   -webkit-appearance: none;
-   padding: 0;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   margin-top: -2px;
-}
-.modal-backdrop
-{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1040;
-   background-color: #000;
-}
-.modal-backdrop.fade
-{
-   opacity: 0;
-   transition: opacity .15s linear;
-}
-.modal-backdrop.show
-{
-   opacity: 0.5 !important;
-}
-.modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog6 .modal-footer
-{
-   border-top: 1px solid #DEE2E6;
-   padding: 0;
-   text-align: center;
-}
-#categoria-joyas-en-general-1Dialog6 .modal-dialog-centered
-{
-   display: flex;
-   align-items: center;
-   margin: var(--bs-modal-margin) auto;
-   min-height: calc(100% - var(--bs-modal-margin) * 2);
-   pointer-events: none;
-}
-#categoria-joyas-en-general-1Dialog6 .modal-dialog-centered::before
-{
-   display: block;
-   height: calc(100vh - 3.5rem);
-   content: "";
-}
-#categoria-joyas-en-general-1Dialog6 .modal-title
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   text-align: center;
-   margin: 0;
-}
-#categoria-joyas-en-general-1Dialog6 .btn
-{
-   border: 1px solid #0D6EFD;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   cursor: pointer;
-   display: inline-block;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   line-height: 1.4285;
-   margin: 6px 6px 6px 0 ;
-   padding: 4px 8px 4px 8px;
-   text-align: center;
-   user-select: none;
-   vertical-align: middle;
-}
-#categoria-joyas-en-general-1Dialog6 .btn:hover
-{
-   border-color: #0A58CA;
-   background-color: #0B5ED7;
-   background-image: none;
-   color: #000000;
-}
-#categoria-joyas-en-general-1Dialog6 .btn:active
-{
-   border-color: #0A53BE;
-   background-color: #0A58CA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#categoria-joyas-en-general-1Dialog6 [disabled].btn
-{
-   cursor: not-allowed;
-   opacity: 0.65;
-}
-#wb_categoria-joyas-en-general-1Text6 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_categoria-joyas-en-general-1Text6
-{
-   color: #000000;
-   font-family: "Lucida Console";
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Text6 p, #wb_categoria-joyas-en-general-1Text6 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_categoria-joyas-en-general-1Image6
-{
-   vertical-align: top;
-}
-#categoria-joyas-en-general-1Image6
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#categoria-joyas-en-general-1Dialog7
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#categoria-joyas-en-general-1Dialog7 .modal-content
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   overflow: visible;
-   pointer-events: all;
-}
-#categoria-joyas-en-general-1Dialog7.fade
-{
-   opacity: 1;
-   transition: all 400ms linear;
-}
-#categoria-joyas-en-general-1Dialog7 .animate-show
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-}
-#categoria-joyas-en-general-1Dialog7 .animate-hide
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-   animation-direction: reverse;
-}
-#categoria-joyas-en-general-1Dialog7.modal
-{
-   --bs-modal-margin: 0.5rem;
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 9999;
-   display: none;
-   overflow-x: hidden;
-   overflow-y: auto;
-   outline: 0;
-}
- .modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog7 .modal-dialog
-{
-   position: relative;
-   width: 481px;
-   margin-left: auto;
-   margin-right: auto;
-}
-#categoria-joyas-en-general-1Dialog7 .modal-content
-{
-   position: relative;
-   -webkit-background-clip: padding-box;
-   background-clip: padding-box;
-   outline: 0;
-}
-#categoria-joyas-en-general-1Dialog7 .modal-header
-{
-   padding: 10px 10px 10px 10px;
-   background-color: #F8F8F8;
-   border-bottom: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog7 .modal-footer
-{
-   padding: 10px 10px 10px 10px;
-   border-top: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog7 .modal-body
-{
-   position: relative;
-   width: 481px;
-   height: 484px;
-}
-#categoria-joyas-en-general-1Dialog7 .close
-{
-   float: right;
-   font-size: 21px;
-   font-weight: 700;
-   line-height: 1;
-   color: #212529;
-   text-shadow: 0px 1px 0px #fff;
-   opacity: 0.5;
-   -webkit-appearance: none;
-   padding: 0;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   margin-top: -2px;
-}
-.modal-backdrop
-{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1040;
-   background-color: #000;
-}
-.modal-backdrop.fade
-{
-   opacity: 0;
-   transition: opacity .15s linear;
-}
-.modal-backdrop.show
-{
-   opacity: 0.5 !important;
-}
-.modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog7 .modal-footer
-{
-   border-top: 1px solid #DEE2E6;
-   padding: 0;
-   text-align: center;
-}
-#categoria-joyas-en-general-1Dialog7 .modal-dialog-centered
-{
-   display: flex;
-   align-items: center;
-   margin: var(--bs-modal-margin) auto;
-   min-height: calc(100% - var(--bs-modal-margin) * 2);
-   pointer-events: none;
-}
-#categoria-joyas-en-general-1Dialog7 .modal-dialog-centered::before
-{
-   display: block;
-   height: calc(100vh - 3.5rem);
-   content: "";
-}
-#categoria-joyas-en-general-1Dialog7 .modal-title
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   text-align: center;
-   margin: 0;
-}
-#categoria-joyas-en-general-1Dialog7 .btn
-{
-   border: 1px solid #0D6EFD;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   cursor: pointer;
-   display: inline-block;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   line-height: 1.4285;
-   margin: 6px 6px 6px 0 ;
-   padding: 4px 8px 4px 8px;
-   text-align: center;
-   user-select: none;
-   vertical-align: middle;
-}
-#categoria-joyas-en-general-1Dialog7 .btn:hover
-{
-   border-color: #0A58CA;
-   background-color: #0B5ED7;
-   background-image: none;
-   color: #000000;
-}
-#categoria-joyas-en-general-1Dialog7 .btn:active
-{
-   border-color: #0A53BE;
-   background-color: #0A58CA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#categoria-joyas-en-general-1Dialog7 [disabled].btn
-{
-   cursor: not-allowed;
-   opacity: 0.65;
-}
-#wb_categoria-joyas-en-general-1Text7 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_categoria-joyas-en-general-1Text7
-{
-   color: #000000;
-   font-family: "Lucida Console";
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Text7 p, #wb_categoria-joyas-en-general-1Text7 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_categoria-joyas-en-general-1Image7
-{
-   vertical-align: top;
-}
-#categoria-joyas-en-general-1Image7
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#categoria-joyas-en-general-1Dialog8
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#categoria-joyas-en-general-1Dialog8 .modal-content
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   overflow: visible;
-   pointer-events: all;
-}
-#categoria-joyas-en-general-1Dialog8.fade
-{
-   opacity: 1;
-   transition: all 400ms linear;
-}
-#categoria-joyas-en-general-1Dialog8 .animate-show
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-}
-#categoria-joyas-en-general-1Dialog8 .animate-hide
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-   animation-direction: reverse;
-}
-#categoria-joyas-en-general-1Dialog8.modal
-{
-   --bs-modal-margin: 0.5rem;
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 9999;
-   display: none;
-   overflow-x: hidden;
-   overflow-y: auto;
-   outline: 0;
-}
- .modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog8 .modal-dialog
-{
-   position: relative;
-   width: 481px;
-   margin-left: auto;
-   margin-right: auto;
-}
-#categoria-joyas-en-general-1Dialog8 .modal-content
-{
-   position: relative;
-   -webkit-background-clip: padding-box;
-   background-clip: padding-box;
-   outline: 0;
-}
-#categoria-joyas-en-general-1Dialog8 .modal-header
-{
-   padding: 10px 10px 10px 10px;
-   background-color: #F8F8F8;
-   border-bottom: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog8 .modal-footer
-{
-   padding: 10px 10px 10px 10px;
-   border-top: 1px solid #D2D2D2;
-}
-#categoria-joyas-en-general-1Dialog8 .modal-body
-{
-   position: relative;
-   width: 481px;
-   height: 484px;
-}
-#categoria-joyas-en-general-1Dialog8 .close
-{
-   float: right;
-   font-size: 21px;
-   font-weight: 700;
-   line-height: 1;
-   color: #212529;
-   text-shadow: 0px 1px 0px #fff;
-   opacity: 0.5;
-   -webkit-appearance: none;
-   padding: 0;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   margin-top: -2px;
-}
-.modal-backdrop
-{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1040;
-   background-color: #000;
-}
-.modal-backdrop.fade
-{
-   opacity: 0;
-   transition: opacity .15s linear;
-}
-.modal-backdrop.show
-{
-   opacity: 0.5 !important;
-}
-.modal-open
-{
-   overflow: hidden;
-}
-#categoria-joyas-en-general-1Dialog8 .modal-footer
-{
-   border-top: 1px solid #DEE2E6;
-   padding: 0;
-   text-align: center;
-}
-#categoria-joyas-en-general-1Dialog8 .modal-dialog-centered
-{
-   display: flex;
-   align-items: center;
-   margin: var(--bs-modal-margin) auto;
-   min-height: calc(100% - var(--bs-modal-margin) * 2);
-   pointer-events: none;
-}
-#categoria-joyas-en-general-1Dialog8 .modal-dialog-centered::before
-{
-   display: block;
-   height: calc(100vh - 3.5rem);
-   content: "";
-}
-#categoria-joyas-en-general-1Dialog8 .modal-title
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   text-align: center;
-   margin: 0;
-}
-#categoria-joyas-en-general-1Dialog8 .btn
-{
-   border: 1px solid #0D6EFD;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   cursor: pointer;
-   display: inline-block;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   line-height: 1.4285;
-   margin: 6px 6px 6px 0 ;
-   padding: 4px 8px 4px 8px;
-   text-align: center;
-   user-select: none;
-   vertical-align: middle;
-}
-#categoria-joyas-en-general-1Dialog8 .btn:hover
-{
-   border-color: #0A58CA;
-   background-color: #0B5ED7;
-   background-image: none;
-   color: #000000;
-}
-#categoria-joyas-en-general-1Dialog8 .btn:active
-{
-   border-color: #0A53BE;
-   background-color: #0A58CA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#categoria-joyas-en-general-1Dialog8 [disabled].btn
-{
-   cursor: not-allowed;
-   opacity: 0.65;
-}
-#wb_categoria-joyas-en-general-1Text8 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_categoria-joyas-en-general-1Text8
-{
-   color: #000000;
-   font-family: "Lucida Console";
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Text8 p, #wb_categoria-joyas-en-general-1Text8 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_categoria-joyas-en-general-1Image8
-{
-   vertical-align: top;
-}
-#categoria-joyas-en-general-1Image8
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #categoria-joyas-en-general-1Dialog9
 {
    margin-top: 0px;
@@ -9189,15 +7373,6 @@ body
    margin-right: auto;
    vertical-align: top;
 }
-#wb_categoria-joyas-en-general-1Image6
-{
-   position: absolute;
-   left: 65px;
-   top: 19px;
-   width: 348px;
-   height: 348px;
-   z-index: 25;
-}
 #wb_socialmediaButton4
 {
    display: inline-block;
@@ -9213,7 +7388,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 62;
+   z-index: 46;
 }
 #wb_categoria-joyas-en-general-1Image19
 {
@@ -9222,7 +7397,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 51;
+   z-index: 35;
 }
 #wb_categoria-joyas-en-general-1Image18
 {
@@ -9231,7 +7406,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 49;
+   z-index: 33;
 }
 #wb_categoria-joyas-en-general-1Image17
 {
@@ -9240,7 +7415,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 47;
+   z-index: 31;
 }
 #wb_categoria-joyas-en-general-1Image16
 {
@@ -9249,7 +7424,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 45;
+   z-index: 29;
 }
 #wb_categoria-joyas-en-general-1Image15
 {
@@ -9258,7 +7433,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 43;
+   z-index: 27;
 }
 #wb_categoria-joyas-en-general-1Text15
 {
@@ -9268,7 +7443,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 42;
+   z-index: 26;
 }
 #wb_categoria-joyas-en-general-1Image14
 {
@@ -9277,7 +7452,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 41;
+   z-index: 25;
 }
 #wb_categoria-joyas-en-general-1Image13
 {
@@ -9286,7 +7461,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 39;
+   z-index: 23;
 }
 #wb_categoria-joyas-en-general-1Image12
 {
@@ -9295,7 +7470,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 37;
+   z-index: 21;
 }
 #wb_categoria-joyas-en-general-1Image11
 {
@@ -9304,7 +7479,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 35;
+   z-index: 19;
 }
 #wb_categoria-joyas-en-general-1Image10
 {
@@ -9313,16 +7488,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 33;
-}
-#wb_categoria-joyas-en-general-1Image1
-{
-   position: absolute;
-   left: 65px;
-   top: 19px;
-   width: 348px;
-   height: 348px;
-   z-index: 15;
+   z-index: 17;
 }
 #wb_categoria-joyas-en-general-1Text24
 {
@@ -9332,7 +7498,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 60;
+   z-index: 44;
 }
 #wb_categoria-joyas-en-general-1Text14
 {
@@ -9342,7 +7508,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 40;
+   z-index: 24;
 }
 #wb_OverlayMenu1
 {
@@ -9364,7 +7530,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 79;
+   z-index: 63;
 }
 #wb_categoria-joyas-en-general-1Image32
 {
@@ -9373,7 +7539,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 77;
+   z-index: 61;
 }
 #wb_categoria-joyas-en-general-1Image31
 {
@@ -9382,7 +7548,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 75;
+   z-index: 59;
 }
 #wb_categoria-joyas-en-general-1Image30
 {
@@ -9391,7 +7557,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 73;
+   z-index: 57;
 }
 #wb_categoria-joyas-en-general-1Text27
 {
@@ -9401,7 +7567,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 66;
+   z-index: 50;
 }
 #wb_categoria-joyas-en-general-1Text17
 {
@@ -9411,16 +7577,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 46;
-}
-#wb_categoria-joyas-en-general-1Image3
-{
-   position: absolute;
-   left: 65px;
-   top: 19px;
-   width: 348px;
-   height: 348px;
-   z-index: 19;
+   z-index: 30;
 }
 #wb_categoria-joyas-en-general-1Image29
 {
@@ -9429,7 +7586,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 71;
+   z-index: 55;
 }
 #wb_categoria-joyas-en-general-1Image28
 {
@@ -9438,7 +7595,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 69;
+   z-index: 53;
 }
 #wb_categoria-joyas-en-general-1Image27
 {
@@ -9447,7 +7604,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 67;
+   z-index: 51;
 }
 #wb_categoria-joyas-en-general-1Image26
 {
@@ -9456,7 +7613,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 65;
+   z-index: 49;
 }
 #wb_categoria-joyas-en-general-1Text26
 {
@@ -9466,7 +7623,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 64;
+   z-index: 48;
 }
 #wb_categoria-joyas-en-general-1Image25
 {
@@ -9475,7 +7632,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 63;
+   z-index: 47;
 }
 #wb_categoria-joyas-en-general-1Image24
 {
@@ -9484,7 +7641,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 61;
+   z-index: 45;
 }
 #wb_categoria-joyas-en-general-1Image23
 {
@@ -9493,7 +7650,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 59;
+   z-index: 43;
 }
 #wb_categoria-joyas-en-general-1Image22
 {
@@ -9502,7 +7659,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 57;
+   z-index: 41;
 }
 #wb_categoria-joyas-en-general-1Image21
 {
@@ -9511,7 +7668,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 55;
+   z-index: 39;
 }
 #wb_categoria-joyas-en-general-1Image20
 {
@@ -9520,7 +7677,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 53;
+   z-index: 37;
 }
 #wb_categoria-joyas-en-general-1Text16
 {
@@ -9530,16 +7687,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 44;
-}
-#wb_categoria-joyas-en-general-1Image2
-{
-   position: absolute;
-   left: 65px;
-   top: 19px;
-   width: 348px;
-   height: 348px;
-   z-index: 17;
+   z-index: 28;
 }
 #wb_uid1
 {
@@ -9576,7 +7724,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 74;
+   z-index: 58;
 }
 #wb_categoria-joyas-en-general-1Text21
 {
@@ -9586,7 +7734,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 54;
+   z-index: 38;
 }
 #wb_categoria-joyas-en-general-1Text11
 {
@@ -9596,7 +7744,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 34;
+   z-index: 18;
 }
 #wb_uid0
 {
@@ -9611,7 +7759,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 72;
+   z-index: 56;
 }
 #wb_categoria-joyas-en-general-1Text20
 {
@@ -9621,7 +7769,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 52;
+   z-index: 36;
 }
 #wb_categoria-joyas-en-general-1Text10
 {
@@ -9631,7 +7779,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 32;
+   z-index: 16;
 }
 #wb_categoria-joyas-en-general-1Text33
 {
@@ -9641,7 +7789,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 78;
+   z-index: 62;
 }
 #wb_categoria-joyas-en-general-1Text23
 {
@@ -9651,7 +7799,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 58;
+   z-index: 42;
 }
 #wb_categoria-joyas-en-general-1Text13
 {
@@ -9661,7 +7809,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 38;
+   z-index: 22;
 }
 #socialmediaButton4
 {
@@ -9676,7 +7824,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 76;
+   z-index: 60;
 }
 #wb_categoria-joyas-en-general-1Text22
 {
@@ -9686,7 +7834,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 56;
+   z-index: 40;
 }
 #wb_categoria-joyas-en-general-1Text12
 {
@@ -9696,7 +7844,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 36;
+   z-index: 20;
 }
 #wb_Card24
 {
@@ -9711,7 +7859,7 @@ body
    top: 19px;
    width: 348px;
    height: 348px;
-   z-index: 31;
+   z-index: 15;
 }
 #wb_indexImage1
 {
@@ -9721,95 +7869,6 @@ body
    z-index: 4;
 }
 #wb_categoria-joyas-en-general-1Text9
-{
-   position: absolute;
-   left: 114px;
-   top: 390px;
-   width: 251px;
-   height: 32px;
-   text-align: center;
-   z-index: 30;
-}
-#wb_categoria-joyas-en-general-1Image8
-{
-   position: absolute;
-   left: 65px;
-   top: 19px;
-   width: 348px;
-   height: 348px;
-   z-index: 29;
-}
-#wb_categoria-joyas-en-general-1Text8
-{
-   position: absolute;
-   left: 114px;
-   top: 390px;
-   width: 251px;
-   height: 32px;
-   text-align: center;
-   z-index: 28;
-}
-#wb_categoria-joyas-en-general-1Text7
-{
-   position: absolute;
-   left: 114px;
-   top: 390px;
-   width: 251px;
-   height: 32px;
-   text-align: center;
-   z-index: 26;
-}
-#wb_categoria-joyas-en-general-1Text6
-{
-   position: absolute;
-   left: 114px;
-   top: 390px;
-   width: 251px;
-   height: 32px;
-   text-align: center;
-   z-index: 24;
-}
-#wb_categoria-joyas-en-general-1Text5
-{
-   position: absolute;
-   left: 114px;
-   top: 390px;
-   width: 251px;
-   height: 32px;
-   text-align: center;
-   z-index: 22;
-}
-#wb_categoria-joyas-en-general-1Text4
-{
-   position: absolute;
-   left: 114px;
-   top: 390px;
-   width: 251px;
-   height: 32px;
-   text-align: center;
-   z-index: 20;
-}
-#wb_categoria-joyas-en-general-1Text3
-{
-   position: absolute;
-   left: 114px;
-   top: 390px;
-   width: 251px;
-   height: 32px;
-   text-align: center;
-   z-index: 18;
-}
-#wb_categoria-joyas-en-general-1Text2
-{
-   position: absolute;
-   left: 114px;
-   top: 390px;
-   width: 251px;
-   height: 32px;
-   text-align: center;
-   z-index: 16;
-}
-#wb_categoria-joyas-en-general-1Text1
 {
    position: absolute;
    left: 114px;
@@ -9863,7 +7922,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 70;
+   z-index: 54;
 }
 #wb_categoria-joyas-en-general-1Text19
 {
@@ -9873,16 +7932,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 50;
-}
-#wb_categoria-joyas-en-general-1Image5
-{
-   position: absolute;
-   left: 65px;
-   top: 19px;
-   width: 348px;
-   height: 348px;
-   z-index: 23;
+   z-index: 34;
 }
 #TextArt2
 {
@@ -9903,7 +7953,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 68;
+   z-index: 52;
 }
 #wb_categoria-joyas-en-general-1Text18
 {
@@ -9913,25 +7963,7 @@ body
    width: 251px;
    height: 32px;
    text-align: center;
-   z-index: 48;
-}
-#wb_categoria-joyas-en-general-1Image4
-{
-   position: absolute;
-   left: 65px;
-   top: 19px;
-   width: 348px;
-   height: 348px;
-   z-index: 21;
-}
-#wb_categoria-joyas-en-general-1Image7
-{
-   position: absolute;
-   left: 65px;
-   top: 19px;
-   width: 348px;
-   height: 348px;
-   z-index: 27;
+   z-index: 32;
 }
 @media only screen and (max-width: 969px)
 {
@@ -10202,9 +8234,9 @@ body
 #Card24-card-item5
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 50px;
-   width: calc(100% - 70px);
-   height: ~~px;
+   margin: 5px 20px 3px 0 ;
+   width: calc(100% - 20px);
+   height: auto;
 }
 #wb_Card24
 {
@@ -10457,342 +8489,6 @@ body
    height: 28px;
    visibility: visible;
    display: inline;
-}
-#categoria-joyas-en-general-1Dialog1 .modal-dialog
-{
-   width: 400px;
-}
-#categoria-joyas-en-general-1Dialog1 .modal-body
-{
-   width: 400px;
-   height: 435px;
-}
-#categoria-joyas-en-general-1Dialog1
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#wb_categoria-joyas-en-general-1Text1
-{
-   left: 95px;
-   top: 348px;
-   width: 216px;
-   height: 36px;
-   visibility: visible;
-   display: inline;
-}
-#wb_categoria-joyas-en-general-1Text1
-{
-   font-size: 19px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Image1
-{
-   left: 36px;
-   top: 15px;
-   width: 319px;
-   height: 318px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#categoria-joyas-en-general-1Dialog2 .modal-dialog
-{
-   width: 400px;
-}
-#categoria-joyas-en-general-1Dialog2 .modal-body
-{
-   width: 400px;
-   height: 435px;
-}
-#categoria-joyas-en-general-1Dialog2
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#wb_categoria-joyas-en-general-1Text2
-{
-   left: 95px;
-   top: 348px;
-   width: 216px;
-   height: 36px;
-   visibility: visible;
-   display: inline;
-}
-#wb_categoria-joyas-en-general-1Text2
-{
-   font-size: 19px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Image2
-{
-   left: 36px;
-   top: 15px;
-   width: 319px;
-   height: 318px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#categoria-joyas-en-general-1Dialog3 .modal-dialog
-{
-   width: 400px;
-}
-#categoria-joyas-en-general-1Dialog3 .modal-body
-{
-   width: 400px;
-   height: 435px;
-}
-#categoria-joyas-en-general-1Dialog3
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#wb_categoria-joyas-en-general-1Text3
-{
-   left: 95px;
-   top: 348px;
-   width: 216px;
-   height: 36px;
-   visibility: visible;
-   display: inline;
-}
-#wb_categoria-joyas-en-general-1Text3
-{
-   font-size: 19px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Image3
-{
-   left: 36px;
-   top: 15px;
-   width: 319px;
-   height: 318px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#categoria-joyas-en-general-1Dialog4 .modal-dialog
-{
-   width: 400px;
-}
-#categoria-joyas-en-general-1Dialog4 .modal-body
-{
-   width: 400px;
-   height: 435px;
-}
-#categoria-joyas-en-general-1Dialog4
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#wb_categoria-joyas-en-general-1Text4
-{
-   left: 95px;
-   top: 348px;
-   width: 216px;
-   height: 36px;
-   visibility: visible;
-   display: inline;
-}
-#wb_categoria-joyas-en-general-1Text4
-{
-   font-size: 19px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Image4
-{
-   left: 36px;
-   top: 15px;
-   width: 319px;
-   height: 318px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#categoria-joyas-en-general-1Dialog5 .modal-dialog
-{
-   width: 400px;
-}
-#categoria-joyas-en-general-1Dialog5 .modal-body
-{
-   width: 400px;
-   height: 435px;
-}
-#categoria-joyas-en-general-1Dialog5
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#wb_categoria-joyas-en-general-1Text5
-{
-   left: 95px;
-   top: 348px;
-   width: 216px;
-   height: 36px;
-   visibility: visible;
-   display: inline;
-}
-#wb_categoria-joyas-en-general-1Text5
-{
-   font-size: 19px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Image5
-{
-   left: 36px;
-   top: 15px;
-   width: 319px;
-   height: 318px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#categoria-joyas-en-general-1Dialog6 .modal-dialog
-{
-   width: 400px;
-}
-#categoria-joyas-en-general-1Dialog6 .modal-body
-{
-   width: 400px;
-   height: 435px;
-}
-#categoria-joyas-en-general-1Dialog6
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#wb_categoria-joyas-en-general-1Text6
-{
-   left: 95px;
-   top: 348px;
-   width: 216px;
-   height: 36px;
-   visibility: visible;
-   display: inline;
-}
-#wb_categoria-joyas-en-general-1Text6
-{
-   font-size: 19px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Image6
-{
-   left: 36px;
-   top: 15px;
-   width: 319px;
-   height: 318px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#categoria-joyas-en-general-1Dialog7 .modal-dialog
-{
-   width: 400px;
-}
-#categoria-joyas-en-general-1Dialog7 .modal-body
-{
-   width: 400px;
-   height: 435px;
-}
-#categoria-joyas-en-general-1Dialog7
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#wb_categoria-joyas-en-general-1Text7
-{
-   left: 95px;
-   top: 348px;
-   width: 216px;
-   height: 36px;
-   visibility: visible;
-   display: inline;
-}
-#wb_categoria-joyas-en-general-1Text7
-{
-   font-size: 19px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Image7
-{
-   left: 36px;
-   top: 15px;
-   width: 319px;
-   height: 318px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#categoria-joyas-en-general-1Dialog8 .modal-dialog
-{
-   width: 400px;
-}
-#categoria-joyas-en-general-1Dialog8 .modal-body
-{
-   width: 400px;
-   height: 435px;
-}
-#categoria-joyas-en-general-1Dialog8
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#wb_categoria-joyas-en-general-1Text8
-{
-   left: 95px;
-   top: 348px;
-   width: 216px;
-   height: 36px;
-   visibility: visible;
-   display: inline;
-}
-#wb_categoria-joyas-en-general-1Text8
-{
-   font-size: 19px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   line-height: 18px;
-}
-#wb_categoria-joyas-en-general-1Image8
-{
-   left: 36px;
-   top: 15px;
-   width: 319px;
-   height: 318px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
 }
 #categoria-joyas-en-general-1Dialog9 .modal-dialog
 {
@@ -12000,8 +9696,8 @@ body
 }
         .product-container {
             max-width: 500px;
-            margin: 50px auto;
-            padding: 30px;
+            margin: 1px auto;
+            padding: 0px;
             border: 1px solid #ddd;
             border-radius: 15px;
             font-family: Arial, sans-serif;
@@ -12037,8 +9733,8 @@ body
             cursor: pointer;
             font-weight: bold;
             font-size: 16px;
-            width: 100%;
-            margin: 10px 0;
+            width: 80%;
+            margin: 8px 0;
             transition: all 0.3s;
             display: flex;
             align-items: center;
@@ -12065,9 +9761,9 @@ body
             border-radius: 8px;
             cursor: pointer;
             font-weight: bold;
-            font-size: 18px;
-            width: 100%;
-            margin: 30px auto 10px auto;
+            font-size: 16px;
+            width: 82%;
+            margin:8px 0;
             transition: all 0.3s;
             display: flex;
             align-items: center;
@@ -12113,8 +9809,8 @@ body
             padding: 30px;
             border-radius: 15px;
             text-align: center;
-            max-width: 90%;
-            max-height: 90%;
+            max-width: 80%;
+            max-height: 100%;
             overflow-y: auto;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }
@@ -12127,7 +9823,7 @@ body
             border-radius: 5px;
             cursor: pointer;
             font-weight: bold;
-            margin-top: 20px;
+            margin-top: 10px;
             transition: background 0.3s;
         }
         
@@ -12136,8 +9832,8 @@ body
         }
         
         .qr-image {
-            max-width: 300px;
-            max-height: 300px;
+            max-width: 250px;
+            max-height: 250px;
             margin: 20px auto;
             border: 3px solid #28a745;
             border-radius: 10px;
@@ -12145,21 +9841,21 @@ body
         }
         
         .instructions {
-            font-size: 16px;
+            font-size: 11px;
             line-height: 1.6;
-            margin: 20px 0;
+            margin: 14px 0;
             color: #333;
         }
         
         .instructions-title {
             font-weight: bold;
             color: #28a745;
-            margin-bottom: 10px;
-            font-size: 18px;
+            margin-bottom: 8px;
+            font-size: 11px;
         }
         
         .payment-amount {
-            font-size: 24px;
+            font-size: 14px;
             font-weight: bold;
             color: #dc3545;
             margin: 20px 0;
@@ -12170,10 +9866,10 @@ body
         }
         
         .product-name-in-modal {
-            font-size: 24px;
+            font-size: 16px;
             font-weight: bold;
             color: #333;
-            margin: 15px 0;
+            margin: 12px 0;
             padding: 10px;
             background: #f8f9fa;
             border-radius: 8px;

@@ -9,10 +9,6 @@ body
    margin: 0;
    padding: 0;
 }
-.visibility-hidden
-{
-   visibility: hidden;
-}
 #wb_wb17_backgroundclipLayoutGrid1
 {
    clear: both;
@@ -303,59 +299,6 @@ body
    margin: 0 0 -20px 0 ;
    animation: transform-wobble 3000ms linear 0ms infinite normal both;
    vertical-align: top;
-}
-#upStickyLayer
-{
-   background-color: #598CB6;
-   background-image: none;
-   border-radius: 50%;
-   opacity: 0.77;
-}
-#wb_upIcon
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #3E3E3E;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   vertical-align: top;
-}
-#wb_upIcon a
-{
-   text-decoration: none;
-}
-#wb_upIcon a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#upIcon
-{
-   height: 24px;
-   width: 24px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#upIcon i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 24px;
-   line-height: 24px;
-   vertical-align: middle;
-}
-#wb_upIcon:hover #upIcon i
-{
-   color: #EC9C29;
 }
 #wb_LayoutGrid4
 {
@@ -1599,687 +1542,6 @@ body
    animation-fill-mode: both;
    animation-name: animate-fade-in-up;
 }
-#categoria_adornos-2Dialog1
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#categoria_adornos-2Dialog1 .modal-content
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   overflow: visible;
-   pointer-events: all;
-}
-#categoria_adornos-2Dialog1.fade
-{
-   opacity: 1;
-   transition: all 400ms linear;
-}
-#categoria_adornos-2Dialog1 .animate-show
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-}
-#categoria_adornos-2Dialog1 .animate-hide
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-   animation-direction: reverse;
-}
-#categoria_adornos-2Dialog1.modal
-{
-   --bs-modal-margin: 0.5rem;
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 9999;
-   display: none;
-   overflow-x: hidden;
-   overflow-y: auto;
-   outline: 0;
-}
- .modal-open
-{
-   overflow: hidden;
-}
-#categoria_adornos-2Dialog1 .modal-dialog
-{
-   position: relative;
-   width: 481px;
-   margin-left: auto;
-   margin-right: auto;
-}
-#categoria_adornos-2Dialog1 .modal-content
-{
-   position: relative;
-   -webkit-background-clip: padding-box;
-   background-clip: padding-box;
-   outline: 0;
-}
-#categoria_adornos-2Dialog1 .modal-header
-{
-   padding: 10px 10px 10px 10px;
-   background-color: #F8F8F8;
-   border-bottom: 1px solid #D2D2D2;
-}
-#categoria_adornos-2Dialog1 .modal-footer
-{
-   padding: 10px 10px 10px 10px;
-   border-top: 1px solid #D2D2D2;
-}
-#categoria_adornos-2Dialog1 .modal-body
-{
-   position: relative;
-   width: 481px;
-   height: 484px;
-}
-#categoria_adornos-2Dialog1 .close
-{
-   float: right;
-   font-size: 21px;
-   font-weight: 700;
-   line-height: 1;
-   color: #212529;
-   text-shadow: 0px 1px 0px #fff;
-   opacity: 0.5;
-   -webkit-appearance: none;
-   padding: 0;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   margin-top: -2px;
-}
-.modal-backdrop
-{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1040;
-   background-color: #000;
-}
-.modal-backdrop.fade
-{
-   opacity: 0;
-   transition: opacity .15s linear;
-}
-.modal-backdrop.show
-{
-   opacity: 0.5 !important;
-}
-.modal-open
-{
-   overflow: hidden;
-}
-#categoria_adornos-2Dialog1 .modal-footer
-{
-   border-top: 1px solid #DEE2E6;
-   padding: 0;
-   text-align: center;
-}
-#categoria_adornos-2Dialog1 .modal-dialog-centered
-{
-   display: flex;
-   align-items: center;
-   margin: var(--bs-modal-margin) auto;
-   min-height: calc(100% - var(--bs-modal-margin) * 2);
-   pointer-events: none;
-}
-#categoria_adornos-2Dialog1 .modal-dialog-centered::before
-{
-   display: block;
-   height: calc(100vh - 3.5rem);
-   content: "";
-}
-#categoria_adornos-2Dialog1 .modal-title
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   text-align: center;
-   margin: 0;
-}
-#categoria_adornos-2Dialog1 .btn
-{
-   border: 1px solid #0D6EFD;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   cursor: pointer;
-   display: inline-block;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   line-height: 1.4285;
-   margin: 6px 6px 6px 0 ;
-   padding: 4px 8px 4px 8px;
-   text-align: center;
-   user-select: none;
-   vertical-align: middle;
-}
-#categoria_adornos-2Dialog1 .btn:hover
-{
-   border-color: #0A58CA;
-   background-color: #0B5ED7;
-   background-image: none;
-   color: #000000;
-}
-#categoria_adornos-2Dialog1 .btn:active
-{
-   border-color: #0A53BE;
-   background-color: #0A58CA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#categoria_adornos-2Dialog1 [disabled].btn
-{
-   cursor: not-allowed;
-   opacity: 0.65;
-}
-#wb_categoria_adornos-2Text1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_categoria_adornos-2Text1
-{
-   color: #000000;
-   font-family: "Lucida Console";
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 18px;
-}
-#wb_categoria_adornos-2Text1 p, #wb_categoria_adornos-2Text1 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_categoria_adornos-2Image1
-{
-   vertical-align: top;
-}
-#categoria_adornos-2Image1
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#categoria_adornos-2Dialog2
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#categoria_adornos-2Dialog2 .modal-content
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   overflow: visible;
-   pointer-events: all;
-}
-#categoria_adornos-2Dialog2.fade
-{
-   opacity: 1;
-   transition: all 400ms linear;
-}
-#categoria_adornos-2Dialog2 .animate-show
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-}
-#categoria_adornos-2Dialog2 .animate-hide
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-   animation-direction: reverse;
-}
-#categoria_adornos-2Dialog2.modal
-{
-   --bs-modal-margin: 0.5rem;
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 9999;
-   display: none;
-   overflow-x: hidden;
-   overflow-y: auto;
-   outline: 0;
-}
- .modal-open
-{
-   overflow: hidden;
-}
-#categoria_adornos-2Dialog2 .modal-dialog
-{
-   position: relative;
-   width: 481px;
-   margin-left: auto;
-   margin-right: auto;
-}
-#categoria_adornos-2Dialog2 .modal-content
-{
-   position: relative;
-   -webkit-background-clip: padding-box;
-   background-clip: padding-box;
-   outline: 0;
-}
-#categoria_adornos-2Dialog2 .modal-header
-{
-   padding: 10px 10px 10px 10px;
-   background-color: #F8F8F8;
-   border-bottom: 1px solid #D2D2D2;
-}
-#categoria_adornos-2Dialog2 .modal-footer
-{
-   padding: 10px 10px 10px 10px;
-   border-top: 1px solid #D2D2D2;
-}
-#categoria_adornos-2Dialog2 .modal-body
-{
-   position: relative;
-   width: 481px;
-   height: 484px;
-}
-#categoria_adornos-2Dialog2 .close
-{
-   float: right;
-   font-size: 21px;
-   font-weight: 700;
-   line-height: 1;
-   color: #212529;
-   text-shadow: 0px 1px 0px #fff;
-   opacity: 0.5;
-   -webkit-appearance: none;
-   padding: 0;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   margin-top: -2px;
-}
-.modal-backdrop
-{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1040;
-   background-color: #000;
-}
-.modal-backdrop.fade
-{
-   opacity: 0;
-   transition: opacity .15s linear;
-}
-.modal-backdrop.show
-{
-   opacity: 0.5 !important;
-}
-.modal-open
-{
-   overflow: hidden;
-}
-#categoria_adornos-2Dialog2 .modal-footer
-{
-   border-top: 1px solid #DEE2E6;
-   padding: 0;
-   text-align: center;
-}
-#categoria_adornos-2Dialog2 .modal-dialog-centered
-{
-   display: flex;
-   align-items: center;
-   margin: var(--bs-modal-margin) auto;
-   min-height: calc(100% - var(--bs-modal-margin) * 2);
-   pointer-events: none;
-}
-#categoria_adornos-2Dialog2 .modal-dialog-centered::before
-{
-   display: block;
-   height: calc(100vh - 3.5rem);
-   content: "";
-}
-#categoria_adornos-2Dialog2 .modal-title
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   text-align: center;
-   margin: 0;
-}
-#categoria_adornos-2Dialog2 .btn
-{
-   border: 1px solid #0D6EFD;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   cursor: pointer;
-   display: inline-block;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   line-height: 1.4285;
-   margin: 6px 6px 6px 0 ;
-   padding: 4px 8px 4px 8px;
-   text-align: center;
-   user-select: none;
-   vertical-align: middle;
-}
-#categoria_adornos-2Dialog2 .btn:hover
-{
-   border-color: #0A58CA;
-   background-color: #0B5ED7;
-   background-image: none;
-   color: #000000;
-}
-#categoria_adornos-2Dialog2 .btn:active
-{
-   border-color: #0A53BE;
-   background-color: #0A58CA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#categoria_adornos-2Dialog2 [disabled].btn
-{
-   cursor: not-allowed;
-   opacity: 0.65;
-}
-#wb_categoria_adornos-2Text2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_categoria_adornos-2Text2
-{
-   color: #000000;
-   font-family: "Lucida Console";
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 18px;
-}
-#wb_categoria_adornos-2Text2 p, #wb_categoria_adornos-2Text2 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_categoria_adornos-2Image2
-{
-   vertical-align: top;
-}
-#categoria_adornos-2Image2
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#categoria_adornos-2Dialog3
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#categoria_adornos-2Dialog3 .modal-content
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid #DEE2E6;
-   border-radius: 0px;
-   overflow: visible;
-   pointer-events: all;
-}
-#categoria_adornos-2Dialog3.fade
-{
-   opacity: 1;
-   transition: all 400ms linear;
-}
-#categoria_adornos-2Dialog3 .animate-show
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-}
-#categoria_adornos-2Dialog3 .animate-hide
-{
-   animation-duration: 400ms;
-   animation-fill-mode: both;
-   animation-name: animate-fade-in;
-   animation-direction: reverse;
-}
-#categoria_adornos-2Dialog3.modal
-{
-   --bs-modal-margin: 0.5rem;
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 9999;
-   display: none;
-   overflow-x: hidden;
-   overflow-y: auto;
-   outline: 0;
-}
- .modal-open
-{
-   overflow: hidden;
-}
-#categoria_adornos-2Dialog3 .modal-dialog
-{
-   position: relative;
-   width: 481px;
-   margin-left: auto;
-   margin-right: auto;
-}
-#categoria_adornos-2Dialog3 .modal-content
-{
-   position: relative;
-   -webkit-background-clip: padding-box;
-   background-clip: padding-box;
-   outline: 0;
-}
-#categoria_adornos-2Dialog3 .modal-header
-{
-   padding: 10px 10px 10px 10px;
-   background-color: #F8F8F8;
-   border-bottom: 1px solid #D2D2D2;
-}
-#categoria_adornos-2Dialog3 .modal-footer
-{
-   padding: 10px 10px 10px 10px;
-   border-top: 1px solid #D2D2D2;
-}
-#categoria_adornos-2Dialog3 .modal-body
-{
-   position: relative;
-   width: 481px;
-   height: 484px;
-}
-#categoria_adornos-2Dialog3 .close
-{
-   float: right;
-   font-size: 21px;
-   font-weight: 700;
-   line-height: 1;
-   color: #212529;
-   text-shadow: 0px 1px 0px #fff;
-   opacity: 0.5;
-   -webkit-appearance: none;
-   padding: 0;
-   cursor: pointer;
-   background: 0 0;
-   border: 0;
-   margin-top: -2px;
-}
-.modal-backdrop
-{
-   position: fixed;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1040;
-   background-color: #000;
-}
-.modal-backdrop.fade
-{
-   opacity: 0;
-   transition: opacity .15s linear;
-}
-.modal-backdrop.show
-{
-   opacity: 0.5 !important;
-}
-.modal-open
-{
-   overflow: hidden;
-}
-#categoria_adornos-2Dialog3 .modal-footer
-{
-   border-top: 1px solid #DEE2E6;
-   padding: 0;
-   text-align: center;
-}
-#categoria_adornos-2Dialog3 .modal-dialog-centered
-{
-   display: flex;
-   align-items: center;
-   margin: var(--bs-modal-margin) auto;
-   min-height: calc(100% - var(--bs-modal-margin) * 2);
-   pointer-events: none;
-}
-#categoria_adornos-2Dialog3 .modal-dialog-centered::before
-{
-   display: block;
-   height: calc(100vh - 3.5rem);
-   content: "";
-}
-#categoria_adornos-2Dialog3 .modal-title
-{
-   color: #212529;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   text-align: center;
-   margin: 0;
-}
-#categoria_adornos-2Dialog3 .btn
-{
-   border: 1px solid #0D6EFD;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   cursor: pointer;
-   display: inline-block;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   line-height: 1.4285;
-   margin: 6px 6px 6px 0 ;
-   padding: 4px 8px 4px 8px;
-   text-align: center;
-   user-select: none;
-   vertical-align: middle;
-}
-#categoria_adornos-2Dialog3 .btn:hover
-{
-   border-color: #0A58CA;
-   background-color: #0B5ED7;
-   background-image: none;
-   color: #000000;
-}
-#categoria_adornos-2Dialog3 .btn:active
-{
-   border-color: #0A53BE;
-   background-color: #0A58CA;
-   background-image: none;
-   color: #FFFFFF;
-}
-#categoria_adornos-2Dialog3 [disabled].btn
-{
-   cursor: not-allowed;
-   opacity: 0.65;
-}
-#wb_categoria_adornos-2Text3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_categoria_adornos-2Text3
-{
-   color: #000000;
-   font-family: "Lucida Console";
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 18px;
-}
-#wb_categoria_adornos-2Text3 p, #wb_categoria_adornos-2Text3 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_categoria_adornos-2Image3
-{
-   vertical-align: top;
-}
-#categoria_adornos-2Image3
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_LayoutGrid8
 {
    clear: both;
@@ -2348,110 +1610,6 @@ body
    float: none;
    width: 100%;
 }
-}
-#wb_FontAwesomeIcon3
-{
-   background-image: linear-gradient(to top, #1E90FF 0%, #00BFFF 100%);
-   border: 0px solid #D0D6D7;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_FontAwesomeIcon3 a
-{
-   text-decoration: none;
-}
-#wb_FontAwesomeIcon3 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_FontAwesomeIcon3:hover
-{
-   background-image: linear-gradient(to top, #00BFFF 0%, #FFFFFF 100%);
-   border: 0px solid #FFFFFF;
-}
-#FontAwesomeIcon3
-{
-   height: 46px;
-   width: 46px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#FontAwesomeIcon3 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 46px;
-   line-height: 46px;
-   vertical-align: middle;
-}
-#wb_FontAwesomeIcon3:hover #FontAwesomeIcon3 i
-{
-   color: #0000CD;
-}
-#wb_FontAwesomeIcon10
-{
-   background: linear-gradient(to top left, #FFFFFF, rgba(255,255,255,0.00), #FF4500), linear-gradient(to top right, #FFFFFF, rgba(255,255,255,0.00), #FFFFFF) #FFA280;
-   border: 0px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_FontAwesomeIcon10 a
-{
-   text-decoration: none;
-}
-#wb_FontAwesomeIcon10 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_FontAwesomeIcon10:hover
-{
-   background: linear-gradient(to top left, #FFFFFF, rgba(255,255,255,0.00), #FFFFFF), linear-gradient(to top right, #FFFFFF, rgba(255,255,255,0.00), #FFFFFF) #FFFFFF;
-   border: 0px solid #F0FFF0;
-}
-#FontAwesomeIcon10
-{
-   height: 46px;
-   width: 46px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#FontAwesomeIcon10 i
-{
-   color: #4169E1;
-   display: inline-block;
-   font-size: 46px;
-   line-height: 46px;
-   vertical-align: middle;
-}
-#wb_FontAwesomeIcon10:hover #FontAwesomeIcon10 i
-{
-   color: #FF8C00;
 }
 #wb_Text17 
 {
@@ -2541,7 +1699,7 @@ body
    display: inline-block;
    width: 150px;
    height: 40px;
-   z-index: 14;
+   z-index: 13;
 }
 #wb_OverlayMenu1
 {
@@ -2555,16 +1713,6 @@ body
    color: #FFFFFF;
    font-family: "Arial";
    font-size: 16px;
-}
-#wb_upIcon
-{
-   position: absolute;
-   left: 9px;
-   top: 9px;
-   width: 24px;
-   height: 24px;
-   text-align: center;
-   z-index: 9;
 }
 #wb_uid1
 {
@@ -2610,21 +1758,12 @@ body
    height: auto;
    z-index: 4;
 }
-#wb_categoria_adornos-2Image1
-{
-   position: absolute;
-   left: 65px;
-   top: 19px;
-   width: 348px;
-   height: 348px;
-   z-index: 16;
-}
 #wb_InicioImage5
 {
    display: block;
    width: 100%;
    height: auto;
-   z-index: 13;
+   z-index: 12;
 }
 #InicioButton29
 {
@@ -2640,21 +1779,12 @@ body
    height: 50px;
    z-index: 5;
 }
-#wb_categoria_adornos-2Image2
-{
-   position: absolute;
-   left: 65px;
-   top: 19px;
-   width: 348px;
-   height: 348px;
-   z-index: 18;
-}
 #wb_InicioImage4
 {
    display: block;
    width: 100%;
    height: auto;
-   z-index: 12;
+   z-index: 11;
 }
 #wb_TextArt2
 {
@@ -2663,45 +1793,6 @@ body
    height: 120px;
    z-index: 8;
    position: relative;
-}
-#wb_categoria_adornos-2Image3
-{
-   position: absolute;
-   left: 65px;
-   top: 19px;
-   width: 348px;
-   height: 348px;
-   z-index: 20;
-}
-#wb_categoria_adornos-2Text3
-{
-   position: absolute;
-   left: 114px;
-   top: 390px;
-   width: 251px;
-   height: 32px;
-   text-align: center;
-   z-index: 19;
-}
-#wb_categoria_adornos-2Text2
-{
-   position: absolute;
-   left: 114px;
-   top: 390px;
-   width: 251px;
-   height: 32px;
-   text-align: center;
-   z-index: 17;
-}
-#wb_categoria_adornos-2Text1
-{
-   position: absolute;
-   left: 114px;
-   top: 390px;
-   width: 251px;
-   height: 32px;
-   text-align: center;
-   z-index: 15;
 }
 #TextArt2
 {
@@ -2714,39 +1805,11 @@ body
    width: 100%;
    z-index: 7;
 }
-#wb_FontAwesomeIcon10
-{
-   display: inline-block;
-   width: 46px;
-   height: 46px;
-   text-align: center;
-   z-index: 22;
-}
 #wb_Card4
 {
    display: flex;
    width: 100%;
-   z-index: 10;
-}
-#upStickyLayer
-{
-   position: fixed;
-   text-align: left;
-   left: auto;
-   right: 25px;
-   top: auto;
-   bottom: 25px;
-   width: 50px;
-   height: 50px;
-   z-index: 27;
-}
-#wb_FontAwesomeIcon3
-{
-   display: inline-block;
-   width: 46px;
-   height: 46px;
-   text-align: center;
-   z-index: 21;
+   z-index: 9;
 }
 @media only screen and (max-width: 969px)
 {
@@ -2924,35 +1987,6 @@ body
    display: inline-block;
    margin: 0 0 -20px 0 ;
 }
-#upStickyLayer
-{
-   width: 50px;
-   height: 50px;
-   visibility: visible;
-   display: block;
-}
-#wb_upIcon
-{
-   left: 9px;
-   top: 9px;
-   width: 24px;
-   height: 24px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-}
-#upIcon
-{
-   width: 24px;
-   height: 24px;
-}
-#upIcon i
-{
-   line-height: 24px;
-   font-size: 24px;
-   width: 23px;
-}
 #wb_LayoutGrid4
 {
    visibility: visible;
@@ -3046,9 +2080,9 @@ body
 #Card4-card-item5
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 50px;
-   width: calc(100% - 70px);
-   height: ~~px;
+   margin: 5px 20px 3px 0 ;
+   width: calc(100% - 20px);
+   height: auto;
 }
 #wb_Card4
 {
@@ -3302,132 +2336,6 @@ body
    visibility: visible;
    display: inline;
 }
-#categoria_adornos-2Dialog1 .modal-dialog
-{
-   width: 400px;
-}
-#categoria_adornos-2Dialog1 .modal-body
-{
-   width: 400px;
-   height: 435px;
-}
-#categoria_adornos-2Dialog1
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#wb_categoria_adornos-2Text1
-{
-   left: 95px;
-   top: 348px;
-   width: 216px;
-   height: 36px;
-   visibility: visible;
-   display: inline;
-}
-#wb_categoria_adornos-2Text1
-{
-   font-size: 19px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   line-height: 18px;
-}
-#wb_categoria_adornos-2Image1
-{
-   left: 36px;
-   top: 15px;
-   width: 319px;
-   height: 318px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#categoria_adornos-2Dialog2 .modal-dialog
-{
-   width: 400px;
-}
-#categoria_adornos-2Dialog2 .modal-body
-{
-   width: 400px;
-   height: 435px;
-}
-#categoria_adornos-2Dialog2
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#wb_categoria_adornos-2Text2
-{
-   left: 95px;
-   top: 348px;
-   width: 216px;
-   height: 36px;
-   visibility: visible;
-   display: inline;
-}
-#wb_categoria_adornos-2Text2
-{
-   font-size: 19px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   line-height: 18px;
-}
-#wb_categoria_adornos-2Image2
-{
-   left: 36px;
-   top: 15px;
-   width: 319px;
-   height: 318px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#categoria_adornos-2Dialog3 .modal-dialog
-{
-   width: 400px;
-}
-#categoria_adornos-2Dialog3 .modal-body
-{
-   width: 400px;
-   height: 435px;
-}
-#categoria_adornos-2Dialog3
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#wb_categoria_adornos-2Text3
-{
-   left: 95px;
-   top: 348px;
-   width: 216px;
-   height: 36px;
-   visibility: visible;
-   display: inline;
-}
-#wb_categoria_adornos-2Text3
-{
-   font-size: 19px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   line-height: 18px;
-}
-#wb_categoria_adornos-2Image3
-{
-   left: 36px;
-   top: 15px;
-   width: 319px;
-   height: 318px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
 #wb_LayoutGrid8
 {
    visibility: visible;
@@ -3461,46 +2369,6 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: center;
-}
-#wb_FontAwesomeIcon3
-{
-   width: 46px;
-   height: 46px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-}
-#FontAwesomeIcon3
-{
-   width: 46px;
-   height: 46px;
-}
-#FontAwesomeIcon3 i
-{
-   line-height: 46px;
-   font-size: 46px;
-   width: 47px;
-}
-#wb_FontAwesomeIcon10
-{
-   width: 46px;
-   height: 46px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 10px 0 0 ;
-   padding: 12px 12px 12px 12px;
-}
-#FontAwesomeIcon10
-{
-   width: 46px;
-   height: 46px;
-}
-#FontAwesomeIcon10 i
-{
-   line-height: 46px;
-   font-size: 46px;
-   width: 47px;
 }
 #wb_Text17
 {
@@ -3551,8 +2419,8 @@ body
 }
         .product-container {
             max-width: 500px;
-            margin: 50px auto;
-            padding: 30px;
+            margin: 1px auto;
+            padding: 0px;
             border: 1px solid #ddd;
             border-radius: 15px;
             font-family: Arial, sans-serif;
@@ -3588,8 +2456,8 @@ body
             cursor: pointer;
             font-weight: bold;
             font-size: 16px;
-            width: 100%;
-            margin: 10px 0;
+            width: 80%;
+            margin: 8px 0;
             transition: all 0.3s;
             display: flex;
             align-items: center;
@@ -3616,9 +2484,9 @@ body
             border-radius: 8px;
             cursor: pointer;
             font-weight: bold;
-            font-size: 18px;
-            width: 100%;
-            margin: 30px auto 10px auto;
+            font-size: 16px;
+            width: 82%;
+            margin:8px 0;
             transition: all 0.3s;
             display: flex;
             align-items: center;
@@ -3664,8 +2532,8 @@ body
             padding: 30px;
             border-radius: 15px;
             text-align: center;
-            max-width: 90%;
-            max-height: 90%;
+            max-width: 80%;
+            max-height: 100%;
             overflow-y: auto;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }
@@ -3678,7 +2546,7 @@ body
             border-radius: 5px;
             cursor: pointer;
             font-weight: bold;
-            margin-top: 20px;
+            margin-top: 10px;
             transition: background 0.3s;
         }
         
@@ -3687,8 +2555,8 @@ body
         }
         
         .qr-image {
-            max-width: 300px;
-            max-height: 300px;
+            max-width: 250px;
+            max-height: 250px;
             margin: 20px auto;
             border: 3px solid #28a745;
             border-radius: 10px;
@@ -3696,21 +2564,21 @@ body
         }
         
         .instructions {
-            font-size: 16px;
+            font-size: 11px;
             line-height: 1.6;
-            margin: 20px 0;
+            margin: 14px 0;
             color: #333;
         }
         
         .instructions-title {
             font-weight: bold;
             color: #28a745;
-            margin-bottom: 10px;
-            font-size: 18px;
+            margin-bottom: 8px;
+            font-size: 11px;
         }
         
         .payment-amount {
-            font-size: 24px;
+            font-size: 14px;
             font-weight: bold;
             color: #dc3545;
             margin: 20px 0;
@@ -3721,10 +2589,10 @@ body
         }
         
         .product-name-in-modal {
-            font-size: 24px;
+            font-size: 16px;
             font-weight: bold;
             color: #333;
-            margin: 15px 0;
+            margin: 12px 0;
             padding: 10px;
             background: #f8f9fa;
             border-radius: 8px;

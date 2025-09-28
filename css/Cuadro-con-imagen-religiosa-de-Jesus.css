@@ -2080,8 +2080,8 @@ body
 #categoria_adornosCard3-card-item5
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
-   width: calc(100% - 180px);
+   margin: 5px 20px 3px 0 ;
+   width: calc(100% - 20px);
    height: auto;
 }
 #wb_categoria_adornosCard3

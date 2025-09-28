@@ -2080,9 +2080,9 @@ body
 #Card4-card-item5
 {
    box-sizing: border-box;
-   margin: 5px 20px 3px 160px;
-   width: calc(100% - 180px);
-   height: ~~px;
+   margin: 5px 20px 3px 0 ;
+   width: calc(100% - 20px);
+   height: auto;
 }
 #wb_Card4
 {
