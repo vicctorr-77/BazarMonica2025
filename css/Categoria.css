@@ -833,7 +833,7 @@ body
 #Card6-card-item0
 {
    box-sizing: border-box;
-   margin: 10px 0 -90px 480px;
+   margin: 10px 0 -90px 200px;
    padding: 0;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
@@ -2121,12 +2121,97 @@ body
    box-sizing: border-box;
    width: 100%;
 }
+#wb_CategoriaCard1
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 30px 10px 30px 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   box-shadow: 0px 0px 20px rgba(0,0,0,0.34);
+   text-align: left;
+}
+#CategoriaCard1-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#CategoriaCard1-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 0px solid #FFFFFF;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-color: #F7F7F9;
+   background-image: none;
+   color: #000000;
+   font-family: "Arial Black";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 16px;
+   text-align: center;
+   animation: animate-border-fade 1000ms linear 0ms infinite normal both;
+}
+#CategoriaCard1-card-item1
+{
+   box-sizing: border-box;
+   margin: 10px 0 -90px 200px;
+   padding: 0;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   max-width: 150px;
+   width: 100%;
+   height: 150px;
+}
+#CategoriaCard1-card-item2
+{
+   box-sizing: border-box;
+   margin: 100px 0 0 0 ;
+   padding: 0;
+   color: #000000;
+   font-family: "Arial Black";
+   font-weight: bold;
+   font-style: normal;
+   font-size: 21px;
+   text-align: center;
+}
+#CategoriaCard1-card-item2 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#CategoriaCard1-card-item3
+{
+   box-sizing: border-box;
+   margin: 3px 0 0 0 ;
+   padding: 0;
+   color: #000000;
+   font-family: "Arial Black";
+   font-weight: bold;
+   font-style: normal;
+   font-size: 19px;
+   text-align: center;
+}
+#CategoriaCard1-card-item3 a
+{
+   color: inherit;
+   text-decoration: none;
+}
 #wb_socialmediaButton4
 {
    display: inline-block;
    width: 150px;
    height: 40px;
-   z-index: 19;
+   z-index: 20;
 }
 #wb_Card6
 {
@@ -2188,6 +2273,11 @@ body
    font-family: "Arial Black";
    font-size: 16px;
 }
+#wb_CategoriaCard1
+{
+   display: flex;
+   z-index: 16;
+}
 #socialmediaButton4
 {
    width: 100%;
@@ -2205,7 +2295,7 @@ body
    display: block;
    width: 100%;
    height: auto;
-   z-index: 18;
+   z-index: 19;
 }
 #InicioButton29
 {
@@ -2226,7 +2316,7 @@ body
    display: block;
    width: 100%;
    height: auto;
-   z-index: 17;
+   z-index: 18;
 }
 #wb_TextArt2
 {
